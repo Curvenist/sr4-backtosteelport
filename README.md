@@ -45,9 +45,11 @@ Included changes cover:
      git clone git@github.com:Curvenist/sr4-backtosteelport.git
 
 2. **Copy all files** into your game directory:  
-   D:\Apps\Steam\steamapps\common\Saints Row IV
+   Steam\steamapps\common\Saints Row IV
 
 3. **Overwrite existing files** if prompted (make a backup first if needed).
+
+4. **In the game menu**, we recommend you reset your control mappings
 
 --
 
@@ -62,19 +64,19 @@ These keys act as **modifiers** to unlock enhanced control over gameplay, camera
 
 | Key Combo                     | Function Description                                 |
 |------------------------------|------------------------------------------------------|
-| E                          | Toggle Lowered Weapon mode (manual holster)         |
-| E + [                    | Increase notoriety level (cycle up)                 |
-| E + ]                    | Reset notoriety to 0                                |
-| E + ←                    | Toggle SR3 / SR1 side camera preset                 |
-| E + →                    | Reset to default camera                             |
-| E + ↑                    | Toggle platforming camera mode                      |
-| E + ↓                    | Activate SR3 M00 combat camera                      |
-| E + Delete               | Toggle time dilation (slow motion)                  |
-| E + Page Up              | Switch to next custom camera preset                 |
-| E + Home                 | Apply next setting in current camera preset         |
-| E + End                  | Activate SR2 flashback camera                       |
-| E + PgDn                 | SR3 M00 combat camera (right side)                  |
-| E + Z (Recruit/Dismiss)  | Toggle superpower movement                          |
+| `E`                          | Toggle Lowered Weapon mode (manual holster)         |
+| `E` + [                    | Increase notoriety level (cycle up)                 |
+| `E` + ]                    | Reset notoriety to 0                                |
+| `E` + ←                    | Toggle SR3 / SR1 side camera preset                 |
+| `E` + →                    | Reset to default camera                             |
+| `E` + ↑                    | Toggle platforming camera mode                      |
+| `E` + ↓                    | Activate SR3 M00 combat camera                      |
+| `E` + Delete               | Toggle time dilation (slow motion)                  |
+| `E` + Page Up              | Switch to next custom camera preset                 |
+| `E` + Home                 | Apply next setting in current camera preset         |
+| `E` + End                  | Activate SR2 flashback camera                       |
+| `E` + PgDn                 | SR3 M00 combat camera (right side)                  |
+| `E` + Z (Recruit/Dismiss)  | Toggle superpower movement                          |
 
 ---
 
@@ -82,20 +84,19 @@ These keys act as **modifiers** to unlock enhanced control over gameplay, camera
 
 | Key Combo                 | Function Description                                         |
 |--------------------------|--------------------------------------------------------------|
-| G                      | Perform back dodge animation (fallback)                     |
-| G + →                | Perform right dodge animation                                |
-| G + ←                | Perform left dodge animation                                 |
-| G + ↑                | Dodge Type Swap: switch to DTS set 1                         |
-| G + ↓                | Dodge Type Swap: switch to DTS set 3                         |
-| G + End              | Dodge Type Swap: switch to DTS set 2                         |
-| G + Delete           | Play photo pose animation                                    |
-| G + Page Up          | Save current position as custom teleport target              |
-| G + Home             | Teleport to previously saved position                        |
+| `G`                      | Perform back dodge animation (fallback)                     |
+| `G` + →                | Perform right dodge animation                                |
+| `G` + ←                | Perform left dodge animation                                 |
+| `G` + ↑                | Dodge Type Swap: switch to DTS set 1                         |
+| `G` + ↓                | Dodge Type Swap: switch to DTS set 3                         |
+| `G` + End              | Dodge Type Swap: switch to DTS set 2                         |
+| `G` + Delete           | Play photo pose animation                                    |
+| `G` + Page Up          | Save current position as custom teleport target              |
+| `G` + Home             | Teleport to previously saved position                        |
 
 ---
 
 > 🔁 **DTS = Dodge Type Swap** — a system to dynamically switch between different dodge/pose animation sets.  
-> 💡 Most inputs require holding E or G **before** pressing the second key.  
 > 📍 Saved teleport locations are session-based and not persistent between launches.
 
 ---
@@ -104,11 +105,11 @@ These keys act as **modifiers** to unlock enhanced control over gameplay, camera
 
 | Key Combo                     | Function Description                                   |
 |------------------------------|--------------------------------------------------------|
-| Crouch + PgDn            | Swap current weather preset                           |
-| Crouch + ←               | Toggle SR3 / SR1 camera scripts (side switch)         |
-| Crouch + →               | Disable scripted camera (reset to default)            |
-| Crouch + ↓               | Fallback: disable camera override                     |
-| Crouch + ↑               | Deactivate superpower movement (forced off)           |
+| `Crouch` + PgDn            | Swap current weather preset                           |
+| `Crouch` + ←               | Toggle SR3 / SR1 camera scripts (side switch)         |
+| `Crouch` + →               | Disable scripted camera (reset to default)            |
+| `Crouch` + ↓               | Fallback: disable camera override                     |
+| `Crouch` + ↑               | Deactivate superpower movement (forced off)           |
 
 ---
 
@@ -116,11 +117,11 @@ These keys act as **modifiers** to unlock enhanced control over gameplay, camera
 
 | Key Combo                   | Function Description                                         |
 |----------------------------|--------------------------------------------------------------|
-| T (during ragdoll)      | Recover by enabling superpower movement                      |
-| T + Delete             | Toggle holstered weapon (force hide/show)                    |
-| T + End                | Toggle cleanup routine (max corpses: 0 ↔ 3)                   |
-| T + ←                  | Revive nearest downed follower (up to 3 followers checked)    |
-| T + ↓                  | Toggle forced camera side (used with E + ←)                 |
+| `T` (during ragdoll)      | Recover by enabling superpower movement                      |
+| `T` + Delete             | Toggle holstered weapon (force hide/show)                    |
+| `T` + End                | Toggle cleanup routine (max corpses: 0 ↔ 3)                   |
+| `T` + ←                  | Revive nearest downed follower (up to 3 followers checked)    |
+| `T` + ↓                  | Toggle forced camera side (used with E + ←)                 |
 
 ---
 
@@ -128,12 +129,12 @@ These keys act as **modifiers** to unlock enhanced control over gameplay, camera
 
 | Key Combo                   | Function Description                                     |
 |----------------------------|----------------------------------------------------------|
-| R + Insert             | Recall follower 1                                        |
-| R + Home               | Recall follower 2                                        |
-| R + Page Up            | Recall follower 3                                        |
-| R + Delete             | Recall all followers                                     |
-| R + [                  | Force Female animation set (PLYF)                      |
-| R + ]                  | Force Male animation set (PLYM)                        |
+| `R` + Insert             | Recall follower 1                                        |
+| `R` + Home               | Recall follower 2                                        |
+| `R` + Page Up            | Recall follower 3                                        |
+| `R` + Delete             | Recall all followers                                     |
+| `R` + [                  | Force Female animation set (PLYF)                      |
+| `R` + ]                  | Force Male animation set (PLYM)                        |
 
 ---
 
