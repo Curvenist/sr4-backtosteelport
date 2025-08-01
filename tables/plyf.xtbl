@@ -1,0 +1,494 @@
+<root><Table><Skeleton_Set>
+<Name>PLYF</Name>
+<Parent_Skeleton>PLYM</Parent_Skeleton>
+<Groups>
+<Group><group>Default</group><States>
+<State><ID>run</ID><Animation><Filename>player_base_move_f</Filename></Animation></State>
+<State><ID>sprint</ID><Animation><Filename>plyf_bs_sprint.animx</Filename></Animation></State>
+<State><ID>stand</ID><Animation><Filename>plyf_bs_sd.animx</Filename></Animation></State>
+<State><ID>walk</ID><Animation><Filename>player_base_move_f</Filename></Animation></State>
+<State><ID>jog</ID><Animation><Filename>plyf_bs_jog.animx</Filename></Animation></State>
+<State><ID>run anim</ID><Animation><Filename>plyf_bs_run.animx</Filename></Animation></State>
+<State><ID>walk anim</ID><Animation><Filename>plyf_bs_wlk.animx</Filename></Animation></State>
+<State><ID>weapon sprint</ID><Animation><Filename>plyf_bs_sprint.animx</Filename></Animation></State>
+<State><ID>crouch</ID><Animation><Filename>plyf_bs_ch.animx</Filename></Animation></State>
+<State><ID>crouch walk</ID><Animation><Filename>plyf_bs_ch_wlk.animx</Filename></Animation></State>
+<State><ID>hs run forward</ID><Animation><Filename>hs_run_a.animx</Filename></Animation></State>
+<State><ID>hs walk back</ID><Animation><Filename>hs_fem_wlk_bck_a.animx</Filename></Animation></State>
+<State><ID>hs walk forward</ID><Animation><Filename>hs_fem_wlk_a.animx</Filename></Animation></State>
+<State><ID>hs walk left</ID><Animation><Filename>hs_fem_wlk_lft_a.animx</Filename></Animation></State>
+<State><ID>hs walk right</ID><Animation><Filename>hs_fem_wlk_rgt_a.animx</Filename></Animation></State>
+<State><ID>m01 interrogate gat</ID><Animation><Filename>mad01_intrgte_state_a_fem.animx</Filename></Animation></State>
+<State><ID>m01 interrogate victim</ID><Animation><Filename>mad01_intrgte_state_b_fem.animx</Filename></Animation></State>
+<State><ID>char sel 1 stand</ID><Animation><Filename>plyf_chsel_f5_sd.animx</Filename></Animation></State>
+<State><ID>char sel 2 stand</ID><Animation><Filename>plyf_chsel_f6_sd.animx</Filename></Animation></State>
+<State><ID>char sel 3 stand</ID><Animation><Filename>plyf_chsel_f7_sd.animx</Filename></Animation></State>
+<State><ID>char sel 4 stand</ID><Animation><Filename>plyf_chsel_f8_sd.animx</Filename></Animation></State>
+<State><ID>sp fight club female pose</ID><Animation><Filename>spr_fght_clb_plyf_ps.animx</Filename></Animation></State>
+<State><ID>superjump fall</ID><Animation><Filename>plyf_bs_sprjmp_fall.animx</Filename></Animation></State>
+<State><ID>streaking run</ID><Animation><Filename>streaking_run_f.animx</Filename></Animation></State>
+<State><ID>streaking sprint</ID><Animation><Filename>streaking_sprint_f.animx</Filename></Animation></State>
+<State><ID>streaking stand</ID><Animation><Filename>streaking_stand_f.animx</Filename></Animation></State>
+</States><Actions>
+<Action><ID>idle</ID><Animation><Filename>cop_bs_null.animx</Filename></Animation></Action>
+<Action><ID>stand to run back</ID><Animation><Filename>plyf_bs_strtrun_bck.animx</Filename></Animation></Action>
+<Action><ID>stand to run forward</ID><Animation><Filename>plyf_bs_strtrun_for.animx</Filename></Animation></Action>
+<Action><ID>stand to run left</ID><Animation><Filename>plyf_bs_strtrun_lft.animx</Filename></Animation></Action>
+<Action><ID>stand to run right</ID><Animation><Filename>plyf_bs_strtrun_rgt.animx</Filename></Animation></Action>
+<Action><ID>run to stop</ID><Animation><Filename>plyf_bs_run_tostnd.animx</Filename></Animation></Action>
+<Action><ID>false start</ID><Animation><Filename>plyf_bs_flse_strt.animx</Filename></Animation></Action>
+<Action><ID>idle variant 1</ID><Animation><Filename>cop_bs_null.animx</Filename></Animation></Action>
+<Action><ID>idle variant 2</ID><Animation><Filename>cop_bs_null.animx</Filename></Animation></Action>
+<Action><ID>idle variant 3</ID><Animation><Filename>cop_bs_null.animx</Filename></Animation></Action>
+<Action><ID>turn 180 left</ID><Animation><Filename>plyf_bs_run_180trn_lft.animx</Filename></Animation></Action>
+<Action><ID>turn 180 right</ID><Animation><Filename>plyf_bs_run_180trn_rgt.animx</Filename></Animation></Action>
+<Action><ID>offhand ready stand</ID><Animation><Filename>plym_ps_grndtss_sd.animx</Filename></Animation></Action>
+<Action><ID>offhand walk back</ID><Animation><Filename>plym_ps_grndtss_sd.animx</Filename></Animation></Action>
+<Action><ID>offhand walk forward</ID><Animation><Filename>plym_ps_grndtss_sd.animx</Filename></Animation></Action>
+<Action><ID>run grenade toss</ID><Animation><Filename>plym_rfl_run_grndtss.animx</Filename></Animation></Action>
+<Action><ID>run grenade toss land backward</ID><Animation><Filename>plym_rfl_run_gt_lnd_bck.animx</Filename></Animation></Action>
+<Action><ID>run grenade toss land forward</ID><Animation><Filename>plym_rfl_run_gt_lnd_for.animx</Filename></Animation></Action>
+<Action><ID>run grenade toss land left</ID><Animation><Filename>plym_rfl_run_gt_lnd_lft.animx</Filename></Animation></Action>
+<Action><ID>run grenade toss land right</ID><Animation><Filename>plym_rfl_run_gt_lnd_rgt.animx</Filename></Animation></Action>
+<Action><ID>run grenade toss land still</ID><Animation><Filename>plym_rfl_run_gt_lnd.animx</Filename></Animation></Action>
+<Action><ID>run to stop right</ID><Animation><Filename>plyf_bs_run_tostop_rgt.animx</Filename></Animation></Action>
+<Action><ID>photo op</ID><Animation><Filename>plyf_photo_op.animx</Filename></Animation></Action>
+<Action><ID>vi run to stop</ID><Animation><Filename>plyf_bs_run_tostnd.animx</Filename></Animation></Action>
+<Action><ID>sprint to stop</ID><Animation><Filename>plyf_bs_spnt_tostop.animx</Filename></Animation></Action>
+<Action><ID>jump land</ID><Animation><Filename>plyf_bs_jump_land.animx</Filename></Animation></Action>
+<Action><ID>compliment e</ID><Animation><Filename>plyf_taunt_13.animx</Filename></Animation></Action>
+<Action><ID>compliment a</ID><Animation><Filename>plyf_taunt_1.animx</Filename></Animation></Action>
+<Action><ID>compliment b</ID><Animation><Filename>plyf_taunt_2.animx</Filename></Animation></Action>
+<Action><ID>compliment c</ID><Animation><Filename>plyf_taunt_5.animx</Filename></Animation></Action>
+<Action><ID>compliment d</ID><Animation><Filename>plyf_taunt_7.animx</Filename></Animation></Action>
+<Action><ID>compliment f</ID><Animation><Filename>plyf_taunt_14.animx</Filename></Animation></Action>
+<Action><ID>compliment g</ID><Animation><Filename>plyf_taunt_15.animx</Filename></Animation></Action>
+<Action><ID>compliment h</ID><Animation><Filename>plyf_taunt_17.animx</Filename></Animation></Action>
+<Action><ID>insult a</ID><Animation><Filename>plyf_taunt_3.animx</Filename></Animation></Action>
+<Action><ID>insult b</ID><Animation><Filename>plyf_taunt_4.animx</Filename></Animation></Action>
+<Action><ID>insult c</ID><Animation><Filename>plyf_taunt_6.animx</Filename></Animation></Action>
+<Action><ID>insult d</ID><Animation><Filename>plyf_taunt_8.animx</Filename></Animation></Action>
+<Action><ID>insult f</ID><Animation><Filename>plyf_taunt_10.animx</Filename></Animation></Action>
+<Action><ID>insult g</ID><Animation><Filename>plyf_taunt_11.animx</Filename></Animation></Action>
+<Action><ID>insult h</ID><Animation><Filename>plyf_taunt_12.animx</Filename></Animation></Action>
+<Action><ID>insult i</ID><Animation><Filename>plyf_taunt_16.animx</Filename></Animation></Action>
+<Action><ID>disoriented</ID><Animation><Filename>plym_bs_dsornt.animx</Filename></Animation></Action>
+<Action><ID>char sel 1 idle</ID><Animation><Filename>plyf_chsel_f5_idle.animx</Filename></Animation></Action>
+<Action><ID>char sel 2 idle</ID><Animation><Filename>plyf_chsel_f6_idle.animx</Filename></Animation></Action>
+<Action><ID>char sel 3 idle</ID><Animation><Filename>plyf_chsel_f7_idle.animx</Filename></Animation></Action>
+<Action><ID>char sel 4 idle</ID><Animation><Filename>plyf_chsel_f8_idle.animx</Filename></Animation></Action>
+<Action><ID>compliment aa</ID><Animation><Filename>plyf_taunt_44.animx</Filename></Animation></Action>
+<Action><ID>compliment cc</ID><Animation><Filename>plyf_taunt_45.animx</Filename></Animation></Action>
+<Action><ID>compliment dd</ID><Animation><Filename>plyf_taunt_46.animx</Filename></Animation></Action>
+<Action><ID>compliment i</ID><Animation><Filename>plyf_taunt_18.animx</Filename></Animation></Action>
+<Action><ID>compliment j</ID><Animation><Filename>plyf_taunt_19.animx</Filename></Animation></Action>
+<Action><ID>compliment k</ID><Animation><Filename>plyf_taunt_32.animx</Filename></Animation></Action>
+<Action><ID>compliment l</ID><Animation><Filename>plyf_taunt_35.animx</Filename></Animation></Action>
+<Action><ID>compliment m</ID><Animation><Filename>plyf_taunt_36.animx</Filename></Animation></Action>
+<Action><ID>compliment n</ID><Animation><Filename>plyf_taunt_22.animx</Filename></Animation></Action>
+<Action><ID>compliment o</ID><Animation><Filename>plyf_taunt_23.animx</Filename></Animation></Action>
+<Action><ID>compliment p</ID><Animation><Filename>plyf_taunt_26.animx</Filename></Animation></Action>
+<Action><ID>compliment q</ID><Animation><Filename>plyf_taunt_27.animx</Filename></Animation></Action>
+<Action><ID>compliment r</ID><Animation><Filename>plyf_taunt_28.animx</Filename></Animation></Action>
+<Action><ID>compliment s</ID><Animation><Filename>plyf_taunt_29.animx</Filename></Animation></Action>
+<Action><ID>compliment t</ID><Animation><Filename>plyf_ed_taunt_30.animx</Filename></Animation></Action>
+<Action><ID>compliment u</ID><Animation><Filename>plyf_taunt_37.animx</Filename></Animation></Action>
+<Action><ID>compliment v</ID><Animation><Filename>plyf_taunt_38.animx</Filename></Animation></Action>
+<Action><ID>compliment w</ID><Animation><Filename>plyf_taunt_39.animx</Filename></Animation></Action>
+<Action><ID>compliment x</ID><Animation><Filename>plyf_taunt_40.animx</Filename></Animation></Action>
+<Action><ID>compliment y</ID><Animation><Filename>plyf_taunt_41.animx</Filename></Animation></Action>
+<Action><ID>compliment z</ID><Animation><Filename>plyf_taunt_42.animx</Filename></Animation></Action>
+<Action><ID>etd taunt 1</ID><Animation><Filename>plyf_ed_taunt_1.animx</Filename></Animation></Action>
+<Action><ID>etd taunt 10</ID><Animation><Filename>plyf_ed_taunt_10.animx</Filename></Animation></Action>
+<Action><ID>etd taunt 11</ID><Animation><Filename>plyf_ed_taunt_11.animx</Filename></Animation></Action>
+<Action><ID>etd taunt 12</ID><Animation><Filename>plyf_ed_taunt_12.animx</Filename></Animation></Action>
+<Action><ID>etd taunt 13</ID><Animation><Filename>plyf_ed_taunt_13.animx</Filename></Animation></Action>
+<Action><ID>etd taunt 14</ID><Animation><Filename>plyf_ed_taunt_14.animx</Filename></Animation></Action>
+<Action><ID>etd taunt 15</ID><Animation><Filename>plyf_ed_taunt_15.animx</Filename></Animation></Action>
+<Action><ID>etd taunt 16</ID><Animation><Filename>plyf_ed_taunt_16.animx</Filename></Animation></Action>
+<Action><ID>etd taunt 17</ID><Animation><Filename>plyf_ed_taunt_17.animx</Filename></Animation></Action>
+<Action><ID>etd taunt 2</ID><Animation><Filename>plyf_ed_taunt_2.animx</Filename></Animation></Action>
+<Action><ID>etd taunt 3</ID><Animation><Filename>plyf_ed_taunt_3.animx</Filename></Animation></Action>
+<Action><ID>etd taunt 4</ID><Animation><Filename>plyf_ed_taunt_4.animx</Filename></Animation></Action>
+<Action><ID>etd taunt 5</ID><Animation><Filename>plyf_ed_taunt_5.animx</Filename></Animation></Action>
+<Action><ID>etd taunt 6</ID><Animation><Filename>plyf_ed_taunt_6.animx</Filename></Animation></Action>
+<Action><ID>etd taunt 7</ID><Animation><Filename>plyf_ed_taunt_7.animx</Filename></Animation></Action>
+<Action><ID>etd taunt 8</ID><Animation><Filename>plyf_ed_taunt_8.animx</Filename></Animation></Action>
+<Action><ID>etd taunt 9</ID><Animation><Filename>plyf_ed_taunt_9.animx</Filename></Animation></Action>
+<Action><ID>insult aa</ID><Animation><Filename>plyf_taunt_57.animx</Filename></Animation></Action>
+<Action><ID>insult e</ID><Animation><Filename>plyf_taunt_9.animx</Filename></Animation></Action>
+<Action><ID>insult j</ID><Animation><Filename>plyf_taunt_20.animx</Filename></Animation></Action>
+<Action><ID>insult k</ID><Animation><Filename>plyf_taunt_21.animx</Filename></Animation></Action>
+<Action><ID>insult l</ID><Animation><Filename>plyf_taunt_34.animx</Filename></Animation></Action>
+<Action><ID>insult m</ID><Animation><Filename>plyf_taunt_33.animx</Filename></Animation></Action>
+<Action><ID>insult n</ID><Animation><Filename>plyf_taunt_24.animx</Filename></Animation></Action>
+<Action><ID>insult o</ID><Animation><Filename>plyf_taunt_25.animx</Filename></Animation></Action>
+<Action><ID>insult p</ID><Animation><Filename>plyf_taunt_31.animx</Filename></Animation></Action>
+<Action><ID>insult q</ID><Animation><Filename>plyf_taunt_47.animx</Filename></Animation></Action>
+<Action><ID>insult r</ID><Animation><Filename>plyf_taunt_48.animx</Filename></Animation></Action>
+<Action><ID>insult s</ID><Animation><Filename>plyf_taunt_49.animx</Filename></Animation></Action>
+<Action><ID>insult t</ID><Animation><Filename>plyf_taunt_50.animx</Filename></Animation></Action>
+<Action><ID>insult u</ID><Animation><Filename>plyf_taunt_51.animx</Filename></Animation></Action>
+<Action><ID>insult v</ID><Animation><Filename>plyf_taunt_52.animx</Filename></Animation></Action>
+<Action><ID>insult w</ID><Animation><Filename>plyf_taunt_53.animx</Filename></Animation></Action>
+<Action><ID>insult x</ID><Animation><Filename>plyf_taunt_54.animx</Filename></Animation></Action>
+<Action><ID>insult y</ID><Animation><Filename>plyf_taunt_55.animx</Filename></Animation></Action>
+<Action><ID>insult z</ID><Animation><Filename>plyf_taunt_56.animx</Filename></Animation></Action>
+<Action><ID>etd taunt 18</ID><Animation><Filename>plyf_etd_taunt_18.animx</Filename></Animation></Action>
+<Action><ID>etd taunt 19</ID><Animation><Filename>plyf_etd_taunt_19.animx</Filename></Animation></Action>
+<Action><ID>compliment bb</ID><Animation><Filename>plyf_ed_taunt_44.animx</Filename></Animation></Action>
+<Action><ID>superjump air to fall</ID><Animation><Filename>plyf_bs_sprjmp_air_tofall.animx</Filename></Animation></Action>
+<Action><ID>superjump air to fall 2</ID><Animation><Filename>plyf_bs_sprjmp_air_tofall2.animx</Filename></Animation></Action>
+<Action><ID>superjump high</ID><Animation><Filename>plyf_sprjmp_move_leap_hgh.animx</Filename></Animation></Action>
+<Action><ID>superjump takeoff</ID><Animation><Filename>plyf_bs_sprjmp_prep_totkoff.animx</Filename></Animation></Action>
+<Action><ID>superjump takeoff move</ID><Animation><Filename>plyf_bs_sprjmp_move_totkoff_hgh.animx</Filename></Animation></Action>
+<Action><ID>superjump takeoff move a</ID><Animation><Filename>plyf_bs_sprjmp_move_totkoff_a.animx</Filename></Animation></Action>
+<Action><ID>superjump trans to fall</ID><Animation><Filename>plyf_sprjmp_move_down_high.animx</Filename></Animation></Action>
+<Action><ID>superjump trans to fall 2</ID><Animation><Filename>plyf_sprjmp_move_down_low.animx</Filename></Animation></Action>
+<Action><ID>compliment ee</ID><Animation><Filename>plyf_taunt_78.animx</Filename></Animation></Action>
+<Action><ID>exit nemo chair</ID><Animation><Filename>plyf_bs_ext_nmo_chr.animx</Filename></Animation></Action>
+<Action><ID>pose a</ID><Animation><Filename>plyf_sel_pose_a.animx</Filename></Animation></Action>
+<Action><ID>pose b</ID><Animation><Filename>plyf_sel_pose_b.animx</Filename></Animation></Action>
+<Action><ID>pose c</ID><Animation><Filename>plyf_sel_pose_c.animx</Filename></Animation></Action>
+<Action><ID>pose d</ID><Animation><Filename>plyf_sel_pose_d.animx</Filename></Animation></Action>
+<Action><ID>pose e</ID><Animation><Filename>plyf_sel_pose_e.animx</Filename></Animation></Action>
+<Action><ID>pose f</ID><Animation><Filename>plyf_sel_pose_f.animx</Filename></Animation></Action>
+<Action><ID>pose g</ID><Animation><Filename>plyf_sel_pose_g.animx</Filename></Animation></Action>
+</Actions></Group>
+<Group><group>Pistol</group><States>
+<State><ID>stand</ID><Animation><Filename>plyf_ps_sd.animx</Filename></Animation></State>
+<State><ID>walk</ID><Animation><Filename>player_pistol_move_f</Filename></Animation></State>
+<State><ID>stand aim</ID><Animation><Filename>plyf_ps_sd_aim.animx</Filename></Animation></State>
+<State><ID>stand ready</ID><Animation><Filename>plyf_ps_sd_rdy.animx</Filename></Animation></State>
+<State><ID>run</ID><Animation><Filename>player_pistol_move_f</Filename></Animation></State>
+<State><ID>jog</ID><Animation><Filename>plyf_ps_jog.animx</Filename></Animation></State>
+<State><ID>run anim</ID><Animation><Filename>plyf_ps_run.animx</Filename></Animation></State>
+<State><ID>walk anim</ID><Animation><Filename>plyf_ps_wlk.animx</Filename></Animation></State>
+<State><ID>face aim</ID><Animation><Filename>plym_face_aim.animx</Filename></Animation></State>
+<State><ID>crouch</ID><Animation><Filename>plyf_ps_ch_rdy.animx</Filename></Animation></State>
+<State><ID>crouch aim</ID><Animation><Filename>plyf_ps_ch_aim.animx</Filename></Animation></State>
+<State><ID>crouch walk</ID><Animation><Filename>plyf_ps_chwlk_rdy.animx</Filename></Animation></State>
+<State><ID>crouch walk aim</ID><Animation><Filename>plyf_ps_chwlk_aim.animx</Filename></Animation></State>
+<State><ID>crouch walk aim back</ID><Animation><Filename>plyf_ps_chwlk_aim_bck.animx</Filename></Animation></State>
+<State><ID>crouch walk aim left</ID><Animation><Filename>plyf_ps_chwlk_aim_lft.animx</Filename></Animation></State>
+<State><ID>crouch walk aim right</ID><Animation><Filename>plyf_ps_chwlk_aim_rgt.animx</Filename></Animation></State>
+<State><ID>fine aim stand</ID><Animation><Filename>plyf_ps_sd_aim.animx</Filename></Animation></State>
+</States><Actions>
+<Action><ID>stand turn left 90</ID><Animation><Filename>plyf_pstl_std_trn90_lft.animx</Filename></Animation></Action>
+<Action><ID>stand turn right 90</ID><Animation><Filename>plyf_ps_std_trn90_rgt.animx</Filename></Animation></Action>
+<Action><ID>idle</ID><Animation><Filename>cop_bs_null.animx</Filename></Animation></Action>
+<Action><ID>run to stop</ID><Animation><Filename>plyf_ps_run_tostop.animx</Filename></Animation></Action>
+<Action><ID>stand to run back</ID><Animation><Filename>plyf_ps_strtrun_bck.animx</Filename></Animation></Action>
+<Action><ID>stand to run forward</ID><Animation><Filename>plyf_ps_strtrun_for.animx</Filename></Animation></Action>
+<Action><ID>stand to run left</ID><Animation><Filename>plyf_ps_strtrun_lft.animx</Filename></Animation></Action>
+<Action><ID>stand to run right</ID><Animation><Filename>plyf_ps_strtrun_rgt.animx</Filename></Animation></Action>
+<Action><ID>false start</ID><Animation><Filename>plyf_ps_flse_strt.animx</Filename></Animation></Action>
+<Action><ID>face fire</ID><Animation><Filename>plym_face_fire.animx</Filename></Animation></Action>
+<Action><ID>jump</ID><Animation><Filename>plyf_ps_jump.animx</Filename></Animation></Action>
+<Action><ID>jump land</ID><Animation><Filename>plyf_ps_jump_land.animx</Filename></Animation></Action>
+<Action><ID>run to stop right</ID><Animation><Filename>plyf_ps_run_tostop_rgt.animx</Filename></Animation></Action>
+<Action><ID>run jump land to stop</ID><Animation><Filename>plyf_ps_run_jmplnd_stp.animx</Filename></Animation></Action>
+<Action><ID>ready to stand</ID><Animation><Filename>plyf_ps_aim_tostnd.animx</Filename></Animation></Action>
+<Action><ID>crouch fire</ID><Animation><Filename>plyf_ps_ch_fire.animx</Filename></Animation></Action>
+<Action><ID>crouch walk fire</ID><Animation><Filename>plyf_ps_chwlk_fire.animx</Filename></Animation></Action>
+<Action><ID>sprint to stop</ID><Animation><Filename>plyf_ps_sprint-std.animx</Filename></Animation></Action>
+<Action><ID>sprint to stop weapon</ID><Animation><Filename>plyf_ps_sprint-std.animx</Filename></Animation></Action>
+<Action><ID>reload</ID><Animation><Filename>plyf_ps_sd_rload.animx</Filename></Animation></Action>
+<Action><ID>run reload</ID><Animation><Filename>plyf_ps_run_rload.animx</Filename></Animation></Action>
+<Action><ID>run reload right</ID><Animation><Filename>plyf_ps_run_rload_rgt.animx</Filename></Animation></Action>
+<Action><ID>walk reload</ID><Animation><Filename>plyf_ps_wlk_rload.animx</Filename></Animation></Action>
+<Action><ID>walk reload left</ID><Animation><Filename>plyf_ps_wlk_rload_lft.animx</Filename></Animation></Action>
+<Action><ID>walk reload right</ID><Animation><Filename>plyf_ps_wlk_rload_lft.animx</Filename></Animation></Action>
+<Action><ID>crouch reload</ID><Animation><Filename>plyf_ps_sd_rload.animx</Filename></Animation></Action>
+<Action><ID>crouch walk reload</ID><Animation><Filename>plyf_ps_ch_rload_mvng.animx</Filename></Animation></Action>
+<Action><ID>crouch walk reload left</ID><Animation><Filename>plyf_ps_ch_rload_mvng_lr.animx</Filename></Animation></Action>
+<Action><ID>crouch walk reload right</ID><Animation><Filename>plyf_ps_ch_rload_mvng_lr.animx</Filename></Animation></Action>
+<Action><ID>melee3</ID><Animation><Filename>plyf_ps_sd_melee_a.animx</Filename></Animation></Action>
+</Actions></Group>
+<Group><group>Rifle</group><States>
+<State><ID>stand</ID><Animation><Filename>plyf_snpr_sd.animx</Filename></Animation></State>
+<State><ID>stand ready</ID><Animation><Filename>plyf_rfl_sd_rdy.animx</Filename></Animation></State>
+<State><ID>walk</ID><Animation><Filename>player_rifle_move_f</Filename></Animation></State>
+<State><ID>jog</ID><Animation><Filename>plyf_rfl_jog.animx</Filename></Animation></State>
+<State><ID>run</ID><Animation><Filename>player_rifle_move_f</Filename></Animation></State>
+<State><ID>run anim</ID><Animation><Filename>plyf_rfl_run.animx</Filename></Animation></State>
+<State><ID>walk anim</ID><Animation><Filename>plyf_rfl_wlk.animx</Filename></Animation></State>
+<State><ID>stand aim</ID><Animation><Filename>plyf_rfl_sd_aim.animx</Filename></Animation></State>
+<State><ID>fine aim stand</ID><Animation><Filename>plyf_rfl_sd_aim.animx</Filename></Animation></State>
+<State><ID>face aim</ID><Animation><Filename>plym_face_aim.animx</Filename></Animation></State>
+<State><ID>crouch</ID><Animation><Filename>plyf_rfl_ch_rdy.animx</Filename></Animation></State>
+<State><ID>crouch aim</ID><Animation><Filename>plyf_rfl_ch_aim.animx</Filename></Animation></State>
+<State><ID>crouch walk</ID><Animation><Filename>plyf_rfl_chwlk_rdy.animx</Filename></Animation></State>
+<State><ID>crouch walk aim</ID><Animation><Filename>plyf_rfl_chwlk_aim.animx</Filename></Animation></State>
+<State><ID>crouch walk aim back</ID><Animation><Filename>plyf_rfl_chwlk_aim_bck.animx</Filename></Animation></State>
+<State><ID>crouch walk aim left</ID><Animation><Filename>plyf_rfl_chwlk_aim_lft.animx</Filename></Animation></State>
+<State><ID>crouch walk aim right</ID><Animation><Filename>plyf_rfl_chwlk_aim_rgt.animx</Filename></Animation></State>
+<State><ID>crouch wlk rdy fwd</ID><Animation><Filename>plyf_rfl_chwlk_rdy.animx</Filename></Animation></State>
+<State><ID>weapon sprint</ID><Animation><Filename>plyf_rfl_sprint.animx</Filename></Animation></State>
+<State><ID>pant</ID><Animation><Filename>plyf_rfl_pant.animx</Filename></Animation></State>
+<State><ID>run aim</ID><Animation><Filename>plyf_rfl_run_aim.animx</Filename></Animation></State>
+<State><ID>run aim lh</ID><Animation><Filename>plyf_rfl_run_aim_l.animx</Filename></Animation></State>
+</States><Actions>
+<Action><ID>fine aim fire</ID><Animation><Filename>plyf_rfl_sd_fire.animx</Filename></Animation></Action>
+<Action><ID>stand fire</ID><Animation><Filename>plyf_rfl_sd_fire.animx</Filename></Animation></Action>
+<Action><ID>stand turn left 90</ID><Animation><Filename>plyf_rfl_std_trn90_lft.animx</Filename></Animation></Action>
+<Action><ID>stand turn right 90</ID><Animation><Filename>plyf_rfl_std_trn90_rgt.animx</Filename></Animation></Action>
+<Action><ID>idle</ID><Animation><Filename>cop_bs_null.animx</Filename></Animation></Action>
+<Action><ID>run to stop</ID><Animation><Filename>plyf_snpr_run-std.animx</Filename></Animation></Action>
+<Action><ID>stand to run back</ID><Animation><Filename>plyf_rfl_strtrun_bck.animx</Filename></Animation></Action>
+<Action><ID>stand to run forward</ID><Animation><Filename>plyf_rfl_strtrun_for.animx</Filename></Animation></Action>
+<Action><ID>stand to run left</ID><Animation><Filename>plyf_rfl_strtrun_lft.animx</Filename></Animation></Action>
+<Action><ID>stand to run right</ID><Animation><Filename>plyf_rfl_strtrun_rgt.animx</Filename></Animation></Action>
+<Action><ID>false start</ID><Animation><Filename>plyf_snpr_flse_strt.animx</Filename></Animation></Action>
+<Action><ID>face fire</ID><Animation><Filename>plym_face_fire.animx</Filename></Animation></Action>
+<Action><ID>stand turn left 180</ID><Animation><Filename>plyf_rfl_std_trn180_lft.animx</Filename></Animation></Action>
+<Action><ID>stand turn right 180</ID><Animation><Filename>plyf_rfl_std_trn180_rgt.animx</Filename></Animation></Action>
+<Action><ID>jump</ID><Animation><Filename>plym_rfl_jump.animx</Filename></Animation></Action>
+<Action><ID>jump land</ID><Animation><Filename>plyf_snpr_jump_land.animx</Filename></Animation></Action>
+<Action><ID>run to stop right</ID><Animation><Filename>plyf_snpr_run_tostop_rgt.animx</Filename></Animation></Action>
+<Action><ID>sprint to stop</ID><Animation><Filename>plyf_snpr_sprint-std.animx</Filename></Animation></Action>
+<Action><ID>sprint to stop weapon</ID><Animation><Filename>plyf_snpr_sprint-std_wpn.animx</Filename></Animation></Action>
+<Action><ID>run jump land to stop</ID><Animation><Filename>plyf_rfl_run_jmplnd_stp.animx</Filename></Animation></Action>
+<Action><ID>ready to stand</ID><Animation><Filename>plyf_snpr_aim_tostnd.animx</Filename></Animation></Action>
+<Action><ID>crouch walk reload right</ID><Animation><Filename>plyf_rfl_chwlk_rgt_rload.animx</Filename></Animation></Action>
+<Action><ID>bash</ID><Animation><Filename>plyf_rfl_ml_kck.animx</Filename></Animation></Action>
+<Action><ID>crouch walk reload</ID><Animation><Filename>plyf_rfl_chwlk_rload.animx</Filename></Animation></Action>
+<Action><ID>crouch walk reload left</ID><Animation><Filename>plyf_rfl_chwlk_rgt_rload.animx</Filename></Animation></Action>
+<Action><ID>reload</ID><Animation><Filename>plyf_rfl_sd_rld.animx</Filename></Animation></Action>
+<Action><ID>run reload</ID><Animation><Filename>plyf_rfl_run_rld.animx</Filename></Animation></Action>
+<Action><ID>run reload back left</ID><Animation><Filename>plyf_rfl_runbck_lft_rld.animx</Filename></Animation></Action>
+<Action><ID>run reload l</ID><Animation><Filename>plyf_rfl_run_rld.animx</Filename></Animation></Action>
+<Action><ID>run reload left</ID><Animation><Filename>plyf_rfl_run_rld_lft.animx</Filename></Animation></Action>
+<Action><ID>crouch reload</ID><Animation><Filename>plyf_rfl_ch_rld.animx</Filename></Animation></Action>
+<Action><ID>back pedal left reload</ID><Animation><Filename>plyf_rfl_bped_left_rload.animx</Filename></Animation></Action>
+<Action><ID>back pedal right reload</ID><Animation><Filename>plyf_rfl_bped_rgt_rload.animx</Filename></Animation></Action>
+<Action><ID>run reload back</ID><Animation><Filename>plyf_rfl_run_bck_rload.animx</Filename></Animation></Action>
+<Action><ID>run reload right</ID><Animation><Filename>plyf_rfl_run_rld_rgt.animx</Filename></Animation></Action>
+<Action><ID>walk reload</ID><Animation><Filename>plyf_rfl_wlk_reld.animx</Filename></Animation></Action>
+<Action><ID>walk reload left</ID><Animation><Filename>plyf_rfl_wlk_lft_rload.animx</Filename></Animation></Action>
+<Action><ID>walk reload right</ID><Animation><Filename>plyf_rfl_wlk_rgt_rload.animx</Filename></Animation></Action>
+</Actions></Group>
+<Group><group>DualPistol</group><States>
+<State><ID>run</ID><Animation><Filename>player_dualpistol_move_f</Filename></Animation></State>
+<State><ID>stand</ID><Animation><Filename>plyf_dps_sd.animx</Filename></Animation></State>
+<State><ID>walk</ID><Animation><Filename>player_dualpistol_move_f</Filename></Animation></State>
+<State><ID>jog</ID><Animation><Filename>plyf_dps_jog.animx</Filename></Animation></State>
+<State><ID>run anim</ID><Animation><Filename>plyf_dps_run.animx</Filename></Animation></State>
+<State><ID>walk anim</ID><Animation><Filename>plyf_dps_wlk.animx</Filename></Animation></State>
+<State><ID>face aim</ID><Animation><Filename>plym_face_aim.animx</Filename></Animation></State>
+<State><ID>crouch</ID><Animation><Filename>plyf_dps_ch_rdy.animx</Filename></Animation></State>
+<State><ID>crouch aim</ID><Animation><Filename>plyf_dps_ch_aim.animx</Filename></Animation></State>
+<State><ID>crouch walk</ID><Animation><Filename>plyf_dps_chwlk_rdy.animx</Filename></Animation></State>
+<State><ID>crouch walk aim</ID><Animation><Filename>plyf_dps_chwlk_aim.animx</Filename></Animation></State>
+<State><ID>crouch walk aim back</ID><Animation><Filename>plyf_dps_chwlk_aim_bck.animx</Filename></Animation></State>
+<State><ID>crouch walk aim left</ID><Animation><Filename>plyf_dps_chwlk_aim_lft.animx</Filename></Animation></State>
+<State><ID>crouch walk aim right</ID><Animation><Filename>plyf_dps_chwlk_aim_rgt.animx</Filename></Animation></State>
+<State><ID>crouch wlk rdy fwd</ID><Animation><Filename>plyf_dps_chwlk_rdy.animx</Filename></Animation></State>
+<State><ID>fine aim stand</ID><Animation><Filename>plyf_dps_sd_aim.animx</Filename></Animation></State>
+<State><ID>run aim</ID><Animation><Filename>plyf_dps_run_aim.animx</Filename></Animation></State>
+<State><ID>run aim back</ID><Animation><Filename>plym_dps_run_aim_bck.animx</Filename></Animation></State>
+<State><ID>run aim left</ID><Animation><Filename>plym_dps_run_aim_lft.animx</Filename></Animation></State>
+<State><ID>run aim right</ID><Animation><Filename>plym_dps_run_aim_rgt.animx</Filename></Animation></State>
+<State><ID>stand aim</ID><Animation><Filename>plyf_dps_sd_aim.animx</Filename></Animation></State>
+<State><ID>weapon sprint</ID><Animation><Filename>plyf_dps_sprnt.animx</Filename></Animation></State>
+<State><ID>sprint</ID><Animation><Filename>plyf_dps_sprnt.animx</Filename></Animation></State>
+<State><ID>walk aim</ID><Animation><Filename>plyf_dps_wlk_aim.animx</Filename></Animation></State>
+<State><ID>walk aim back</ID><Animation><Filename>plyf_dps_wlk_aim_bck.animx</Filename></Animation></State>
+<State><ID>walk aim left</ID><Animation><Filename>plyf_dps_wlk_aim_lft.animx</Filename></Animation></State>
+<State><ID>walk aim right</ID><Animation><Filename>plyf_dps_wlk_aim_rgt.animx</Filename></Animation></State>
+</States><Actions>
+<Action><ID>idle</ID><Animation><Filename>cop_bs_null.animx</Filename></Animation></Action>
+<Action><ID>face fire</ID><Animation><Filename>plym_face_fire.animx</Filename></Animation></Action>
+<Action><ID>jump</ID><Animation><Filename>plyf_dps_jump.animx</Filename></Animation></Action>
+<Action><ID>jump land</ID><Animation><Filename>plyf_dps_jump_land.animx</Filename></Animation></Action>
+<Action><ID>ready to stand</ID><Animation><Filename>plyf_dps_aim_tostnd.animx</Filename></Animation></Action>
+<Action><ID>run jump land to stop</ID><Animation><Filename>plyf_dps_run_jmplnd_stp.animx</Filename></Animation></Action>
+<Action><ID>run to stop</ID><Animation><Filename>plyf_dps_run_tostop.animx</Filename></Animation></Action>
+<Action><ID>run to stop right</ID><Animation><Filename>plyf_dps_run_tostop_rgt.animx</Filename></Animation></Action>
+<Action><ID>stand to run back</ID><Animation><Filename>plyf_dps_strtrn_bck.animx</Filename></Animation></Action>
+<Action><ID>stand to run forward</ID><Animation><Filename>plyf_dps_strtrn_fwd.animx</Filename></Animation></Action>
+<Action><ID>stand to run left</ID><Animation><Filename>plyf_dps_strtrn_lft.animx</Filename></Animation></Action>
+<Action><ID>stand to run right</ID><Animation><Filename>plyf_dps_strtrn_rgt.animx</Filename></Animation></Action>
+<Action><ID>false start</ID><Animation><Filename>plyf_dps_flse_strt.animx</Filename></Animation></Action>
+<Action><ID>run fire</ID><Animation><Filename>plym_dps_run_fire_rh.animx</Filename></Animation></Action>
+<Action><ID>run fire l</ID><Animation><Filename>plym_dps_run_fire_lh.animx</Filename></Animation></Action>
+<Action><ID>run fire back</ID><Animation><Filename>plym_dps_run_fire_rh.animx</Filename></Animation></Action>
+<Action><ID>run fire back l</ID><Animation><Filename>plym_dps_run_fire_lh.animx</Filename></Animation></Action>
+<Action><ID>run fire left</ID><Animation><Filename>plym_dps_run_fire_rh.animx</Filename></Animation></Action>
+<Action><ID>run fire left l</ID><Animation><Filename>plym_dps_run_fire_lh.animx</Filename></Animation></Action>
+<Action><ID>run fire right</ID><Animation><Filename>plym_dps_run_fire_rh.animx</Filename></Animation></Action>
+<Action><ID>run fire right l</ID><Animation><Filename>plym_dps_run_fire_lh.animx</Filename></Animation></Action>
+<Action><ID>sprint to stop</ID><Animation><Filename>plyf_dps_spnt_tostop.animx</Filename></Animation></Action>
+<Action><ID>sprint to stop weapon</ID><Animation><Filename>plyf_dps_spnt_tostop.animx</Filename></Animation></Action>
+<Action><ID>stand fire</ID><Animation><Filename>plym_dps_run_fire_rh.animx</Filename></Animation></Action>
+<Action><ID>stand fire left</ID><Animation><Filename>plym_dps_run_fire_lh.animx</Filename></Animation></Action>
+<Action><ID>walk fire</ID><Animation><Filename>plym_dps_run_fire_rh.animx</Filename></Animation></Action>
+<Action><ID>walk fire l</ID><Animation><Filename>plym_dps_run_fire_lh.animx</Filename></Animation></Action>
+<Action><ID>walk fire back</ID><Animation><Filename>plym_dps_run_fire_rh.animx</Filename></Animation></Action>
+<Action><ID>walk fire back l</ID><Animation><Filename>plym_dps_run_fire_lh.animx</Filename></Animation></Action>
+<Action><ID>walk fire left</ID><Animation><Filename>plym_dps_run_fire_rh.animx</Filename></Animation></Action>
+<Action><ID>walk fire left l</ID><Animation><Filename>plym_dps_run_fire_lh.animx</Filename></Animation></Action>
+<Action><ID>walk fire right</ID><Animation><Filename>plym_dps_run_fire_rh.animx</Filename></Animation></Action>
+<Action><ID>walk fire right l</ID><Animation><Filename>plym_dps_run_fire_lh.animx</Filename></Animation></Action>
+</Actions></Group>
+<Group><group>RPG</group><States>
+<State><ID>stand</ID><Animation><Filename>plyf_rpg_sd.animx</Filename></Animation></State>
+<State><ID>jog</ID><Animation><Filename>plyf_rpg_jog.animx</Filename></Animation></State>
+<State><ID>run</ID><Animation><Filename>player_rpg_move_f</Filename></Animation></State>
+<State><ID>walk</ID><Animation><Filename>player_rpg_move_f</Filename></Animation></State>
+<State><ID>run anim</ID><Animation><Filename>plyf_rpg_run.animx</Filename></Animation></State>
+<State><ID>walk anim</ID><Animation><Filename>plyf_rpg_wlk.animx</Filename></Animation></State>
+<State><ID>face aim</ID><Animation><Filename>plym_face_aim.animx</Filename></Animation></State>
+<State><ID>crouch</ID><Animation><Filename>plyf_rpg_ch_rdy.animx</Filename></Animation></State>
+<State><ID>crouch aim</ID><Animation><Filename>plyf_rpg_ch_aim.animx</Filename></Animation></State>
+<State><ID>crouch walk</ID><Animation><Filename>plyf_rpg_chwlk_rdy.animx</Filename></Animation></State>
+<State><ID>crouch walk aim</ID><Animation><Filename>plyf_rpg_chwlk_aim.animx</Filename></Animation></State>
+<State><ID>crouch walk aim back</ID><Animation><Filename>plyf_rpg_chwlk_aim_bck.animx</Filename></Animation></State>
+<State><ID>crouch walk aim left</ID><Animation><Filename>plyf_rpg_chwlk_aim_lft.animx</Filename></Animation></State>
+<State><ID>crouch walk aim right</ID><Animation><Filename>plyf_rpg_chwlk_aim_rgt.animx</Filename></Animation></State>
+<State><ID>crouch wlk rdy fwd</ID><Animation><Filename>plyf_rpg_chwlk_rdy.animx</Filename></Animation></State>
+<State><ID>weapon sprint</ID><Animation><Filename>plyf_rpg_sprint.animx</Filename></Animation></State>
+</States><Actions>
+<Action><ID>idle</ID><Animation><Filename>cop_bs_null.animx</Filename></Animation></Action>
+<Action><ID>face fire</ID><Animation><Filename>plym_face_fire.animx</Filename></Animation></Action>
+<Action><ID>false start</ID><Animation><Filename>plyf_rpg_flse_strt.animx</Filename></Animation></Action>
+<Action><ID>jump</ID><Animation><Filename>plyf_rpg_jump.animx</Filename></Animation></Action>
+<Action><ID>jump land</ID><Animation><Filename>plyf_rpg_jump_land.animx</Filename></Animation></Action>
+<Action><ID>run to stop</ID><Animation><Filename>plyf_rpg_run-std.animx</Filename></Animation></Action>
+<Action><ID>run to stop right</ID><Animation><Filename>plyf_rpg_run_tostop_rgt.animx</Filename></Animation></Action>
+<Action><ID>sprint to stop</ID><Animation><Filename>plym_rpg_sprint-std.animx</Filename></Animation></Action>
+<Action><ID>sprint to stop weapon</ID><Animation><Filename>plyf_rpg_sprint-std_wpn.animx</Filename></Animation></Action>
+<Action><ID>stand to run back</ID><Animation><Filename>plyf_rpg_strtrn_bck.animx</Filename></Animation></Action>
+<Action><ID>stand to run left</ID><Animation><Filename>plyf_rpg_strtrn_lft.animx</Filename></Animation></Action>
+<Action><ID>stand to run right</ID><Animation><Filename>plyf_rpg_strtrn_rgt.animx</Filename></Animation></Action>
+<Action><ID>run jump land to stop</ID><Animation><Filename>plyf_rpg_run_jmplnd_stp.animx</Filename></Animation></Action>
+<Action><ID>crouch walk reload</ID><Animation><Filename>plyf_rpg_crchwlk_rload.animx</Filename></Animation></Action>
+<Action><ID>crouch walk reload left</ID><Animation><Filename>plyf_rpg_chwlk_rt_reload.animx</Filename></Animation></Action>
+<Action><ID>crouch walk reload right</ID><Animation><Filename>plyf_rpg_chwlk_rt_reload.animx</Filename></Animation></Action>
+</Actions></Group>
+<Group><group>Minigun</group><States>
+<State><ID>stand</ID><Animation><Filename>plyf_brute_sd.animx</Filename></Animation></State>
+<State><ID>stand aim</ID><Animation><Filename>plyf_brute_sd.animx</Filename></Animation></State>
+<State><ID>stand ready</ID><Animation><Filename>plyf_brute_sd.animx</Filename></Animation></State>
+<State><ID>walk</ID><Animation><Filename>plyf_brute_wlk_fwd.animx</Filename></Animation></State>
+<State><ID>walk aim</ID><Animation><Filename>plyf_brute_wlk_fwd.animx</Filename></Animation></State>
+<State><ID>walk aim back</ID><Animation><Filename>plyf_brute_wlk_bck.animx</Filename></Animation></State>
+<State><ID>walk aim left</ID><Animation><Filename>plyf_brute_wlk_lft.animx</Filename></Animation></State>
+<State><ID>walk aim right</ID><Animation><Filename>plyf_brute_wlk_rgt.animx</Filename></Animation></State>
+<State><ID>walk back</ID><Animation><Filename>plyf_brute_wlk_bck.animx</Filename></Animation></State>
+<State><ID>walk left</ID><Animation><Filename>plyf_brute_wlk_lft.animx</Filename></Animation></State>
+<State><ID>walk ready</ID><Animation><Filename>plyf_brute_wlk_fwd.animx</Filename></Animation></State>
+<State><ID>walk ready back</ID><Animation><Filename>plyf_brute_wlk_bck.animx</Filename></Animation></State>
+<State><ID>walk ready left</ID><Animation><Filename>plyf_brute_wlk_lft.animx</Filename></Animation></State>
+<State><ID>walk ready right</ID><Animation><Filename>plyf_brute_wlk_rgt.animx</Filename></Animation></State>
+<State><ID>walk right</ID><Animation><Filename>plyf_brute_wlk_rgt.animx</Filename></Animation></State>
+<State><ID>face aim</ID><Animation><Filename>plym_face_aim.animx</Filename></Animation></State>
+</States><Actions>
+<Action><ID>idle</ID><Animation><Filename>cop_bs_null.animx</Filename></Animation></Action>
+<Action><ID>face fire</ID><Animation><Filename>plym_face_fire.animx</Filename></Animation></Action>
+<Action><ID>stand turn left 180</ID><Animation><Filename>plym_rfl_sd_trn180_l.animx</Filename></Animation></Action>
+<Action><ID>stand turn left 90</ID><Animation><Filename>plyf_brute_trn90_lft.animx</Filename></Animation></Action>
+<Action><ID>stand turn right 180</ID><Animation><Filename>plym_rfl_sd_trn180_r.animx</Filename></Animation></Action>
+<Action><ID>stand turn right 90</ID><Animation><Filename>plym_brt_trn90_rgt.animx</Filename></Animation></Action>
+</Actions></Group>
+<Group><group>Melee 2h</group><States>
+<State><ID>jog</ID><Animation><Filename>plyf_bat_jog.animx</Filename></Animation></State>
+<State><ID>run anim</ID><Animation><Filename>plyf_bat_run.animx</Filename></Animation></State>
+<State><ID>sprint</ID><Animation><Filename>plyf_bat_sprint.animx</Filename></Animation></State>
+<State><ID>stand</ID><Animation><Filename>plyf_bat_sd.animx</Filename></Animation></State>
+<State><ID>run</ID><Animation><Filename>player_bat_move_f</Filename></Animation></State>
+<State><ID>walk</ID><Animation><Filename>player_bat_move_f</Filename></Animation></State>
+<State><ID>walk anim</ID><Animation><Filename>plyf_bat_wlk.animx</Filename></Animation></State>
+<State><ID>stand ready</ID><Animation><Filename>plyf_bat_sd_rdy.animx</Filename></Animation></State>
+<State><ID>pant</ID><Animation><Filename>plyf_bat_pant.animx</Filename></Animation></State>
+<State><ID>weapon sprint</ID><Animation><Filename>plyf_bat_sprint.animx</Filename></Animation></State>
+</States><Actions>
+<Action><ID>idle</ID><Animation><Filename>cop_bs_null.animx</Filename></Animation></Action>
+<Action><ID>run to stop</ID><Animation><Filename>plyf_bat_run_tostnd.animx</Filename></Animation></Action>
+<Action><ID>stand to run back</ID><Animation><Filename>plyf_bat_strtrun_bck.animx</Filename></Animation></Action>
+<Action><ID>stand to run forward</ID><Animation><Filename>plyf_bat_strtrun_for.animx</Filename></Animation></Action>
+<Action><ID>stand to run left</ID><Animation><Filename>plyf_bat_strtrun_lft.animx</Filename></Animation></Action>
+<Action><ID>stand to run right</ID><Animation><Filename>plyf_bat_strtrun_rgt.animx</Filename></Animation></Action>
+<Action><ID>false start</ID><Animation><Filename>plyf_bat_flse_strt.animx</Filename></Animation></Action>
+<Action><ID>run to stop right</ID><Animation><Filename>plyf_bat_run_tostop_rgt.animx</Filename></Animation></Action>
+<Action><ID>ready to stand</ID><Animation><Filename>plyf_bat_rdy_tostnd.animx</Filename></Animation></Action>
+<Action><ID>run jump land to stop</ID><Animation><Filename>plyf_bat_run_jmplnd_stp.animx</Filename></Animation></Action>
+<Action><ID>jump land</ID><Animation><Filename>plyf_bat_jump_land.animx</Filename></Animation></Action>
+</Actions></Group>
+<Group><group>SawedOff</group><States>
+<State><ID>stand</ID><Animation><Filename>plyf_shot_sd.animx</Filename></Animation></State>
+<State><ID>run</ID><Animation><Filename>player_shotgun_move_f</Filename></Animation></State>
+<State><ID>walk</ID><Animation><Filename>player_shotgun_move_f</Filename></Animation></State>
+<State><ID>crouch</ID><Animation><Filename>plyf_sg_crouch.animx</Filename></Animation></State>
+<State><ID>crouch aim</ID><Animation><Filename>plyf_sg_ch_aim.animx</Filename></Animation></State>
+<State><ID>crouch walk</ID><Animation><Filename>plyf_sg_chwlk_aim.animx</Filename></Animation></State>
+<State><ID>crouch walk aim</ID><Animation><Filename>plyf_sg_chwlk_aim.animx</Filename></Animation></State>
+<State><ID>crouch walk aim back</ID><Animation><Filename>plyf_sg_chwlk_aim_bck.animx</Filename></Animation></State>
+<State><ID>crouch walk aim left</ID><Animation><Filename>plyf_sg_chwlk_aim_lft.animx</Filename></Animation></State>
+<State><ID>crouch walk aim right</ID><Animation><Filename>plyf_sg_chwlk_aim_rgt.animx</Filename></Animation></State>
+<State><ID>crouch wlk rdy fwd</ID><Animation><Filename>plyf_sg_chwlk_aim.animx</Filename></Animation></State>
+<State><ID>weapon sprint</ID><Animation><Filename>plyf_sg_sprint.animx</Filename></Animation></State>
+<State><ID>run aim</ID><Animation><Filename>plyf_sht_run_aim.animx</Filename></Animation></State>
+<State><ID>walk aim</ID><Animation><Filename>plyf_sht_wlk_aim.animx</Filename></Animation></State>
+</States><Actions>
+<Action><ID>crouch fire</ID><Animation><Filename>plyf_sg_ch_fire.animx</Filename></Animation></Action>
+<Action><ID>crouch walk fire</ID><Animation><Filename>plyf_sg_chwlk_fire.animx</Filename></Animation></Action>
+<Action><ID>crouch walk fire back</ID><Animation><Filename>plyf_sg_chwlk_fire.animx</Filename></Animation></Action>
+<Action><ID>crouch walk fire left</ID><Animation><Filename>plyf_sg_chwlk_fire_rgt.animx</Filename></Animation></Action>
+<Action><ID>crouch walk fire right</ID><Animation><Filename>plyf_sg_chwlk_fire_rgt.animx</Filename></Animation></Action>
+<Action><ID>jump</ID><Animation><Filename>plyf_sg_jump.animx</Filename></Animation></Action>
+<Action><ID>jump land</ID><Animation><Filename>plyf_sg_jump_land.animx</Filename></Animation></Action>
+<Action><ID>run jump land to stop</ID><Animation><Filename>plyf_sg_run_jmplnd_stp.animx</Filename></Animation></Action>
+<Action><ID>run to stop</ID><Animation><Filename>plyf_sg_run-stand.animx</Filename></Animation></Action>
+<Action><ID>run to stop right</ID><Animation><Filename>plyf_sg_run_tostop_rgt.animx</Filename></Animation></Action>
+<Action><ID>crouch reload</ID><Animation><Filename>plyf_sg_ch_rload.animx</Filename></Animation></Action>
+<Action><ID>crouch walk reload</ID><Animation><Filename>plyf_sg_chwlk_rload.animx</Filename></Animation></Action>
+<Action><ID>crouch walk reload left</ID><Animation><Filename>plyf_sg_chwlk_rgt_rload.animx</Filename></Animation></Action>
+<Action><ID>crouch walk reload right</ID><Animation><Filename>plyf_sg_chwlk_rgt_rload.animx</Filename></Animation></Action>
+<Action><ID>ready to stand</ID><Animation><Filename>plyf_sg_aim_tostnd.animx</Filename></Animation></Action>
+<Action><ID>sprint to stop weapon</ID><Animation><Filename>plyf_sg_sprint-std_wpn.animx</Filename></Animation></Action>
+<Action><ID>run jump land</ID><Animation><Filename>plyf_sht_run_jmplnd.animx</Filename></Animation></Action>
+<Action><ID>run jump</ID><Animation><Filename>plyf_sht_run_jmp.animx</Filename></Animation></Action>
+</Actions></Group>
+<Group><group>Shot Gun</group><States>
+<State><ID>crouch</ID><Animation><Filename>plyf_pump_ch_rdy.animx</Filename></Animation></State>
+<State><ID>crouch aim</ID><Animation><Filename>plyf_pump_ch_aim.animx</Filename></Animation></State>
+<State><ID>run aim</ID><Animation><Filename>plyf_pump_run_aim.animx</Filename></Animation></State>
+</States><Actions>
+<Action><ID>reload</ID><Animation><Filename>plyf_pump_sd_rload.animx</Filename></Animation></Action>
+<Action><ID>stand fire</ID><Animation><Filename>plyf_pump_sd_fire.animx</Filename></Animation></Action>
+<Action><ID>walk fire</ID><Animation><Filename>plyf_pump_sd_fire.animx</Filename></Animation></Action>
+<Action><ID>walk fire back</ID><Animation><Filename>plyf_pump_sd_fire.animx</Filename></Animation></Action>
+<Action><ID>crouch walk fire</ID><Animation><Filename>plyf_pump_chwlk_fire.animx</Filename></Animation></Action>
+<Action><ID>crouch walk fire back</ID><Animation><Filename>plyf_pump_chwlk_fire.animx</Filename></Animation></Action>
+<Action><ID>crouch walk fire left</ID><Animation><Filename>plyf_pump_chwlk_rgt_fire.animx</Filename></Animation></Action>
+<Action><ID>crouch walk fire right</ID><Animation><Filename>plyf_pump_chwlk_rgt_fire.animx</Filename></Animation></Action>
+<Action><ID>crouch walk reload</ID><Animation><Filename>plyf_pump_crch_wlk_rload.animx</Filename></Animation></Action>
+<Action><ID>crouch walk reload left</ID><Animation><Filename>plyf_pump_crch_wlk_r_rload.animx</Filename></Animation></Action>
+<Action><ID>crouch reload</ID><Animation><Filename>plyf_pump_ch_rload.animx</Filename></Animation></Action>
+<Action><ID>crouch walk reload right</ID><Animation><Filename>plyf_pump_crch_wlk_r_rload.animx</Filename></Animation></Action>
+<Action><ID>run reload</ID><Animation><Filename>plyf_pump_run_rload.animx</Filename></Animation></Action>
+<Action><ID>run reload back</ID><Animation><Filename>plyf_pump_runbck_rload.animx</Filename></Animation></Action>
+<Action><ID>run reload left</ID><Animation><Filename>plym_pump_runlft_rload.animx</Filename></Animation></Action>
+<Action><ID>run reload right</ID><Animation><Filename>plyf_pump_runrgt_rload.animx</Filename></Animation></Action>
+</Actions></Group>
+<Group><group>Sniper</group><States>
+<State><ID>stand</ID><Animation><Filename>plyf_snpr_sd.animx</Filename></Animation></State>
+<State><ID>stand b</ID><Animation><Filename>plyf_snpr_sd.animx</Filename></Animation></State>
+<State><ID>stand c</ID><Animation><Filename>plyf_snpr_sd.animx</Filename></Animation></State>
+<State><ID>stand d</ID><Animation><Filename>plyf_snpr_sd.animx</Filename></Animation></State>
+</States><Actions>
+<Action><ID>false start</ID><Animation><Filename>plyf_snpr_flse_strt.animx</Filename></Animation></Action>
+<Action><ID>jump land</ID><Animation><Filename>plyf_snpr_jump_land.animx</Filename></Animation></Action>
+<Action><ID>ready to stand</ID><Animation><Filename>plyf_snpr_aim_tostnd.animx</Filename></Animation></Action>
+<Action><ID>run to stop</ID><Animation><Filename>plyf_snpr_run-std.animx</Filename></Animation></Action>
+<Action><ID>run to stop right</ID><Animation><Filename>plyf_snpr_run_tostop_rgt.animx</Filename></Animation></Action>
+<Action><ID>sprint to stop</ID><Animation><Filename>plyf_snpr_sprint-std.animx</Filename></Animation></Action>
+<Action><ID>sprint to stop weapon</ID><Animation><Filename>plyf_snpr_sprint-std_wpn.animx</Filename></Animation></Action>
+</Actions></Group>
+<Group><group>StagRifle</group><States>
+</States><Actions>
+<Action><ID>run reload back left</ID><Animation><Filename>plyf_rfl_run_bcklft_oh.animx</Filename></Animation></Action>
+<Action><ID>run reload left</ID><Animation><Filename>plyf_rfl_runl_oh.animx</Filename></Animation></Action>
+</Actions></Group>
+</Groups></Skeleton_Set></Table></root>

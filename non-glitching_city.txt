@@ -1,0 +1,13 @@
+Non-glitching city
+by BadMadScientist
+v. 1.0
+
+This little tweak removes the effect of "pixelization" that show up on cars and pedestrians in Steelport simulation.
+
+Installation:
+Just move "tweak_table.xtbl" into Saints Row IV root folder ("...\Steam\SteamApps\common\Saints Row IV")
+
+Merging instructions:
+And if you would like to merge this tweak with some other mods, open requested tweak_table.xtbl and change "Glitch_effect_lifetime" value to 0 (line 425).
+
+Have fun!

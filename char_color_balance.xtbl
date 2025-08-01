@@ -1,0 +1,90 @@
+<root>
+<Table>
+	<ColorBalance>
+		<Name>Globals</Name>
+		<White_Level>1</White_Level>
+		<Black_Level>0</Black_Level>
+		<Saturation>1</Saturation>
+		<Ped_Saturation>1</Ped_Saturation>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<Ped_White_Level>1</Ped_White_Level>
+		<Ped_Black_Level>0</Ped_Black_Level>
+		</ColorBalance>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>ColorBalance</Name>
+	<Type>TableDescription</Type>
+	<Display_Name>Color Balance</Display_Name>
+	<Element>
+		<Name>White_Level</Name>
+		<Type>Float</Type>
+		<Display_Name>White Level</Display_Name>
+		<Default>1.0</Default>
+		<MinValue>0</MinValue>
+		<MaxValue>1</MaxValue>
+		<UseSlider>True</UseSlider>
+		</Element>
+	<Element>
+		<Name>Black_Level</Name>
+		<Type>Float</Type>
+		<Display_Name>Black Level</Display_Name>
+		<Default>0.0</Default>
+		<MinValue>0</MinValue>
+		<MaxValue>1</MaxValue>
+		<UseSlider>True</UseSlider>
+		</Element>
+	<Element>
+		<Name>Saturation</Name>
+		<Type>Float</Type>
+		<Default>1.0</Default>
+		<MinValue>0</MinValue>
+		<MaxValue>10</MaxValue>
+		<UseSlider>True</UseSlider>
+		</Element>
+	<Element>
+		<Name>Ped_White_Level</Name>
+		<Type>Float</Type>
+		<Display_Name>Ped White Level</Display_Name>
+		<Default>1.0</Default>
+		<MinValue>0</MinValue>
+		<MaxValue>1</MaxValue>
+		<UseSlider>True</UseSlider>
+		</Element>
+	<Element>
+		<Name>Ped_Black_Level</Name>
+		<Type>Float</Type>
+		<Display_Name>Ped Black Level</Display_Name>
+		<Default>0.0</Default>
+		<MinValue>0</MinValue>
+		<MaxValue>1</MaxValue>
+		<UseSlider>True</UseSlider>
+		</Element>
+	<Element>
+		<Name>Ped_Saturation</Name>
+		<Type>Float</Type>
+		<Display_Name>Ped Saturation</Display_Name>
+		<Default>0.8</Default>
+		<MinValue>0</MinValue>
+		<MaxValue>10</MaxValue>
+		<UseSlider>True</UseSlider>
+		</Element>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		<Default>ColorBalance</Default>
+		</Element>
+	<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

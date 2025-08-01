@@ -1,0 +1,335 @@
+<root>
+<Table>
+	<Homie>
+		<Name>DLC5 - Ash</Name>
+		<Display_Name>HOMIES_VIOLA</Display_Name>
+		<Humans>
+			<Human>
+				<Character>npc_Viola_saints</Character>
+				</Human>
+			</Humans>
+		<Vehicles>
+			<Vehicle_Entry>
+				<Vehicle>car_2dr_exoticsports09</Vehicle>
+				<Weight>1</Weight>
+				</Vehicle_Entry>
+			</Vehicles>
+		<Flags>
+			<Flag>sr1, 2 or 3 character</Flag>
+			<Flag>teleport in and out</Flag>
+			</Flags>
+		<Image_name>ui_hud_act_ico_saints</Image_name>
+		<_Editor>
+			<Category>Entries:DLC</Category>
+			</_Editor>
+		<Display_Desc>HOMIES_VIOLA_DESC</Display_Desc>
+		<Audio>PHONE_SUKO</Audio>
+		<SuperHumans>
+			<SuperHuman>
+				<Character>npc_Viola_saints</Character>
+				</SuperHuman>
+			</SuperHumans>
+		<Is_DLC>True</Is_DLC>
+		<Framework>dlc5</Framework>
+		</Homie>
+	<Homie>
+		<Name>DLC5 - Papa</Name>
+		<Display_Name>DLC5_HOMIES_PAPA</Display_Name>
+		<Humans>
+			<Human>
+				<Character>npc_PapaBurch</Character>
+				</Human>
+			</Humans>
+		<Vehicles>
+			<Vehicle_Entry>
+				<Vehicle>car_4dr_standard07</Vehicle>
+				<Weight>1</Weight>
+				<Vehicle_Variant>ultimate</Vehicle_Variant>
+				</Vehicle_Entry>
+			</Vehicles>
+		<Flags>
+			<Flag>sr1, 2 or 3 character</Flag>
+			<Flag>teleport in and out</Flag>
+			</Flags>
+		<Image_name>ui_homie_papa</Image_name>
+		<_Editor>
+			<Category>Entries:DLC</Category>
+			</_Editor>
+		<Display_Desc>DLC5_HOMIES_PAPA_DESC</Display_Desc>
+		<Audio>PHONE_DLC_SLOT_14</Audio>
+		<SuperHumans>
+			<SuperHuman>
+				<Character>npc_PapaBurch</Character>
+				</SuperHuman>
+			</SuperHumans>
+		<Is_DLC>True</Is_DLC>
+		<Framework>dlc5</Framework>
+		</Homie>
+	<Homie>
+		<Name>DLC5 - Anthony</Name>
+		<Display_Name>DLC5_HOMIES_ANTHONY</Display_Name>
+		<Humans>
+			<Human>
+				<Character>npc_AnthonyBurch</Character>
+				</Human>
+			</Humans>
+		<Vehicles>
+			<Vehicle_Entry>
+				<Vehicle>car_2dr_muscle02</Vehicle>
+				<Weight>1</Weight>
+				<Vehicle_Variant>saints</Vehicle_Variant>
+				</Vehicle_Entry>
+			</Vehicles>
+		<Flags>
+			<Flag>sr1, 2 or 3 character</Flag>
+			<Flag>teleport in and out</Flag>
+			</Flags>
+		<Image_name>ui_homie_anthony</Image_name>
+		<_Editor>
+			<Category>Entries:DLC</Category>
+			</_Editor>
+		<Display_Desc>DLC5_HOMIES_ANTHONY_DESC</Display_Desc>
+		<Audio>PHONE_DLC_SLOT_12</Audio>
+		<SuperHumans>
+			<SuperHuman>
+				<Character>npc_AnthonyBurch</Character>
+				</SuperHuman>
+			</SuperHumans>
+		<Is_DLC>True</Is_DLC>
+		<Framework>dlc5</Framework>
+		</Homie>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>Homie</Name>
+	<Type>TableDescription</Type>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		<Description>Unique name for this homie.</Description>
+		</Element>
+	<Element>
+		<Name>Display_Name</Name>
+		<Type>Reference</Type>
+		<Display_Name>Display Name</Display_Name>
+		<Description>Display name for the homie.</Description>
+		<Reference>
+			<File>localized_exports\Homie_Names.xtbl</File>
+			<Type>Homie_Names_Identifier.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Display_Desc</Name>
+		<Type>Reference</Type>
+		<Display_Name>Display Description</Display_Name>
+		<Description>Localized display description.</Description>
+		<Reference>
+			<File>localized_exports\Homie_desc.xtbl</File>
+			<Type>Homie_desc_Identifier.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Humans</Name>
+		<Type>Grid</Type>
+		<Element>
+			<Name>Human</Name>
+			<Type>Element</Type>
+			<Element>
+				<Name>Character</Name>
+				<Type>Reference</Type>
+				<Reference>
+					<File>character.xtbl</File>
+					<Type>Character.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			</Element>
+		<Max_Children>8</Max_Children>
+		<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	<Element>
+		<Name>SuperHumans</Name>
+		<Type>Grid</Type>
+		<Display_Name>Super Humans</Display_Name>
+		<Required>false</Required>
+		<Element>
+			<Name>SuperHuman</Name>
+			<Type>Element</Type>
+			<Display_Name>Super Human</Display_Name>
+			<Required>false</Required>
+			<Element>
+				<Name>Character</Name>
+				<Type>Reference</Type>
+				<Required>false</Required>
+				<Reference>
+					<File>character.xtbl</File>
+					<Type>Character.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			</Element>
+		<Max_Children>1</Max_Children>
+		<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	<Element>
+		<Name>Vehicles</Name>
+		<Type>Grid</Type>
+		<Description>Vehicles that the homie can drive up in.</Description>
+		<Required>false</Required>
+		<Element>
+			<Name>Vehicle_Entry</Name>
+			<Type>Element</Type>
+			<Element>
+				<Name>Vehicle</Name>
+				<Type>Reference</Type>
+				<Description>Vehicle that the homie can arrive in.</Description>
+				<Reference>
+					<File>vehicles.xtbl</File>
+					<Type>Vehicle.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			<Element>
+				<Name>Vehicle_Variant</Name>
+				<Type>String</Type>
+				<Required>false</Required>
+				</Element>
+			<Element>
+				<Name>Weight</Name>
+				<Type>Int</Type>
+				<Description>Weight for this vehicle.</Description>
+				<Default>1</Default>
+				<MinValue>1</MinValue>
+				</Element>
+			</Element>
+		<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	<Element>
+		<Name>weapon</Name>
+		<Type>Reference</Type>
+		<Display_Name>Weapon</Display_Name>
+		<Description>The weapon to give the player, if that flag is checked.</Description>
+		<Required>false</Required>
+		<Reference>
+			<File>weapons.xtbl</File>
+			<Type>Weapon.Name</Type>
+			<OpenSeparate>True</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Audio</Name>
+		<Type>Reference</Type>
+		<Display_Name>Cell Phone Audio</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>audio_syncs.xtbl</File>
+			<Type>NewEntity.Switches.UI_PHONE_CALLS.Values.Entry.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Flags</Name>
+		<Type>Flags</Type>
+		<Flag>player selects vehicle</Flag>
+		<Flag>is wheelman</Flag>
+		<Flag>turn to ped after driveup</Flag>
+		<Flag>clear gang notoriety</Flag>
+		<Flag>clear police notoriety</Flag>
+		<Flag>repair players vehicle</Flag>
+		<Flag>form own squad</Flag>
+		<Flag>give random weapons</Flag>
+		<Flag>emergency</Flag>
+		<Flag>taxi</Flag>
+		<Flag>requires saints</Flag>
+		<Flag>give player weapon</Flag>
+		<Flag>change player character</Flag>
+		<Flag>sr1, 2 or 3 character</Flag>
+		<Flag>teleport in and out</Flag>
+		<Flag>has super powers</Flag>
+		<Flag>random selection</Flag>
+		</Element>
+	<Element>
+		<Name>Image_name</Name>
+		<Type>String</Type>
+		<Display_Name>Cellphone Image</Display_Name>
+		</Element>
+	<Element>
+		<Name>Blocked_Objectives</Name>
+		<Type>Grid</Type>
+		<Display_Name>Calling Blocked During Objectives</Display_Name>
+		<Required>false</Required>
+		<Element>
+			<Name>Objective</Name>
+			<Type>Reference</Type>
+			<Reference>
+				<File>..\levels\sr3_city\sr3_city_objectives.xtbl</File>
+				<Type>Objective.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+		<Max_Children>15</Max_Children>
+		<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	<Element>
+		<Name>Blocked_Avail_Objectives</Name>
+		<Type>Grid</Type>
+		<Display_Name>Calling Blocked When Available Objectives</Display_Name>
+		<Required>false</Required>
+		<Element>
+			<Name>Objective</Name>
+			<Type>Reference</Type>
+			<Reference>
+				<File>..\levels\sr3_city\sr3_city_objectives.xtbl</File>
+				<Type>Objective.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+		<Max_Children>15</Max_Children>
+		<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	<Element>
+		<Name>Is_DLC</Name>
+		<Type>Selection</Type>
+		<Display_Name>Is DLC</Display_Name>
+		<Required>false</Required>
+		<Default>False</Default>
+		<Choice>True</Choice>
+		<Choice>False</Choice>
+		</Element>
+	<Element>
+		<Name>Framework</Name>
+		<Type>Reference</Type>
+		<Description>Framework that this belongs to</Description>
+		<Required>false</Required>
+		<Reference>
+			<File>dlc_frameworks.xtbl</File>
+			<Type>BundleInfo.Flag_String</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Entries</Name>
+		<Category>
+			<Name>318Disabled</Name>
+			</Category>
+		<Category>
+			<Name>DLC</Name>
+			</Category>
+		<Category>
+			<Name>NeverUsed</Name>
+			</Category>
+		<Category>
+			<Name>SR3Old</Name>
+			</Category>
+		</Category>
+	</EntryCategories>
+</root>

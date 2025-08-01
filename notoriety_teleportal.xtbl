@@ -1,0 +1,626 @@
+<root>
+<Table>
+	<teleportal_def>
+		<Name>Default</Name>
+		<teleportal_info>
+			<teleportal_info_element>
+				<act>2</act>
+				<notoriety_level>2</notoriety_level>
+				<group_id>0</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>35</min_spawn_sec>
+				<max_spawn_sec>45</max_spawn_sec>
+				<spawn_group>2 Specialist</spawn_group>
+				</teleportal_info_element>
+			<teleportal_info_element>
+				<notoriety_level>3</notoriety_level>
+				<act>2</act>
+				<group_id>0</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>35</min_spawn_sec>
+				<max_spawn_sec>45</max_spawn_sec>
+				<spawn_group>2 Specialist 1 CID</spawn_group>
+				</teleportal_info_element>
+			<teleportal_info_element>
+				<notoriety_level>4</notoriety_level>
+				<act>2</act>
+				<group_id>0</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>35</min_spawn_sec>
+				<max_spawn_sec>45</max_spawn_sec>
+				<spawn_group>2 Specialist 1 CID</spawn_group>
+				</teleportal_info_element>
+			<teleportal_info_element>
+				<act>2</act>
+				<notoriety_level>4</notoriety_level>
+				<group_id>1</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>35</min_spawn_sec>
+				<max_spawn_sec>45</max_spawn_sec>
+				<spawn_group>2 Shieldgrunt</spawn_group>
+				</teleportal_info_element>
+			<teleportal_info_element>
+				<notoriety_level>5</notoriety_level>
+				<act>2</act>
+				<group_id>0</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>35</min_spawn_sec>
+				<max_spawn_sec>45</max_spawn_sec>
+				<spawn_group>2 Murderbot 1 CID</spawn_group>
+				</teleportal_info_element>
+			<!--<teleportal_info_element>
+				<notoriety_level>2</notoriety_level>
+				<act>3</act>
+				<group_id>0</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>35</min_spawn_sec>
+				<max_spawn_sec>45</max_spawn_sec>
+				<spawn_group>2 SpecialistThump</spawn_group>
+				</teleportal_info_element>
+			<teleportal_info_element>
+				<act>3</act>
+				<notoriety_level>2</notoriety_level>
+				<group_id>1</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>35</min_spawn_sec>
+				<max_spawn_sec>45</max_spawn_sec>
+				<spawn_group>2 Shieldgrunt</spawn_group>
+				</teleportal_info_element>
+			<teleportal_info_element>
+				<notoriety_level>3</notoriety_level>
+				<act>3</act>
+				<group_id>0</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>35</min_spawn_sec>
+				<max_spawn_sec>45</max_spawn_sec>
+				<spawn_group>2 SpecialistThump 1 CID</spawn_group>
+				</teleportal_info_element>
+			<teleportal_info_element>
+				<act>3</act>
+				<notoriety_level>4</notoriety_level>
+				<group_id>0</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>35</min_spawn_sec>
+				<max_spawn_sec>45</max_spawn_sec>
+				<spawn_group>1 SpecialistRocket</spawn_group>
+				</teleportal_info_element>
+			<teleportal_info_element>
+				<notoriety_level>4</notoriety_level>
+				<act>3</act>
+				<group_id>1</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>35</min_spawn_sec>
+				<max_spawn_sec>45</max_spawn_sec>
+				<spawn_group>2 SpecialistThump</spawn_group>
+				</teleportal_info_element>
+			<teleportal_info_element>
+				<act>3</act>
+				<notoriety_level>4</notoriety_level>
+				<group_id>2</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>35</min_spawn_sec>
+				<max_spawn_sec>45</max_spawn_sec>
+				<spawn_group>2 Murderbot 1 CID</spawn_group>
+				</teleportal_info_element>
+			<teleportal_info_element>
+				<notoriety_level>5</notoriety_level>
+				<act>3</act>
+				<group_id>0</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>35</min_spawn_sec>
+				<max_spawn_sec>45</max_spawn_sec>
+				<spawn_group>2 SpecialistThump</spawn_group>
+				</teleportal_info_element>
+			<teleportal_info_element>
+				<act>3</act>
+				<notoriety_level>5</notoriety_level>
+				<group_id>1</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>35</min_spawn_sec>
+				<max_spawn_sec>45</max_spawn_sec>
+				<spawn_group>2 Murderbot 1 CID</spawn_group>
+				</teleportal_info_element>-->
+<!-- group_act3_lvl5_saints -->
+			<!--Start custom-->
+			<!-- <teleportal_info_element>
+				<act>3</act>
+				<notoriety_level>1</notoriety_level>
+				<group_id>0</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>3</min_spawn_sec>
+				<max_spawn_sec>3</max_spawn_sec>
+				<spawn_group>group_morningsaints2</spawn_group>
+			</teleportal_info_element> -->
+			 
+			<!-- <teleportal_info_element>
+				<act>3</act>
+				<notoriety_level>2</notoriety_level>
+				<group_id>0</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>3</min_spawn_sec>
+				<max_spawn_sec>3</max_spawn_sec>
+				<spawn_group>group_test</spawn_group>
+			</teleportal_info_element> -->
+			<teleportal_info_element>
+				<act>3</act>
+				<notoriety_level>2</notoriety_level>
+				<group_id>0</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>3</min_spawn_sec>
+				<max_spawn_sec>3</max_spawn_sec>
+				<spawn_group>group_morningsaints</spawn_group>
+			</teleportal_info_element>
+			<teleportal_info_element>
+				<act>3</act>
+				<notoriety_level>2</notoriety_level>
+				<group_id>0</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>3</min_spawn_sec>
+				<max_spawn_sec>3</max_spawn_sec>
+				<spawn_group>group_police</spawn_group>
+			</teleportal_info_element>
+			<teleportal_info_element>
+				<act>3</act>
+				<notoriety_level>2</notoriety_level>
+				<group_id>1</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>3</min_spawn_sec>
+				<max_spawn_sec>3</max_spawn_sec>
+				<spawn_group>group_military</spawn_group>
+			</teleportal_info_element>
+			<teleportal_info_element>
+				<act>3</act>
+				<notoriety_level>2</notoriety_level>
+				<group_id>2</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>3</min_spawn_sec>
+				<max_spawn_sec>3</max_spawn_sec>
+				<spawn_group>group_policeshield</spawn_group>
+			</teleportal_info_element>
+			
+			<teleportal_info_element>
+				<act>3</act>
+				<notoriety_level>3</notoriety_level>
+				<group_id>0</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>3</min_spawn_sec>
+				<max_spawn_sec>3</max_spawn_sec>
+				<spawn_group>group_morningsaints</spawn_group>
+			</teleportal_info_element>
+			<teleportal_info_element>
+				<act>3</act>
+				<notoriety_level>3</notoriety_level>
+				<group_id>1</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>3</min_spawn_sec>
+				<max_spawn_sec>3</max_spawn_sec>
+				<spawn_group>group_gang</spawn_group>
+			</teleportal_info_element>
+			<teleportal_info_element>
+				<act>3</act>
+				<notoriety_level>3</notoriety_level>
+				<group_id>2</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>3</min_spawn_sec>
+				<max_spawn_sec>3</max_spawn_sec>
+				<spawn_group>group_police</spawn_group>
+			</teleportal_info_element>
+			<teleportal_info_element>
+				<act>3</act>
+				<notoriety_level>3</notoriety_level>
+				<group_id>4</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>3</min_spawn_sec>
+				<max_spawn_sec>3</max_spawn_sec>
+				<spawn_group>group_gang</spawn_group>
+			</teleportal_info_element>
+			<teleportal_info_element>
+				<act>3</act>
+				<notoriety_level>3</notoriety_level>
+				<group_id>5</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>3</min_spawn_sec>
+				<max_spawn_sec>3</max_spawn_sec>
+				<spawn_group>group_policeshield</spawn_group>
+			</teleportal_info_element>
+
+			
+			<teleportal_info_element>
+				<act>3</act>
+				<notoriety_level>4</notoriety_level>
+				<group_id>0</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>3</min_spawn_sec>
+				<max_spawn_sec>3</max_spawn_sec>
+				<spawn_group>group_morningsaints</spawn_group>
+			</teleportal_info_element>
+			<teleportal_info_element>
+				<act>3</act>
+				<notoriety_level>4</notoriety_level>
+				<group_id>1</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>3</min_spawn_sec>
+				<max_spawn_sec>3</max_spawn_sec>
+				<spawn_group>group_deckers1</spawn_group>
+			</teleportal_info_element>
+			<teleportal_info_element>
+				<act>3</act>
+				<notoriety_level>4</notoriety_level>
+				<group_id>2</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>3</min_spawn_sec>
+				<max_spawn_sec>3</max_spawn_sec>
+				<spawn_group>group_stag</spawn_group>
+			</teleportal_info_element>
+			<teleportal_info_element>
+				<act>3</act>
+				<notoriety_level>4</notoriety_level>
+				<group_id>4</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>3</min_spawn_sec>
+				<max_spawn_sec>3</max_spawn_sec>
+				<spawn_group>group_deckers1</spawn_group>
+			</teleportal_info_element>
+			<teleportal_info_element>
+				<act>3</act>
+				<notoriety_level>4</notoriety_level>
+				<group_id>5</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>3</min_spawn_sec>
+				<max_spawn_sec>3</max_spawn_sec>
+				<spawn_group>group_stagshield</spawn_group>
+			</teleportal_info_element>
+			
+			<teleportal_info_element>
+				<act>3</act>
+				<notoriety_level>5</notoriety_level>
+				<group_id>0</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>3</min_spawn_sec>
+				<max_spawn_sec>3</max_spawn_sec>
+				<spawn_group>group_morningsaints</spawn_group>
+			</teleportal_info_element>
+			<teleportal_info_element>
+				<act>3</act>
+				<notoriety_level>5</notoriety_level>
+				<group_id>1</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>3</min_spawn_sec>
+				<max_spawn_sec>3</max_spawn_sec>
+				<spawn_group>group_gang</spawn_group>
+			</teleportal_info_element>
+			<teleportal_info_element>
+				<act>3</act>
+				<notoriety_level>5</notoriety_level>
+				<group_id>2</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>3</min_spawn_sec>
+				<max_spawn_sec>3</max_spawn_sec>
+				<spawn_group>group_deckers1</spawn_group>
+			</teleportal_info_element>
+			<teleportal_info_element>
+				<act>3</act>
+				<notoriety_level>5</notoriety_level>
+				<group_id>4</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>3</min_spawn_sec>
+				<max_spawn_sec>3</max_spawn_sec>
+				<spawn_group>group_police</spawn_group>
+			</teleportal_info_element>
+			<teleportal_info_element>
+				<act>3</act>
+				<notoriety_level>5</notoriety_level>
+				<group_id>5</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>3</min_spawn_sec>
+				<max_spawn_sec>3</max_spawn_sec>
+				<spawn_group>group_stag</spawn_group>
+			</teleportal_info_element>
+			
+			<!--End custom-->
+			<teleportal_info_element>
+				<act>0</act>
+				<notoriety_level>30</notoriety_level>
+				<group_id>0</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>10</min_spawn_sec>
+				<max_spawn_sec>15</max_spawn_sec>
+				<spawn_group>5 Grunts 1 Shield 1 CID</spawn_group>
+				</teleportal_info_element>
+			<teleportal_info_element>
+				<act>0</act>
+				<notoriety_level>30</notoriety_level>
+				<group_id>1</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>10</min_spawn_sec>
+				<max_spawn_sec>15</max_spawn_sec>
+				<spawn_group>4 Grunts 1 Shield 1 CID</spawn_group>
+				</teleportal_info_element>
+			<teleportal_info_element>
+				<act>0</act>
+				<notoriety_level>32</notoriety_level>
+				<group_id>0</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>15</min_spawn_sec>
+				<max_spawn_sec>25</max_spawn_sec>
+				<spawn_group>4 Grunts</spawn_group>
+				</teleportal_info_element>
+			<teleportal_info_element>
+				<act>0</act>
+				<notoriety_level>33</notoriety_level>
+				<group_id>0</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>15</min_spawn_sec>
+				<max_spawn_sec>25</max_spawn_sec>
+				<spawn_group>2 Grunt Specialist</spawn_group>
+				</teleportal_info_element>
+			<teleportal_info_element>
+				<act>0</act>
+				<notoriety_level>34</notoriety_level>
+				<group_id>0</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>10</min_spawn_sec>
+				<max_spawn_sec>15</max_spawn_sec>
+				<spawn_group>2 Specialist 1 CID</spawn_group>
+				</teleportal_info_element>
+			<teleportal_info_element>
+				<act>0</act>
+				<notoriety_level>35</notoriety_level>
+				<group_id>0</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>15</min_spawn_sec>
+				<max_spawn_sec>25</max_spawn_sec>
+				<spawn_group>2 Specialist 1 Shieldgrunt 1 CID</spawn_group>
+				</teleportal_info_element>
+			<teleportal_info_element>
+				<act>0</act>
+				<notoriety_level>36</notoriety_level>
+				<group_id>0</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>3</min_spawn_sec>
+				<max_spawn_sec>5</max_spawn_sec>
+				<spawn_group>6 Genki</spawn_group>
+				</teleportal_info_element>
+			<teleportal_info_element>
+				<act>0</act>
+				<notoriety_level>36</notoriety_level>
+				<group_id>1</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>3</min_spawn_sec>
+				<max_spawn_sec>5</max_spawn_sec>
+				<spawn_group>6 Genki</spawn_group>
+				</teleportal_info_element>
+			<teleportal_info_element>
+				<act>0</act>
+				<notoriety_level>36</notoriety_level>
+				<group_id>2</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>3</min_spawn_sec>
+				<max_spawn_sec>5</max_spawn_sec>
+				<spawn_group>6 Genki</spawn_group>
+				</teleportal_info_element>
+			<teleportal_info_element>
+				<act>0</act>
+				<notoriety_level>37</notoriety_level>
+				<group_id>0</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>10</min_spawn_sec>
+				<max_spawn_sec>15</max_spawn_sec>
+				<spawn_group>2 Grunt 2 ShieldGrunt</spawn_group>
+				</teleportal_info_element>
+			<teleportal_info_element>
+				<act>0</act>
+				<notoriety_level>38</notoriety_level>
+				<group_id>0</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>10</min_spawn_sec>
+				<max_spawn_sec>15</max_spawn_sec>
+				<spawn_group>4 Cops</spawn_group>
+				</teleportal_info_element>
+			<teleportal_info_element>
+				<act>0</act>
+				<notoriety_level>39</notoriety_level>
+				<group_id>0</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>10</min_spawn_sec>
+				<max_spawn_sec>15</max_spawn_sec>
+				<spawn_group>4 Cops</spawn_group>
+				</teleportal_info_element>
+			<teleportal_info_element>
+				<act>0</act>
+				<notoriety_level>39</notoriety_level>
+				<group_id>1</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>10</min_spawn_sec>
+				<max_spawn_sec>15</max_spawn_sec>
+				<spawn_group>4 Cops</spawn_group>
+				</teleportal_info_element>
+			<teleportal_info_element>
+				<act>0</act>
+				<notoriety_level>40</notoriety_level>
+				<group_id>0</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>10</min_spawn_sec>
+				<max_spawn_sec>15</max_spawn_sec>
+				<spawn_group>3 ShieldGrunt</spawn_group>
+				</teleportal_info_element>
+			<teleportal_info_element>
+				<act>0</act>
+				<notoriety_level>41</notoriety_level>
+				<group_id>0</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>10</min_spawn_sec>
+				<max_spawn_sec>15</max_spawn_sec>
+				<spawn_group>4 Bikers</spawn_group>
+				</teleportal_info_element>
+			<teleportal_info_element>
+				<act>0</act>
+				<notoriety_level>42</notoriety_level>
+				<group_id>0</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>10</min_spawn_sec>
+				<max_spawn_sec>15</max_spawn_sec>
+				<spawn_group>4 Mascots</spawn_group>
+				</teleportal_info_element>
+			<teleportal_info_element>
+				<act>0</act>
+				<notoriety_level>43</notoriety_level>
+				<group_id>0</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>10</min_spawn_sec>
+				<max_spawn_sec>15</max_spawn_sec>
+				<spawn_group>4 Strippers</spawn_group>
+				</teleportal_info_element>
+			</teleportal_info>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</teleportal_def>
+	<teleportal_def>
+		<Name>DLC1</Name>
+		<teleportal_info>
+			<teleportal_info_element>
+				<act>5</act>
+				<notoriety_level>3</notoriety_level>
+				<group_id>0</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>15</min_spawn_sec>
+				<max_spawn_sec>25</max_spawn_sec>
+				<spawn_group>dlc 2 Doms 2 Gimps</spawn_group>
+				</teleportal_info_element>
+			<teleportal_info_element>
+				<act>5</act>
+				<notoriety_level>4</notoriety_level>
+				<group_id>0</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>15</min_spawn_sec>
+				<max_spawn_sec>25</max_spawn_sec>
+				<spawn_group>dlc 3 Doms 3 Gimps</spawn_group>
+				</teleportal_info_element>
+			<teleportal_info_element>
+				<act>5</act>
+				<notoriety_level>5</notoriety_level>
+				<group_id>0</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>15</min_spawn_sec>
+				<max_spawn_sec>25</max_spawn_sec>
+				<spawn_group>dlc last teleportal</spawn_group>
+				</teleportal_info_element>
+			</teleportal_info>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<Framework>dlc1</Framework>
+		</teleportal_def>
+	<teleportal_def>
+		<Name>DLC2</Name>
+		<teleportal_info>
+			<teleportal_info_element>
+				<act>6</act>
+				<notoriety_level>3</notoriety_level>
+				<group_id>0</group_id>
+				<spawn_weight>1</spawn_weight>
+				<min_spawn_sec>15</min_spawn_sec>
+				<max_spawn_sec>25</max_spawn_sec>
+				<spawn_group>2 Murderbot 1 CID</spawn_group>
+				</teleportal_info_element>
+			</teleportal_info>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<Framework>dlc2</Framework>
+		</teleportal_def>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>teleportal_def</Name>
+	<Type>TableDescription</Type>
+	<Display_Name>Teleportal Definition</Display_Name>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		</Element>
+	<Element>
+		<Name>teleportal_info</Name>
+		<Type>Grid</Type>
+		<Display_Name>Teleportal Information</Display_Name>
+		<Element>
+			<Name>teleportal_info_element</Name>
+			<Type>Element</Type>
+			<Element>
+				<Name>act</Name>
+				<Type>Int</Type>
+				<Display_Name>Act</Display_Name>
+				<Default>1</Default>
+				<MinValue>0</MinValue>
+				<MaxValue>6</MaxValue>
+				</Element>
+			<Element>
+				<Name>notoriety_level</Name>
+				<Type>Int</Type>
+				<Display_Name>Notoriety Level</Display_Name>
+				<Default>0</Default>
+				<MinValue>0</MinValue>
+				</Element>
+			<Element>
+				<Name>group_id</Name>
+				<Type>Int</Type>
+				<Display_Name>Group ID</Display_Name>
+				<Default>0</Default>
+				<MinValue>0</MinValue>
+				<MaxValue>15</MaxValue>
+				</Element>
+			<Element>
+				<Name>spawn_weight</Name>
+				<Type>Int</Type>
+				<Display_Name>Spawn Weight</Display_Name>
+				<Default>1</Default>
+				<MinValue>0</MinValue>
+				</Element>
+			<Element>
+				<Name>min_spawn_sec</Name>
+				<Type>Float</Type>
+				<Display_Name>Minimum Spawn Delay (sec)</Display_Name>
+				<Default>0.0</Default>
+				</Element>
+			<Element>
+				<Name>max_spawn_sec</Name>
+				<Type>Float</Type>
+				<Display_Name>Maximum Spawn Delay (sec)</Display_Name>
+				<Default>0.0</Default>
+				</Element>
+			<Element>
+				<Name>spawn_group</Name>
+				<Type>Reference</Type>
+				<Display_Name>Spawn Group</Display_Name>
+				<Reference>
+					<File>notoriety_teleportal_group.xtbl</File>
+					<Type>teleportal_group.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			</Element>
+		<Num_Display_Rows>35</Num_Display_Rows>
+		</Element>
+	<Element>
+		<Name>Framework</Name>
+		<Type>Reference</Type>
+		<Required>false</Required>
+		<Reference>
+			<File>dlc_frameworks.xtbl</File>
+			<Type>BundleInfo.Flag_String</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

@@ -1,0 +1,1145 @@
+<root>
+<Table>
+	<color_entry>
+		<Name>bld_blue_01</Name>
+		<Color>0.242281 0.366253 0.450786 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>0</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Blue</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_blue_03</Name>
+		<Color>0.309469 0.439657 0.508881 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>1</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Blue</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_blue_04</Name>
+		<Color>0.346704 0.462077 0.539479 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>3</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Blue</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_green_01</Name>
+		<Color>0.23074 0.346704 0.212231 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>4</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Green</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_green_02</Name>
+		<Color>0.266356 0.381326 0.238398 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>5</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Green</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_green_03</Name>
+		<Color>0.300544 0.423268 0.270498 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>6</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Green</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_green_04</Name>
+		<Color>0.337164 0.467784 0.304987 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>7</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Green</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_orange_01</Name>
+		<Color>0.539479 0.313989 0.201556 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>8</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Orange</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_orange_02</Name>
+		<Color>0.55834 0.332452 0.219526 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>9</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Orange</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_orange_03</Name>
+		<Color>0.571125 0.351533 0.242281 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>10</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Orange</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_orange_04</Name>
+		<Color>0.603827 0.386429 0.270498 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>11</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Orange</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_red_01</Name>
+		<Color>0.603827 0.109462 0.06301 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>12</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Red</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_red_02</Name>
+		<Color>0.64448 0.130136 0.074214 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>13</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Red</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_red_03</Name>
+		<Color>0.679542 0.147027 0.0865 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>14</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Red</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_red_04</Name>
+		<Color>0.715694 0.165132 0.099899 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>15</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Red</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_red-orange_01</Name>
+		<Color>0.539479 0.258183 0.201556 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>16</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Red-Orange</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_red-orange_02</Name>
+		<Color>0.55834 0.266356 0.212231 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>17</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Red-Orange</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_red-orange_03</Name>
+		<Color>0.571125 0.287441 0.226966 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>18</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Red-Orange</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_red-orange_04</Name>
+		<Color>0.590619 0.300544 0.238398 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>19</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Red-Orange</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_yellow_01</Name>
+		<Color>0.590619 0.533276 0.278894 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>20</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Yellow</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_yellow_02</Name>
+		<Color>0.62396 0.57758 0.313989 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>21</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Yellow</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_yellow_03</Name>
+		<Color>0.679542 0.630757 0.361307 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>22</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Yellow</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_yellow_04</Name>
+		<Color>0.715694 0.672443 0.417885 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>23</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Yellow</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_yellow-orange_01</Name>
+		<Color>0.508881 0.371238 0.194618 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>24</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Yellow-Orange</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_yellow-orange_02</Name>
+		<Color>0.527115 0.391572 0.215861 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>25</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Yellow-Orange</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_yellow-orange_03</Name>
+		<Color>0.539479 0.40724 0.234551 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>26</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Yellow-Orange</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_yellow-orange_04</Name>
+		<Color>0.571125 0.42869 0.266356 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>27</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Yellow-Orange</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_blue_05</Name>
+		<Color>0.386429 0.496933 0.571125 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>28</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Blue</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_blue_06</Name>
+		<Color>0.42869 0.533276 0.603827 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>29</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Blue</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_blue_07</Name>
+		<Color>0.47932 0.584078 0.64448 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>30</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Blue</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_blue_08</Name>
+		<Color>0.533276 0.64448 0.679542 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>31</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Blue</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_blue_02</Name>
+		<Color>0.270498 0.396755 0.47932 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>32</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Blue</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_red-orange_05</Name>
+		<Color>0.62396 0.337164 0.270498 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>33</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Red-Orange</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_red-orange_06</Name>
+		<Color>0.64448 0.361307 0.300544 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>34</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Red-Orange</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_red-orange_07</Name>
+		<Color>0.658375 0.386429 0.323143 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>35</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Red-Orange</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_red-orange_08</Name>
+		<Color>0.679542 0.423268 0.361307 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>36</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Red-Orange</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_yellow-orange_05</Name>
+		<Color>0.603827 0.462077 0.296138 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>37</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Yellow-Orange</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_yellow-orange_06</Name>
+		<Color>0.64448 0.502886 0.323143 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>38</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Yellow-Orange</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_yellow-orange_08</Name>
+		<Color>0.679542 0.545724 0.381326 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>39</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Yellow-Orange</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_yellow-orange_07</Name>
+		<Color>0.658375 0.514918 0.351533 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>40</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Yellow-Orange</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_yellow_05</Name>
+		<Color>0.752942 0.715694 0.47932 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>41</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Yellow</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_yellow_06</Name>
+		<Color>0.768151 0.723055 0.496933 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>42</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Yellow</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_yellow_07</Name>
+		<Color>0.791298 0.752942 0.533276 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>43</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Yellow</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_yellow_08</Name>
+		<Color>0.791298 0.723055 0.55834 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>44</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Yellow</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_green_05</Name>
+		<Color>0.371238 0.496933 0.341914 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>45</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Green</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_green_07</Name>
+		<Color>0.462077 0.55834 0.434154 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>46</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Green</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_green_06</Name>
+		<Color>0.40724 0.527115 0.381326 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>47</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Green</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_green_08</Name>
+		<Color>0.48515 0.590619 0.462077 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>48</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Green</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_orange_05</Name>
+		<Color>0.64448 0.423268 0.304987 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>49</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Orange</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_orange_06</Name>
+		<Color>0.658375 0.445201 0.332452 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>50</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Orange</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_orange_07</Name>
+		<Color>0.679542 0.467784 0.3564 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>51</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Orange</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_orange_08</Name>
+		<Color>0.679542 0.467784 0.361307 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>52</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Orange</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_red_05</Name>
+		<Color>0.752942 0.184475 0.116971 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>53</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Red</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_red_06</Name>
+		<Color>0.791298 0.208637 0.132868 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>54</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Red</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_red_07</Name>
+		<Color>0.83077 0.223228 0.152926 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>55</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Red</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>bld_red_08</Name>
+		<Color>0.871367 0.258183 0.174647 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>56</_Entry_ID>
+		<_Editor>
+			<Category>Structures:Red</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>prop_red_01</Name>
+		<Color>0.527115 0.184475 0.138432 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>57</_Entry_ID>
+		<_Editor>
+			<Category>Props:Red</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>prop_red_03</Name>
+		<Color>0.637597 0.445201 0.412543 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>59</_Entry_ID>
+		<_Editor>
+			<Category>Props:Red</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>prop_red-orange_03</Name>
+		<Color>0.658375 0.491021 0.456411 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>60</_Entry_ID>
+		<_Editor>
+			<Category>Props:Red-Orange</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>prop_red_02</Name>
+		<Color>0.630757 0.361307 0.323143 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>61</_Entry_ID>
+		<_Editor>
+			<Category>Props:Red</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>prop_red-orange_01</Name>
+		<Color>0.665387 0.250158 0.162029 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>62</_Entry_ID>
+		<_Editor>
+			<Category>Props:Red-Orange</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>prop_red-orange_02</Name>
+		<Color>0.552011 0.337164 0.300544 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>63</_Entry_ID>
+		<_Editor>
+			<Category>Props:Red-Orange</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>prop_orange_02</Name>
+		<Color>0.665387 0.434154 0.313989 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>65</_Entry_ID>
+		<_Editor>
+			<Category>Props:Orange</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>prop_orange_03</Name>
+		<Color>0.630757 0.47932 0.40724 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>66</_Entry_ID>
+		<_Editor>
+			<Category>Props:Orange</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>prop_yellow-orange_01</Name>
+		<Color>0.665387 0.417885 0.144128 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>67</_Entry_ID>
+		<_Editor>
+			<Category>Props:Yellow-Orange</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>prop_yellow-orange_02</Name>
+		<Color>0.686685 0.57758 0.439657 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>68</_Entry_ID>
+		<_Editor>
+			<Category>Props:Yellow-Orange</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>prop_yellow-orange_03</Name>
+		<Color>0.783538 0.630757 0.462077 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>69</_Entry_ID>
+		<_Editor>
+			<Category>Props:Yellow-Orange</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>prop_yellow_01</Name>
+		<Color>0.73791 0.637597 0.205079 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>70</_Entry_ID>
+		<_Editor>
+			<Category>Props:Yellow</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>prop_yellow_02</Name>
+		<Color>0.651406 0.590619 0.304987 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>71</_Entry_ID>
+		<_Editor>
+			<Category>Props:Yellow</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>prop_yellow_03</Name>
+		<Color>0.62396 0.57758 0.401978 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>72</_Entry_ID>
+		<_Editor>
+			<Category>Props:Yellow</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>prop_blue-green_01</Name>
+		<Color>0.177888 0.597202 0.371238 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>73</_Entry_ID>
+		<_Editor>
+			<Category>Props:Blue-Green</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>prop_blue-green_02</Name>
+		<Color>0.318547 0.62396 0.445201 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>74</_Entry_ID>
+		<_Editor>
+			<Category>Props:Blue-Green</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>prop_blue-green_03</Name>
+		<Color>0.439657 0.686685 0.545724 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>75</_Entry_ID>
+		<_Editor>
+			<Category>Props:Blue-Green</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>prop_blue_01</Name>
+		<Color>0.122139 0.386429 0.55834 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>76</_Entry_ID>
+		<_Editor>
+			<Category>Props:Blue</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>prop_blue_02</Name>
+		<Color>0.327778 0.462077 0.533276 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>77</_Entry_ID>
+		<_Editor>
+			<Category>Props:Blue</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>prop_blue_03</Name>
+		<Color>0.445201 0.552011 0.610496 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>78</_Entry_ID>
+		<_Editor>
+			<Category>Props:Blue</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>prop_white</Name>
+		<Color>0.760525 0.822786 0.863157 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>79</_Entry_ID>
+		<_Editor>
+			<Category>Props</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>prop_green_01</Name>
+		<Color>0.181164 0.450786 0.122139 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>80</_Entry_ID>
+		<_Editor>
+			<Category>Props:Green</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>prop_green_02</Name>
+		<Color>0.332452 0.651406 0.254152 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>81</_Entry_ID>
+		<_Editor>
+			<Category>Props:Green</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+		<Name>prop_green_03</Name>
+		<Color>0.439657 0.597202 0.391572 1.0<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			</Color>
+		<_Entry_ID>82</_Entry_ID>
+		<_Editor>
+			<Category>Props:Green</Category>
+			</_Editor>
+		</color_entry>
+	<color_entry>
+      <Name>bld_warm-grey_12</Name>
+      <Color>0.791298 0.701102 0.651406 1.0</Color>
+      <_Entry_ID>84</_Entry_ID>
+      <_Editor>
+        <Category>Structures:Warm Grey</Category>
+      </_Editor>
+    </color_entry>
+    <color_entry><Name>bld_warm-grey_01</Name><Color>0.102242 0.090842 0.084376 1.0</Color><_Entry_ID>85</_Entry_ID><_Editor><Category>Structures:Warm Grey</Category></_Editor></color_entry><color_entry><Name>bld_warm-grey_02</Name><Color>0.132868 0.116971 0.111932 1.0</Color><_Entry_ID>86</_Entry_ID><_Editor><Category>Structures:Warm Grey</Category></_Editor></color_entry><color_entry><Name>bld_warm-grey_03</Name><Color>0.171441 0.152926 0.141263 1.0</Color><_Entry_ID>87</_Entry_ID><_Editor><Category>Structures:Warm Grey</Category></_Editor></color_entry><color_entry><Name>bld_warm-grey_04</Name><Color>0.215861 0.191202 0.177888 1.0</Color><_Entry_ID>88</_Entry_ID><_Editor><Category>Structures:Warm Grey</Category></_Editor></color_entry><color_entry><Name>bld_warm-grey_05</Name><Color>0.266356 0.238398 0.219526 1.0</Color><_Entry_ID>89</_Entry_ID><_Editor><Category>Structures:Warm Grey</Category></_Editor></color_entry><color_entry><Name>bld_warm-grey_06</Name><Color>0.318547 0.287441 0.262251 1.0</Color><_Entry_ID>90</_Entry_ID><_Editor><Category>Structures:Warm Grey</Category></_Editor></color_entry><color_entry><Name>bld_warm-grey_07</Name><Color>0.381326 0.341914 0.313989 1.0</Color><_Entry_ID>91</_Entry_ID><_Editor><Category>Structures:Warm Grey</Category></_Editor></color_entry><color_entry><Name>bld_warm-grey_08</Name><Color>0.450786 0.401978 0.371238 1.0</Color><_Entry_ID>92</_Entry_ID><_Editor><Category>Structures:Warm Grey</Category></_Editor></color_entry><color_entry><Name>bld_warm-grey_09</Name><Color>0.527115 0.467784 0.434154 1.0</Color><_Entry_ID>93</_Entry_ID><_Editor><Category>Structures:Warm Grey</Category></_Editor></color_entry><color_entry><Name>bld_warm-grey_10</Name><Color>0.603827 0.539479 0.502886 1.0</Color><_Entry_ID>94</_Entry_ID><_Editor><Category>Structures:Warm Grey</Category></_Editor></color_entry><color_entry><Name>bld_warm-grey_11</Name><Color>0.693872 0.617207 0.571125 1.0</Color><_Entry_ID>95</_Entry_ID><_Editor><Category>Structures:Warm Grey</Category></_Editor></color_entry><color_entry>
+      <Name>bld_cool-grey_12</Name>
+      <Color>0.708376 0.760525 0.791298 1.0</Color>
+      <_Entry_ID>97</_Entry_ID>
+      <_Editor>
+        <Category>Structures:Cool Grey</Category>
+      </_Editor>
+    </color_entry>
+    <color_entry><Name>bld_cool-grey_01</Name><Color>0.090842 0.097587 0.102242 1.0</Color><_Entry_ID>98</_Entry_ID><_Editor><Category>Structures:Cool Grey</Category></_Editor></color_entry><color_entry><Name>bld_cool-grey_02</Name><Color>0.116971 0.122139 0.132868 1.0</Color><_Entry_ID>99</_Entry_ID><_Editor><Category>Structures:Cool Grey</Category></_Editor></color_entry><color_entry><Name>bld_cool-grey_03</Name><Color>0.152926 0.162029 0.171441 1.0</Color><_Entry_ID>100</_Entry_ID><_Editor><Category>Structures:Cool Grey</Category></_Editor></color_entry><color_entry><Name>bld_cool-grey_04</Name><Color>0.191202 0.201556 0.215861 1.0</Color><_Entry_ID>101</_Entry_ID><_Editor><Category>Structures:Cool Grey</Category></_Editor></color_entry><color_entry><Name>bld_cool-grey_05</Name><Color>0.238398 0.254152 0.266356 1.0</Color><_Entry_ID>102</_Entry_ID><_Editor><Category>Structures:Cool Grey</Category></_Editor></color_entry><color_entry><Name>bld_cool-grey_06</Name><Color>0.283149 0.300544 0.318547 1.0</Color><_Entry_ID>103</_Entry_ID><_Editor><Category>Structures:Cool Grey</Category></_Editor></color_entry><color_entry><Name>bld_cool-grey_07</Name><Color>0.337164 0.361307 0.381326 1.0</Color><_Entry_ID>104</_Entry_ID><_Editor><Category>Structures:Cool Grey</Category></_Editor></color_entry><color_entry><Name>bld_cool-grey_08</Name><Color>0.396755 0.42869 0.450786 1.0</Color><_Entry_ID>105</_Entry_ID><_Editor><Category>Structures:Cool Grey</Category></_Editor></color_entry><color_entry><Name>bld_cool-grey_09</Name><Color>0.467784 0.502886 0.527115 1.0</Color><_Entry_ID>106</_Entry_ID><_Editor><Category>Structures:Cool Grey</Category></_Editor></color_entry><color_entry><Name>bld_cool-grey_10</Name><Color>0.539479 0.57758 0.603827 1.0</Color><_Entry_ID>107</_Entry_ID><_Editor><Category>Structures:Cool Grey</Category></_Editor></color_entry><color_entry><Name>bld_cool-grey_11</Name><Color>0.617207 0.665387 0.693872 1.0</Color><_Entry_ID>108</_Entry_ID><_Editor><Category>Structures:Cool Grey</Category></_Editor></color_entry><color_entry>
+      <Name>prop_warm-grey_12</Name>
+      <Color>0.791298 0.708376 0.651406 1.0</Color>
+      <_Entry_ID>110</_Entry_ID>
+      <_Editor>
+        <Category>Props:Warm grey</Category>
+      </_Editor>
+    </color_entry>
+    <color_entry><Name>prop_warm-grey_01</Name><Color>0.102242 0.090842 0.084376 1.0</Color><_Entry_ID>111</_Entry_ID><_Editor><Category>Props:Warm grey</Category></_Editor></color_entry><color_entry><Name>prop_warm-grey_02</Name><Color>0.132868 0.119538 0.111932 1.0</Color><_Entry_ID>112</_Entry_ID><_Editor><Category>Props:Warm grey</Category></_Editor></color_entry><color_entry><Name>prop_warm-grey_03</Name><Color>0.171441 0.152926 0.141263 1.0</Color><_Entry_ID>113</_Entry_ID><_Editor><Category>Props:Warm grey</Category></_Editor></color_entry><color_entry><Name>prop_warm-grey_04</Name><Color>0.215861 0.194618 0.177888 1.0</Color><_Entry_ID>114</_Entry_ID><_Editor><Category>Props:Warm grey</Category></_Editor></color_entry><color_entry><Name>prop_warm-grey_05</Name><Color>0.266356 0.238398 0.219526 1.0</Color><_Entry_ID>115</_Entry_ID><_Editor><Category>Props:Warm grey</Category></_Editor></color_entry><color_entry><Name>prop_warm-grey_06</Name><Color>0.318547 0.287441 0.266356 1.0</Color><_Entry_ID>116</_Entry_ID><_Editor><Category>Props:Warm grey</Category></_Editor></color_entry><color_entry><Name>prop_warm-grey_07</Name><Color>0.381326 0.341914 0.313989 1.0</Color><_Entry_ID>117</_Entry_ID><_Editor><Category>Props:Warm grey</Category></_Editor></color_entry><color_entry><Name>prop_warm-grey_08</Name><Color>0.450786 0.401978 0.371238 1.0</Color><_Entry_ID>118</_Entry_ID><_Editor><Category>Props:Warm grey</Category></_Editor></color_entry><color_entry><Name>prop_warm-grey_09</Name><Color>0.527115 0.473531 0.434154 1.0</Color><_Entry_ID>119</_Entry_ID><_Editor><Category>Props:Warm grey</Category></_Editor></color_entry><color_entry><Name>prop_warm-grey_10</Name><Color>0.603827 0.539479 0.502886 1.0</Color><_Entry_ID>120</_Entry_ID><_Editor><Category>Props:Warm grey</Category></_Editor></color_entry><color_entry><Name>prop_warm-grey_11</Name><Color>0.693872 0.62396 0.571125 1.0</Color><_Entry_ID>121</_Entry_ID><_Editor><Category>Props:Warm grey</Category></_Editor></color_entry><color_entry>
+      <Name>prop_cool-grey_12</Name>
+      <Color>0.708376 0.760525 0.791298 1.0</Color>
+      <_Entry_ID>123</_Entry_ID>
+      <_Editor>
+        <Category>Props:Cool Grey</Category>
+      </_Editor>
+    </color_entry>
+    <color_entry><Name>prop_cool-grey_01</Name><Color>0.090842 0.097587 0.102242 1.0</Color><_Entry_ID>124</_Entry_ID><_Editor><Category>Props:Cool Grey</Category></_Editor></color_entry><color_entry><Name>prop_cool-grey_02</Name><Color>0.119538 0.127438 0.132868 1.0</Color><_Entry_ID>125</_Entry_ID><_Editor><Category>Props:Cool Grey</Category></_Editor></color_entry><color_entry><Name>prop_cool-grey_03</Name><Color>0.152926 0.165132 0.171441 1.0</Color><_Entry_ID>126</_Entry_ID><_Editor><Category>Props:Cool Grey</Category></_Editor></color_entry><color_entry><Name>prop_cool-grey_04</Name><Color>0.191202 0.205079 0.215861 1.0</Color><_Entry_ID>127</_Entry_ID><_Editor><Category>Props:Cool Grey</Category></_Editor></color_entry><color_entry><Name>prop_cool-grey_05</Name><Color>0.238398 0.254152 0.266356 1.0</Color><_Entry_ID>128</_Entry_ID><_Editor><Category>Props:Cool Grey</Category></_Editor></color_entry><color_entry><Name>prop_cool-grey_06</Name><Color>0.283149 0.304987 0.318547 1.0</Color><_Entry_ID>129</_Entry_ID><_Editor><Category>Props:Cool Grey</Category></_Editor></color_entry><color_entry><Name>prop_cool-grey_07</Name><Color>0.341914 0.366253 0.381326 1.0</Color><_Entry_ID>130</_Entry_ID><_Editor><Category>Props:Cool Grey</Category></_Editor></color_entry><color_entry><Name>prop_cool-grey_08</Name><Color>0.401978 0.434154 0.450786 1.0</Color><_Entry_ID>131</_Entry_ID><_Editor><Category>Props:Cool Grey</Category></_Editor></color_entry><color_entry><Name>prop_cool-grey_09</Name><Color>0.467784 0.502886 0.527115 1.0</Color><_Entry_ID>132</_Entry_ID><_Editor><Category>Props:Cool Grey</Category></_Editor></color_entry><color_entry><Name>prop_cool-grey_10</Name><Color>0.539479 0.57758 0.603827 1.0</Color><_Entry_ID>133</_Entry_ID><_Editor><Category>Props:Cool Grey</Category></_Editor></color_entry><color_entry><Name>prop_cool-grey_11</Name><Color>0.617207 0.665387 0.693872 1.0</Color><_Entry_ID>134</_Entry_ID><_Editor><Category>Props:Cool Grey</Category></_Editor></color_entry><color_entry><Name>prop_pink</Name><Color>0.693872 0.132868 0.376262 1.0</Color><_Entry_ID>135</_Entry_ID><_Editor><Category>Props</Category></_Editor></color_entry><color_entry>
+      <Name>Prop_Black_01</Name>
+      <Color>0.05448 0.07036 0.08022 1.0</Color>
+      <_Entry_ID>136</_Entry_ID>
+      <_Editor>
+        <Category>Props:Blue</Category>
+      </_Editor>
+    </color_entry>
+    <color_entry>
+      <Name>prop_orange_01</Name>
+      <Color>0.64448 0.194618 0.109462 1.0</Color>
+      <_Entry_ID>137</_Entry_ID>
+      <_Editor>
+        <Category>Props:Orange</Category>
+      </_Editor>
+    </color_entry>
+    <color_entry><Name>prop_blue_04</Name><Color>0.165132 0.198069 0.223228 1.0</Color><_Entry_ID>138</_Entry_ID><_Editor><Category>Props:Blue</Category></_Editor></color_entry><color_entry>
+      <Name>prop_orange_04</Name>
+      <Color>0.913099 0.514918 0.114435 1.0</Color>
+      <_Entry_ID>139</_Entry_ID>
+      <_Editor>
+        <Category>Props:Orange</Category>
+      </_Editor>
+    </color_entry>
+    <color_entry>
+      <Name>bld_hero_gold_01</Name>
+      <Color>1.0 0.730461 0.376262 1.0</Color>
+      <_Entry_ID>140</_Entry_ID>
+      <_Editor>
+        <Category>Structures:Hero</Category>
+      </_Editor>
+    </color_entry>
+    <color_entry>
+      <Name>bld_hero_purple_01</Name>
+      <Color>0.467784 0.23074 0.603827 1.0</Color>
+      <_Entry_ID>141</_Entry_ID>
+      <_Editor>
+        <Category>Structures:Hero</Category>
+      </_Editor>
+    </color_entry>
+    <color_entry>
+      <Name>bld_hero_pink</Name>
+      <Color>0.597202 0.23074 0.40724 1.0</Color>
+      <_Entry_ID>142</_Entry_ID>
+      <_Editor>
+        <Category>Structures:Hero</Category>
+      </_Editor>
+    </color_entry>
+    <color_entry>
+      <Name>bld_hero_blue</Name>
+      <Color>0.155926 0.462077 0.708376 1.0</Color>
+      <_Entry_ID>143</_Entry_ID>
+      <_Editor>
+        <Category>Structures:Hero</Category>
+      </_Editor>
+    </color_entry>
+    <color_entry>
+      <Name>bld_hero_green</Name>
+      <Color>0.111932 0.508881 0.287441 1.0</Color>
+      <_Entry_ID>144</_Entry_ID>
+      <_Editor>
+        <Category>Structures:Hero</Category>
+      </_Editor>
+    </color_entry>
+    <color_entry>
+      <Name>bld_hero_red</Name>
+      <Color>0.693872 0.045186 0.009721 1.0</Color>
+      <_Entry_ID>145</_Entry_ID>
+      <_Editor>
+        <Category>Structures:Hero</Category>
+      </_Editor>
+    </color_entry>
+    <color_entry>
+      <Name>bld_hero_red_02</Name>
+      <Color>0.496933 0.013702 0.0 1.0</Color>
+      <_Entry_ID>146</_Entry_ID>
+      <_Editor>
+        <Category>Structures:Hero</Category>
+      </_Editor>
+    </color_entry>
+    <color_entry>
+      <Name>bld_hero_pink_02</Name>
+      <Color>0.496933 0.022174 0.191202 1.0</Color>
+      <_Entry_ID>147</_Entry_ID>
+      <_Editor>
+        <Category>Structures:Hero</Category>
+      </_Editor>
+    </color_entry>
+    <color_entry>
+      <Name>bld_hero_blue_02</Name>
+      <Color>0.003677 0.238398 0.57758 1.0</Color>
+      <_Entry_ID>148</_Entry_ID>
+      <_Editor>
+        <Category>Structures:Hero</Category>
+      </_Editor>
+    </color_entry>
+    <color_entry>
+      <Name>bld_hero_orange</Name>
+      <Color>0.57758 0.078187 0.00274 1.0</Color>
+      <_Entry_ID>149</_Entry_ID>
+      <_Editor>
+        <Category>Structures:Hero</Category>
+      </_Editor>
+    </color_entry>
+    <color_entry>
+      <Name>bld_hero_purple_02</Name>
+      <Color>0.266356 0.01096 0.571125 1.0</Color>
+      <_Entry_ID>150</_Entry_ID>
+      <_Editor>
+        <Category>Structures:Hero</Category>
+      </_Editor>
+    </color_entry>
+    <color_entry>
+      <Name>bld_hero_ylw</Name>
+      <Color>0.799103 0.637597 0.023153 1.0</Color>
+      <_Entry_ID>151</_Entry_ID>
+      <_Editor>
+        <Category>Structures:Hero</Category>
+      </_Editor>
+    </color_entry>
+    </Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>color_entry</Name>
+	<Type>TableDescription</Type>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		<Unique>true</Unique>
+		</Element>
+	<Element>
+		<Name>Color</Name>
+		<Type>Color</Type>
+		<R>
+			<Name>R</Name>
+			<Type>Int</Type>
+			<Default>255</Default>
+			</R>
+		<G>
+			<Name>G</Name>
+			<Type>Int</Type>
+			<Default>255</Default>
+			</G>
+		<B>
+			<Name>B</Name>
+			<Type>Int</Type>
+			<Default>255</Default>
+			</B>
+		</Element>
+	<Element>
+		<Name>_Entry_ID</Name>
+		<Type>Int</Type>
+		<Display_Name>Entry_ID</Display_Name>
+		<Unique>true</Unique>
+		<Default>0</Default>
+		</Element>
+	<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Props</Name>
+		<Category>
+			<Name>Blue</Name>
+			</Category>
+		<Category>
+			<Name>Blue-Green</Name>
+			</Category>
+		<Category>
+			<Name>Green</Name>
+			</Category>
+		<Category>
+			<Name>Orange</Name>
+			</Category>
+		<Category>
+			<Name>Red</Name>
+			</Category>
+		<Category>
+			<Name>Red-Orange</Name>
+			</Category>
+		<Category>
+			<Name>Yellow</Name>
+			</Category>
+		<Category>
+			<Name>Yellow-Orange</Name>
+			</Category>
+		<Category>
+            <Name>Warm grey</Name>
+          </Category>
+          <Category>
+            <Name>Cool Grey</Name>
+          </Category>
+          </Category>
+	<Category>
+		<Name>Structures</Name>
+		<Category>
+			<Name>Blue</Name>
+			</Category>
+		<Category>
+			<Name>Green</Name>
+			</Category>
+		<Category>
+			<Name>Orange</Name>
+			</Category>
+		<Category>
+			<Name>Red</Name>
+			</Category>
+		<Category>
+			<Name>Red-Orange</Name>
+			</Category>
+		<Category>
+			<Name>Yellow</Name>
+			</Category>
+		<Category>
+			<Name>Yellow-Orange</Name>
+			</Category>
+		<Category>
+            <Name>Warm Grey</Name>
+          </Category>
+          <Category>
+            <Name>Cool Grey</Name>
+          </Category>
+          <Category>
+            <Name>Hero</Name>
+          </Category>
+          </Category>
+	</EntryCategories>
+</root>

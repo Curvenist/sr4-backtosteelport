@@ -1,0 +1,550 @@
+<root>
+<state_machine>
+	<validated>true</validated>
+	<name>sprint sm</name>
+	<default_node>Starting Point</default_node>
+	<nodes>
+		<node>
+			<name>Sprint</name>
+			<tag_name>Sprint</tag_name>
+			<clip_name></clip_name>
+			<loop_flag>True</loop_flag>
+			<start_time>0.000000</start_time>
+			<layer>4</layer>
+			<transitions>
+				<transition>
+					<name>Sprint State to sprint 180 right 0</name>
+					<to_node>sprint 180 right</to_node>
+					<length>0.300000</length>
+					<conditions>
+						<condition>
+							<control_parameter>
+								<name>local</name>
+								<data_type>bool</data_type>
+								<default_value>true</default_value>
+								</control_parameter>
+							<comparison>equal</comparison>
+							<parameter1>
+								<type>control parameter</type>
+								<source_name>sprint bool</source_name>
+								</parameter1>
+							<parameter2>
+								<type>local control parameter</type>
+								<source_name>local</source_name>
+								</parameter2>
+							</condition>
+						<condition>
+							<control_parameter>
+								<name>local</name>
+								<data_type>float</data_type>
+								<default_value>210.000000</default_value>
+								<min_value>0.000000</min_value>
+								<max_value>1.000000</max_value>
+								</control_parameter>
+							<comparison>less</comparison>
+							<parameter1>
+								<type>control filter</type>
+								<source_name>direction degrees</source_name>
+								</parameter1>
+							<parameter2>
+								<type>local control parameter</type>
+								<source_name>local</source_name>
+								</parameter2>
+							</condition>
+						<condition>
+							<control_parameter>
+								<name>local</name>
+								<data_type>bool</data_type>
+								<default_value>false</default_value>
+								</control_parameter>
+							<comparison>equal</comparison>
+							<parameter1>
+								<type>control parameter</type>
+								<source_name>Left Foot Bool</source_name>
+								</parameter1>
+							<parameter2>
+								<type>local control parameter</type>
+								<source_name>local</source_name>
+								</parameter2>
+							</condition>
+						<condition>
+							<control_parameter>
+								<name>local</name>
+								<data_type>float</data_type>
+								<default_value>150.000000</default_value>
+								<min_value>0.000000</min_value>
+								<max_value>1.000000</max_value>
+								</control_parameter>
+							<comparison>greater</comparison>
+							<parameter1>
+								<type>control filter</type>
+								<source_name>direction degrees</source_name>
+								</parameter1>
+							<parameter2>
+								<type>local control parameter</type>
+								<source_name>local</source_name>
+								</parameter2>
+							</condition>
+						</conditions>
+					</transition>
+				<transition>
+					<name>Sprint State to sprint 180 left 0</name>
+					<to_node>sprint 180 left</to_node>
+					<length>0.300000</length>
+					<conditions>
+						<condition>
+							<control_parameter>
+								<name>local</name>
+								<data_type>bool</data_type>
+								<default_value>true</default_value>
+								</control_parameter>
+							<comparison>equal</comparison>
+							<parameter1>
+								<type>control parameter</type>
+								<source_name>Left Foot Bool</source_name>
+								</parameter1>
+							<parameter2>
+								<type>local control parameter</type>
+								<source_name>local</source_name>
+								</parameter2>
+							</condition>
+						<condition>
+							<control_parameter>
+								<name>local</name>
+								<data_type>float</data_type>
+								<default_value>150.000000</default_value>
+								<min_value>0.000000</min_value>
+								<max_value>1.000000</max_value>
+								</control_parameter>
+							<comparison>greater</comparison>
+							<parameter1>
+								<type>control filter</type>
+								<source_name>direction degrees</source_name>
+								</parameter1>
+							<parameter2>
+								<type>local control parameter</type>
+								<source_name>local</source_name>
+								</parameter2>
+							</condition>
+						<condition>
+							<control_parameter>
+								<name>local</name>
+								<data_type>float</data_type>
+								<default_value>210.000000</default_value>
+								<min_value>0.000000</min_value>
+								<max_value>1.000000</max_value>
+								</control_parameter>
+							<comparison>less</comparison>
+							<parameter1>
+								<type>control filter</type>
+								<source_name>direction degrees</source_name>
+								</parameter1>
+							<parameter2>
+								<type>local control parameter</type>
+								<source_name>local</source_name>
+								</parameter2>
+							</condition>
+						<condition>
+							<control_parameter>
+								<name>local</name>
+								<data_type>bool</data_type>
+								<default_value>true</default_value>
+								</control_parameter>
+							<comparison>equal</comparison>
+							<parameter1>
+								<type>control parameter</type>
+								<source_name>sprint bool</source_name>
+								</parameter1>
+							<parameter2>
+								<type>local control parameter</type>
+								<source_name>local</source_name>
+								</parameter2>
+							</condition>
+						</conditions>
+					</transition>
+				</transitions>
+			</node>
+		<node>
+			<name>sprint 180 left</name>
+			<tag_name>sprint turn 180 left</tag_name>
+			<clip_name></clip_name>
+			<loop_flag>False</loop_flag>
+			<start_time>0.000000</start_time>
+			<layer>4</layer>
+			<transitions>
+				<transition>
+					<name>sprint 180 left to Sprint State 0</name>
+					<to_node>Sprint</to_node>
+					<length>0.000000</length>
+					<cyclic_percent>0.000000</cyclic_percent>
+					<conditions>
+						<condition>
+							<control_parameter>
+								<name>local</name>
+								<data_type>float</data_type>
+								<default_value>1.000000</default_value>
+								<min_value>0.000000</min_value>
+								<max_value>1.000000</max_value>
+								</control_parameter>
+							<comparison>equal</comparison>
+							<parameter1>
+								<type>clip time as percent</type>
+								<source_name>?%</source_name>
+								</parameter1>
+							<parameter2>
+								<type>local control parameter</type>
+								<source_name>local</source_name>
+								</parameter2>
+							</condition>
+						</conditions>
+					</transition>
+				</transitions>
+			</node>
+		<node>
+			<name>sprint 180 right</name>
+			<tag_name>sprint turn 180 right</tag_name>
+			<clip_name></clip_name>
+			<loop_flag>False</loop_flag>
+			<start_time>0.000000</start_time>
+			<layer>4</layer>
+			<transitions>
+				<transition>
+					<name>sprint 180 right to Sprint State 0</name>
+					<to_node>Sprint</to_node>
+					<length>0.000000</length>
+					<cyclic_percent>0.500000</cyclic_percent>
+					<conditions>
+						<condition>
+							<control_parameter>
+								<name>local</name>
+								<data_type>float</data_type>
+								<default_value>1.000000</default_value>
+								<min_value>0.000000</min_value>
+								<max_value>1.000000</max_value>
+								</control_parameter>
+							<comparison>equal</comparison>
+							<parameter1>
+								<type>clip time as percent</type>
+								<source_name>?%</source_name>
+								</parameter1>
+							<parameter2>
+								<type>local control parameter</type>
+								<source_name>local</source_name>
+								</parameter2>
+							</condition>
+						</conditions>
+					</transition>
+				</transitions>
+			</node>
+		<node>
+			<name>Starting Point</name>
+			<tag_name></tag_name>
+			<clip_name></clip_name>
+			<loop_flag>false</loop_flag>
+			<start_time>0.000000</start_time>
+			<layer>4</layer>
+			<transitions>
+				<transition>
+					<name>Starting Point to Weapon Sprint 0</name>
+					<to_node>Weapon Sprint</to_node>
+					<length>0.300000</length>
+					<sync_controller_transform>true</sync_controller_transform>
+					<conditions>
+						<condition>
+							<control_parameter>
+								<name>local</name>
+								<data_type>bool</data_type>
+								<default_value>true</default_value>
+								</control_parameter>
+							<comparison>equal</comparison>
+							<parameter1>
+								<type>control parameter</type>
+								<source_name>Sprint Holster Bool</source_name>
+								</parameter1>
+							<parameter2>
+								<type>local control parameter</type>
+								<source_name>local</source_name>
+								</parameter2>
+							</condition>
+						</conditions>
+					</transition>
+				<transition>
+					<name>Starting Point to Sprint 0</name>
+					<to_node>Sprint</to_node>
+					<length>0.300000</length>
+					<sync_controller_transform>true</sync_controller_transform>
+					<conditions>
+						<condition>
+							<control_parameter>
+								<name>local</name>
+								<data_type>bool</data_type>
+								<default_value>true</default_value>
+								</control_parameter>
+							<comparison>equal</comparison>
+							<parameter1>
+								<type>control parameter</type>
+								<source_name>Sprint Holster Bool</source_name>
+								</parameter1>
+							<parameter2>
+								<type>local control parameter</type>
+								<source_name>local</source_name>
+								</parameter2>
+							</condition>
+						<condition>
+							<control_parameter>
+								<name>local</name>
+								<data_type>bool</data_type>
+								<default_value>false</default_value>
+								</control_parameter>
+							<comparison>equal</comparison>
+							<parameter1>
+								<type>control parameter</type>
+								<source_name>weapon equipped</source_name>
+								</parameter1>
+							<parameter2>
+								<type>local control parameter</type>
+								<source_name>local</source_name>
+								</parameter2>
+							</condition>
+						</conditions>
+					</transition>
+				</transitions>
+			</node>
+		<node>
+			<name>Weapon Sprint</name>
+			<tag_name>weapon sprint</tag_name>
+			<clip_name></clip_name>
+			<loop_flag>True</loop_flag>
+			<start_time>0.000000</start_time>
+			<layer>4</layer>
+			<transitions>
+				<transition>
+					<name>Weapon Sprint to sprint 180 right wep 0</name>
+					<to_node>sprint 180 right wep</to_node>
+					<length>0.300000</length>
+					<sync_controller_transform>true</sync_controller_transform>
+					<conditions>
+						<condition>
+							<control_parameter>
+								<name>local</name>
+								<data_type>bool</data_type>
+								<default_value>true</default_value>
+								</control_parameter>
+							<comparison>equal</comparison>
+							<parameter1>
+								<type>control parameter</type>
+								<source_name>sprint bool</source_name>
+								</parameter1>
+							<parameter2>
+								<type>local control parameter</type>
+								<source_name>local</source_name>
+								</parameter2>
+							</condition>
+						<condition>
+							<control_parameter>
+								<name>local</name>
+								<data_type>float</data_type>
+								<default_value>210.000000</default_value>
+								<min_value>0.000000</min_value>
+								<max_value>1.000000</max_value>
+								</control_parameter>
+							<comparison>less</comparison>
+							<parameter1>
+								<type>control filter</type>
+								<source_name>direction degrees</source_name>
+								</parameter1>
+							<parameter2>
+								<type>local control parameter</type>
+								<source_name>local</source_name>
+								</parameter2>
+							</condition>
+						<condition>
+							<control_parameter>
+								<name>local</name>
+								<data_type>float</data_type>
+								<default_value>150.000000</default_value>
+								<min_value>0.000000</min_value>
+								<max_value>1.000000</max_value>
+								</control_parameter>
+							<comparison>greater</comparison>
+							<parameter1>
+								<type>control filter</type>
+								<source_name>direction degrees</source_name>
+								</parameter1>
+							<parameter2>
+								<type>local control parameter</type>
+								<source_name>local</source_name>
+								</parameter2>
+							</condition>
+						<condition>
+							<control_parameter>
+								<name>local</name>
+								<data_type>bool</data_type>
+								<default_value>false</default_value>
+								</control_parameter>
+							<comparison>equal</comparison>
+							<parameter1>
+								<type>control parameter</type>
+								<source_name>left foot bool</source_name>
+								</parameter1>
+							<parameter2>
+								<type>local control parameter</type>
+								<source_name>local</source_name>
+								</parameter2>
+							</condition>
+						</conditions>
+					</transition>
+				<transition>
+					<name>Weapon Sprint to sprint 180 left wep 0</name>
+					<to_node>sprint 180 left wep</to_node>
+					<length>0.300000</length>
+					<sync_controller_transform>true</sync_controller_transform>
+					<conditions>
+						<condition>
+							<control_parameter>
+								<name>local</name>
+								<data_type>bool</data_type>
+								<default_value>true</default_value>
+								</control_parameter>
+							<comparison>equal</comparison>
+							<parameter1>
+								<type>control parameter</type>
+								<source_name>sprint bool</source_name>
+								</parameter1>
+							<parameter2>
+								<type>local control parameter</type>
+								<source_name>local</source_name>
+								</parameter2>
+							</condition>
+						<condition>
+							<control_parameter>
+								<name>local</name>
+								<data_type>float</data_type>
+								<default_value>210.000000</default_value>
+								<min_value>0.000000</min_value>
+								<max_value>1.000000</max_value>
+								</control_parameter>
+							<comparison>less</comparison>
+							<parameter1>
+								<type>control filter</type>
+								<source_name>direction degrees</source_name>
+								</parameter1>
+							<parameter2>
+								<type>local control parameter</type>
+								<source_name>local</source_name>
+								</parameter2>
+							</condition>
+						<condition>
+							<control_parameter>
+								<name>local</name>
+								<data_type>float</data_type>
+								<default_value>150.000000</default_value>
+								<min_value>0.000000</min_value>
+								<max_value>1.000000</max_value>
+								</control_parameter>
+							<comparison>greater</comparison>
+							<parameter1>
+								<type>control filter</type>
+								<source_name>direction degrees</source_name>
+								</parameter1>
+							<parameter2>
+								<type>local control parameter</type>
+								<source_name>local</source_name>
+								</parameter2>
+							</condition>
+						<condition>
+							<control_parameter>
+								<name>local</name>
+								<data_type>bool</data_type>
+								<default_value>true</default_value>
+								</control_parameter>
+							<comparison>equal</comparison>
+							<parameter1>
+								<type>control parameter</type>
+								<source_name>left foot bool</source_name>
+								</parameter1>
+							<parameter2>
+								<type>local control parameter</type>
+								<source_name>local</source_name>
+								</parameter2>
+							</condition>
+						</conditions>
+					</transition>
+				</transitions>
+			</node>
+		<node>
+			<name>sprint 180 left wep</name>
+			<tag_name>sprint turn 180 left</tag_name>
+			<clip_name></clip_name>
+			<loop_flag>False</loop_flag>
+			<start_time>0.000000</start_time>
+			<layer>4</layer>
+			<transitions>
+				<transition>
+					<name>sprint 180 left wep to Weapon Sprint 0</name>
+					<to_node>Weapon Sprint</to_node>
+					<length>0.000000</length>
+					<sync_controller_transform>true</sync_controller_transform>
+					<conditions>
+						<condition>
+							<control_parameter>
+								<name>local</name>
+								<data_type>float</data_type>
+								<default_value>1.000000</default_value>
+								<min_value>0.000000</min_value>
+								<max_value>1.000000</max_value>
+								</control_parameter>
+							<comparison>equal</comparison>
+							<parameter1>
+								<type>clip time as percent</type>
+								<source_name>?%</source_name>
+								</parameter1>
+							<parameter2>
+								<type>local control parameter</type>
+								<source_name>local</source_name>
+								</parameter2>
+							</condition>
+						</conditions>
+					</transition>
+				</transitions>
+			</node>
+		<node>
+			<name>sprint 180 right wep</name>
+			<tag_name>sprint turn 180 right</tag_name>
+			<clip_name></clip_name>
+			<loop_flag>False</loop_flag>
+			<start_time>0.000000</start_time>
+			<layer>4</layer>
+			<transitions>
+				<transition>
+					<name>sprint 180 right wep to Weapon Sprint 0</name>
+					<to_node>Weapon Sprint</to_node>
+					<length>0.000000</length>
+					<cyclic_percent>0.500000</cyclic_percent>
+					<sync_controller_transform>true</sync_controller_transform>
+					<conditions>
+						<condition>
+							<control_parameter>
+								<name>local</name>
+								<data_type>float</data_type>
+								<default_value>1.000000</default_value>
+								<min_value>0.000000</min_value>
+								<max_value>1.000000</max_value>
+								</control_parameter>
+							<comparison>equal</comparison>
+							<parameter1>
+								<type>clip time as percent</type>
+								<source_name>?%</source_name>
+								</parameter1>
+							<parameter2>
+								<type>local control parameter</type>
+								<source_name>local</source_name>
+								</parameter2>
+							</condition>
+						</conditions>
+					</transition>
+				</transitions>
+			</node>
+		</nodes>
+	</state_machine>
+</root>

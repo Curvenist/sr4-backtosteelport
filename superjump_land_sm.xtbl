@@ -1,0 +1,401 @@
+<root>
+<state_machine>
+	<validated>true</validated>
+	<name>superjump land SM</name>
+	<default_node>land choice</default_node>
+	<nodes>
+		<node>
+			<name>Superjump land hard</name>
+			<tag_name>moving land</tag_name>
+			<alias_name>network land</alias_name>
+			<clip_name></clip_name>
+			<loop_flag>False</loop_flag>
+			<start_time>0.000000</start_time>
+			<layer>3</layer>
+			</node>
+		<node>
+			<name>land choice</name>
+			<tag_name></tag_name>
+			<clip_name></clip_name>
+			<loop_flag>false</loop_flag>
+			<start_time>0.000000</start_time>
+			<layer>4</layer>
+			<transitions>
+				<transition>
+					<name>land choice to moving land 0</name>
+					<to_node>moving land</to_node>
+					<length>0.000000</length>
+					<sync_controller_transform>true</sync_controller_transform>
+					<start>superjump land move bool == true and backward_slide == false</start>
+					<parameter>
+						<type>control parameter</type>
+						<source_name>backward_slide</source_name>
+						</parameter>
+					<parameter>
+						<type>boolean</type>
+						<source_name>false</source_name>
+						</parameter>
+					<parameter>
+						<type>control parameter</type>
+						<source_name>superjump land move bool</source_name>
+						</parameter>
+					<parameter>
+						<type>boolean</type>
+						<source_name>true</source_name>
+						</parameter>
+					</transition>
+				<transition>
+					<name>land choice to State 0 0</name>
+					<to_node>non moving land</to_node>
+					<length>0.000000</length>
+					<sync_controller_transform>true</sync_controller_transform>
+					<start>superjump land move bool == false and backward_slide == false</start>
+					<parameter>
+						<type>control parameter</type>
+						<source_name>backward_slide</source_name>
+						</parameter>
+					<parameter>
+						<type>boolean</type>
+						<source_name>false</source_name>
+						</parameter>
+					<parameter>
+						<type>control parameter</type>
+						<source_name>superjump land move bool</source_name>
+						</parameter>
+					</transition>
+				<transition>
+					<name>land choice to State 0 1</name>
+					<to_node>slide land</to_node>
+					<length>0.300000</length>
+					<sync_controller_transform>true</sync_controller_transform>
+					<start>backward_slide == true</start>
+					<parameter>
+						<type>control parameter</type>
+						<source_name>backward_slide</source_name>
+						</parameter>
+					<parameter>
+						<type>boolean</type>
+						<source_name>true</source_name>
+						</parameter>
+					</transition>
+				</transitions>
+			</node>
+		<node>
+			<name>Superjump land move</name>
+			<tag_name>superjump land move</tag_name>
+			<alias_name>network land</alias_name>
+			<clip_name></clip_name>
+			<loop_flag>False</loop_flag>
+			<start_time>0.000000</start_time>
+			<layer>3</layer>
+			</node>
+		<node>
+			<name>Superjump land move fast</name>
+			<tag_name>supersprint land fast</tag_name>
+			<alias_name>network land</alias_name>
+			<clip_name></clip_name>
+			<loop_flag>False</loop_flag>
+			<start_time>0.000000</start_time>
+			<layer>3</layer>
+			</node>
+		<node>
+			<name>non moving land</name>
+			<tag_name></tag_name>
+			<clip_name></clip_name>
+			<loop_flag>false</loop_flag>
+			<start_time>0.000000</start_time>
+			<layer>4</layer>
+			<transitions>
+				<transition>
+					<name>State 0 to Superjump land 0</name>
+					<to_node>moving land</to_node>
+					<length>0.000000</length>
+					<start>Vertical Speed [ -70.0 and superjump glide bool == false</start>
+					<parameter>
+						<type>float</type>
+						<source_name>-70.0</source_name>
+						</parameter>
+					<parameter>
+						<type>boolean</type>
+						<source_name>false</source_name>
+						</parameter>
+					<parameter>
+						<type>control parameter</type>
+						<source_name>superjump glide bool</source_name>
+						</parameter>
+					<parameter>
+						<type>control parameter</type>
+						<source_name>Vertical Speed</source_name>
+						</parameter>
+					</transition>
+				<transition>
+					<name>non moving land to superjump land soft 0</name>
+					<to_node>superjump land soft</to_node>
+					<length>0.000000</length>
+					<sync_controller_transform>true</sync_controller_transform>
+					<start>Vertical Speed ]= -30.0 and Vertical Speed [ -17.0 and superjump glide bool == false</start>
+					<parameter>
+						<type>float</type>
+						<source_name>-17.0</source_name>
+						</parameter>
+					<parameter>
+						<type>float</type>
+						<source_name>-30.0</source_name>
+						</parameter>
+					<parameter>
+						<type>boolean</type>
+						<source_name>false</source_name>
+						</parameter>
+					<parameter>
+						<type>control parameter</type>
+						<source_name>superjump glide bool</source_name>
+						</parameter>
+					<parameter>
+						<type>control parameter</type>
+						<source_name>Vertical Speed</source_name>
+						</parameter>
+					</transition>
+				<transition>
+					<name>non moving land to superjump land medium 0</name>
+					<to_node>superjump land medium</to_node>
+					<length>0.000000</length>
+					<sync_controller_transform>true</sync_controller_transform>
+					<start>Vertical Speed ]= -70.0 and Vertical Speed [ -50.0 and superjump glide bool == false</start>
+					<parameter>
+						<type>float</type>
+						<source_name>-50.0</source_name>
+						</parameter>
+					<parameter>
+						<type>float</type>
+						<source_name>-70.0</source_name>
+						</parameter>
+					<parameter>
+						<type>boolean</type>
+						<source_name>false</source_name>
+						</parameter>
+					<parameter>
+						<type>control parameter</type>
+						<source_name>superjump glide bool</source_name>
+						</parameter>
+					<parameter>
+						<type>control parameter</type>
+						<source_name>Vertical Speed</source_name>
+						</parameter>
+					</transition>
+				<transition>
+					<name>non moving land to Glide Land 0</name>
+					<to_node>Glide Land</to_node>
+					<length>0.000000</length>
+					<sync_controller_transform>true</sync_controller_transform>
+					<start>superjump glide bool == true</start>
+					<parameter>
+						<type>control parameter</type>
+						<source_name>superjump glide bool</source_name>
+						</parameter>
+					<parameter>
+						<type>boolean</type>
+						<source_name>true</source_name>
+						</parameter>
+					</transition>
+				<transition>
+					<name>non moving land to superjump land 0</name>
+					<to_node>superjump land</to_node>
+					<length>0.000000</length>
+					<sync_controller_transform>true</sync_controller_transform>
+					<start>Vertical Speed ]= -50.0 and Vertical Speed [ -30.0 and superjump glide bool == false</start>
+					<parameter>
+						<type>float</type>
+						<source_name>-30.0</source_name>
+						</parameter>
+					<parameter>
+						<type>float</type>
+						<source_name>-50.0</source_name>
+						</parameter>
+					<parameter>
+						<type>boolean</type>
+						<source_name>false</source_name>
+						</parameter>
+					<parameter>
+						<type>control parameter</type>
+						<source_name>superjump glide bool</source_name>
+						</parameter>
+					<parameter>
+						<type>control parameter</type>
+						<source_name>Vertical Speed</source_name>
+						</parameter>
+					</transition>
+				<transition>
+					<name>non moving land to superjump land light 0</name>
+					<to_node>superjump land light</to_node>
+					<length>0.000000</length>
+					<sync_controller_transform>true</sync_controller_transform>
+					<start>Vertical Speed ]= -17.0 and superjump glide bool == false</start>
+					<parameter>
+						<type>float</type>
+						<source_name>-17.0</source_name>
+						</parameter>
+					<parameter>
+						<type>boolean</type>
+						<source_name>false</source_name>
+						</parameter>
+					<parameter>
+						<type>control parameter</type>
+						<source_name>superjump glide bool</source_name>
+						</parameter>
+					<parameter>
+						<type>control parameter</type>
+						<source_name>Vertical Speed</source_name>
+						</parameter>
+					</transition>
+				</transitions>
+			</node>
+		<node>
+			<name>superjump land medium</name>
+			<tag_name>superjump land med</tag_name>
+			<alias_name>network land</alias_name>
+			<clip_name></clip_name>
+			<loop_flag>False</loop_flag>
+			<start_time>0.000000</start_time>
+			<layer>3</layer>
+			</node>
+		<node>
+			<name>superjump land soft</name>
+			<tag_name>superjump land soft</tag_name>
+			<alias_name>network land</alias_name>
+			<clip_name></clip_name>
+			<loop_flag>False</loop_flag>
+			<start_time>0.000000</start_time>
+			<layer>3</layer>
+			</node>
+		<node>
+			<name>Glide Land</name>
+			<tag_name>superjump land soft</tag_name>
+			<alias_name>network land</alias_name>
+			<clip_name></clip_name>
+			<loop_flag>False</loop_flag>
+			<start_time>0.000000</start_time>
+			<layer>4</layer>
+			</node>
+		<node>
+			<name>Glide Land Move</name>
+			<tag_name>superjump glide land move</tag_name>
+			<alias_name>network land</alias_name>
+			<clip_name></clip_name>
+			<loop_flag>False</loop_flag>
+			<start_time>0.000000</start_time>
+			<layer>4</layer>
+			</node>
+		<node>
+			<name>moving land</name>
+			<tag_name></tag_name>
+			<clip_name></clip_name>
+			<loop_flag>false</loop_flag>
+			<start_time>0.000000</start_time>
+			<layer>4</layer>
+			<transitions>
+				<transition>
+					<name>moving land to Glide Land Move 0</name>
+					<to_node>Glide Land Move</to_node>
+					<length>0.000000</length>
+					<start>superjump glide bool == true and Horizontal Speed ] 10.0</start>
+					<parameter>
+						<type>float</type>
+						<source_name>10.0</source_name>
+						</parameter>
+					<parameter>
+						<type>control parameter</type>
+						<source_name>Horizontal Speed</source_name>
+						</parameter>
+					<parameter>
+						<type>control parameter</type>
+						<source_name>superjump glide bool</source_name>
+						</parameter>
+					<parameter>
+						<type>boolean</type>
+						<source_name>true</source_name>
+						</parameter>
+					</transition>
+				<transition>
+					<name>moving land to Superjump land move 0</name>
+					<to_node>Superjump land move</to_node>
+					<length>0.000000</length>
+					<start>Horizontal Speed [= 15.0 and superjump glide bool == false</start>
+					<parameter>
+						<type>float</type>
+						<source_name>15.0</source_name>
+						</parameter>
+					<parameter>
+						<type>boolean</type>
+						<source_name>false</source_name>
+						</parameter>
+					<parameter>
+						<type>control parameter</type>
+						<source_name>Horizontal Speed</source_name>
+						</parameter>
+					<parameter>
+						<type>control parameter</type>
+						<source_name>superjump glide bool</source_name>
+						</parameter>
+					</transition>
+				<transition>
+					<name>moving land to Superjump land move fast 0</name>
+					<to_node>Superjump land move fast</to_node>
+					<length>0.000000</length>
+					<start>Vertical Speed ] -15.0 and Horizontal Speed ] 15.0 and superjump glide bool == false</start>
+					<parameter>
+						<type>float</type>
+						<source_name>-15.0</source_name>
+						</parameter>
+					<parameter>
+						<type>float</type>
+						<source_name>15.0</source_name>
+						</parameter>
+					<parameter>
+						<type>boolean</type>
+						<source_name>false</source_name>
+						</parameter>
+					<parameter>
+						<type>control parameter</type>
+						<source_name>Horizontal Speed</source_name>
+						</parameter>
+					<parameter>
+						<type>control parameter</type>
+						<source_name>superjump glide bool</source_name>
+						</parameter>
+					<parameter>
+						<type>control parameter</type>
+						<source_name>Vertical Speed</source_name>
+						</parameter>
+					</transition>
+				</transitions>
+			</node>
+		<node>
+			<name>slide land</name>
+			<tag_name>superjump land slide back</tag_name>
+			<alias_name>network land</alias_name>
+			<clip_name></clip_name>
+			<loop_flag>False</loop_flag>
+			<start_time>0.000000</start_time>
+			<layer>4</layer>
+			</node>
+		<node>
+			<name>superjump land</name>
+			<tag_name>superjump land</tag_name>
+			<alias_name>network land</alias_name>
+			<clip_name></clip_name>
+			<loop_flag>False</loop_flag>
+			<start_time>0.000000</start_time>
+			<layer>3</layer>
+			</node>
+		<node>
+			<name>superjump land light</name>
+			<tag_name>superjump land light</tag_name>
+			<alias_name>network land</alias_name>
+			<clip_name></clip_name>
+			<loop_flag>False</loop_flag>
+			<start_time>0.000000</start_time>
+			<layer>3</layer>
+			</node>
+		</nodes>
+	</state_machine>
+</root>

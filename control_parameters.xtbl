@@ -1,0 +1,829 @@
+<root>
+<control_parameters>
+	<control_parameter>
+		<name>combat ready</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>direction</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>0.000000</min_value>
+		<max_value>6.283185</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>turnto</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>0.000000</min_value>
+		<max_value>1.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>locomotion</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>cower type</name>
+		<data_type>integer</data_type>
+		<default_value>0</default_value>
+		<min_value>0</min_value>
+		<max_value>1</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>idle type</name>
+		<data_type>integer</data_type>
+		<default_value>0</default_value>
+		<min_value>0</min_value>
+		<max_value>1</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>cower bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>jump bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>land bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>fall bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>supported bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>idle bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>sprint bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>panic bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>land hard bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>land slam bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>getup bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>l deflection</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>0.000000</min_value>
+		<max_value>1.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Vehicle Steering Time</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>0.000000</min_value>
+		<max_value>1.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Vehicle MPH</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>-100.000000</min_value>
+		<max_value>100.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Vehicle Steering</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>-1.000000</min_value>
+		<max_value>1.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>desired speed</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>0.000000</min_value>
+		<max_value>8.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>speed</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>0.000000</min_value>
+		<max_value>8.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>is door open back</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>is door open</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Supported By Ground</name>
+		<data_type>bool</data_type>
+		<default_value>true</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Vertical Speed</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>-300.000000</min_value>
+		<max_value>300.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Climb Platform Bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Ball Rider Stage Number</name>
+		<data_type>integer</data_type>
+		<default_value>0</default_value>
+		<min_value>0</min_value>
+		<max_value>14</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Climb Height</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>-10.000000</min_value>
+		<max_value>10.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Vehicle Forward Lean</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>-1.000000</min_value>
+		<max_value>1.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Vehicle Vert Lean</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>-1.000000</min_value>
+		<max_value>1.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Vehicle Tilt</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>-1.000000</min_value>
+		<max_value>1.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Vehicle Tilt Abs</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>0.000000</min_value>
+		<max_value>1.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Vehicle Forward Lean Abs</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>0.000000</min_value>
+		<max_value>1.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Vehicle Vert Lean Abs</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>0.000000</min_value>
+		<max_value>1.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>move forward bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>move left bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>move right bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>move back bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>backpedal bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>alternate strafe bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>walk bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>run bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>crouch bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>aim bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>fine aim bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>current speed</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>0.000000</min_value>
+		<max_value>5.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>stand bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Weapon Group</name>
+		<data_type>integer</data_type>
+		<default_value>0</default_value>
+		<min_value>0</min_value>
+		<max_value>32</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>spike closed bool</name>
+		<data_type>bool</data_type>
+		<default_value>true</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>target down bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Left Foot Bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Right Foot Bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Light</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>desired direction</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>0.000000</min_value>
+		<max_value>6.283185</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Weapon Equipped</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Sprint Holster Bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Jump Left Ground Bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Jump Start Land Bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>dead</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Offhand Grenade Bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Parachute Open Bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Free Fall Vert Control</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>-1.000000</min_value>
+		<max_value>1.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Speed Along rvec</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>-20.000000</min_value>
+		<max_value>20.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>turn angle</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>-3.141593</min_value>
+		<max_value>3.141593</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Aim Pitch</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>-1.570000</min_value>
+		<max_value>1.570000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Left Stick Horizontal</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>-1.000000</min_value>
+		<max_value>1.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Aim Heading</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>-3.140000</min_value>
+		<max_value>3.140000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>is statue broken</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Helicopter Steer Horizontal</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>-1.000000</min_value>
+		<max_value>1.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Helicopter Steer Vertical</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>-1.000000</min_value>
+		<max_value>1.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Vehicle Landed Bool</name>
+		<data_type>bool</data_type>
+		<default_value>true</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Airplane Mode Bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Vehicle On</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>fire bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Wheelie Bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Endo Bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Climb Dist</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>0.000000</min_value>
+		<max_value>10.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Collision Bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Collision Dir</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>-3.140000</min_value>
+		<max_value>3.140000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Climb Duration ms</name>
+		<data_type>integer</data_type>
+		<default_value>0</default_value>
+		<min_value>0</min_value>
+		<max_value>10000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Weapon Sprint Bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>vehicle surf lean</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>-1.000000</min_value>
+		<max_value>1.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Reloading Bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Jump Dive Bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>superjump bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>doublejump bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>doublejump forward bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>superjump punch bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>superjump charge bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>superjump land move bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>superjump wall bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>superjump wall ascend bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>superjump wall jump bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>superjump glide bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Aim Heading Rate of Change</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>-3.140000</min_value>
+		<max_value>3.140000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Aim Pitch Rate of Change</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>-1.570000</min_value>
+		<max_value>1.570000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>direct_to_fall</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Direct Control Vel X</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>-20.000000</min_value>
+		<max_value>20.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Direct Control Vel Y</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>-20.000000</min_value>
+		<max_value>20.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>SpaceDive Upside Down</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Horizontal Speed</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>0.000000</min_value>
+		<max_value>100.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>super sprint hunch</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>0.000000</min_value>
+		<max_value>1.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Air Zynyak Attack bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Zynyak Explode</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>0.000000</min_value>
+		<max_value>1.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>backward_slide</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Pitch</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>-1.000000</min_value>
+		<max_value>1.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Roll</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>-1.000000</min_value>
+		<max_value>1.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>stomp flinch switch</name>
+		<data_type>integer</data_type>
+		<default_value>1</default_value>
+		<min_value>0</min_value>
+		<max_value>1</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>stomp flinch add switch</name>
+		<data_type>integer</data_type>
+		<default_value>1</default_value>
+		<min_value>0</min_value>
+		<max_value>3</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>stomp flinch add switch 2</name>
+		<data_type>integer</data_type>
+		<default_value>1</default_value>
+		<min_value>0</min_value>
+		<max_value>1</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Coop Rider Stage Number</name>
+		<data_type>integer</data_type>
+		<default_value>0</default_value>
+		<min_value>0</min_value>
+		<max_value>10</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>platform up bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Completion Bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Tank transform bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Blast bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Jump from stand</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Jump Power Bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>jump decompression bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>doublejump forward oneshot bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>wall sprint lean float</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>-1.000000</min_value>
+		<max_value>1.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>wall contact bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>RPG Bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>is nemo open</name>
+		<data_type>bool</data_type>
+		<default_value>true</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>rpg taken</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>raise statue</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Battery Remove</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Driver Enter Anim Started Bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>DFA range</name>
+		<data_type>float</data_type>
+		<default_value>1.000000</default_value>
+		<min_value>0.000000</min_value>
+		<max_value>1.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Close Door</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Close Door Slow</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Quick Close</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Speakers Rewired</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Truck Move</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Transform Office</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Rocket Launch</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Missile Launch</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>closed restart</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>head impact bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Tower Owned</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>superjump wall trans bool</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>Speed Along fvec</name>
+		<data_type>float</data_type>
+		<default_value>0.000000</default_value>
+		<min_value>-20.000000</min_value>
+		<max_value>20.000000</max_value>
+		</control_parameter>
+	<control_parameter>
+		<name>checkpoint restart</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	<control_parameter>
+		<name>M00 Climb Up</name>
+		<data_type>bool</data_type>
+		<default_value>false</default_value>
+		</control_parameter>
+	</control_parameters>
+</root>

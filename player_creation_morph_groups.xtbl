@@ -1,0 +1,625 @@
+<root>
+<Table>
+	<morph_group>
+		<Name>Global Body</Name>
+		<morph_list>
+			<morph_item>
+				<morph_name>body skinny</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>body fat</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>body muscle</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>old</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>breast</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			</morph_list>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</morph_group>
+	<morph_group>
+		<Name>Global Face</Name>
+		<morph_list>
+			<morph_item>
+				<morph_name>asian</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>black</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>white</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>face age</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			</morph_list>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</morph_group>
+	<morph_group>
+		<Name>Global Gender</Name>
+		<morph_list>
+			<morph_item>
+				<morph_name>face gender</morph_name>
+				<display_type>gender</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>body gender</morph_name>
+				<display_type>gender</display_type>
+				</morph_item>
+			</morph_list>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</morph_group>
+	<morph_group>
+		<Name>Crown</Name>
+		<morph_list>
+			<morph_item>
+				<morph_name>skull top width</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>skull top elevation</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>skull back depth</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>skull back width</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>neck back depth</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>neck back width</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			</morph_list>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</morph_group>
+	<morph_group>
+		<Name>Forehead</Name>
+		<morph_list>
+			<morph_item>
+				<morph_name>forehead depth</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>forehead elevation</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>forehead width</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			</morph_list>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</morph_group>
+	<morph_group>
+		<Name>Brow</Name>
+		<morph_list>
+			<morph_item>
+				<morph_name>brow spacing</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>brow depth</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>brow width</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>inner brow elevation</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>middle brow elevation</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>outer brow elevation</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			</morph_list>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</morph_group>
+	<morph_group>
+		<Name>Eyes</Name>
+		<morph_list>
+			<morph_item>
+				<morph_name>eyeballs spacing</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>eyeballs depth</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>eyeballs elevation</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>eyeballs size</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>eye folds elevation</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>upper eyelids pitch</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>lower eyelids pitch</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>iris size</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>eye style</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			</morph_list>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</morph_group>
+	<morph_group>
+		<Name>Nose</Name>
+		<morph_list>
+			<morph_item>
+				<morph_name>bridge depth</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>bridge elevation</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>bridge width</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>nose depth</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>nose elevation</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>slope depth</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>slope elevation</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>slope width</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>ball depth</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>ball elevation</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>ball width</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>ball height</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>nostrils spacing</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>nostrils depth</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>nostrils elevation</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>nostrils width</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>nostrils height</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>septum elevation</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>septum width</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>nose style</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			</morph_list>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</morph_group>
+	<morph_group>
+		<Name>Cheekbones</Name>
+		<morph_list>
+			<morph_item>
+				<morph_name>temples spacing</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>temples depth</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>temples elevation</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>cheekbones spacing</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>cheekbones depth</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>cheekbones elevation</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>cheekbones size</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>cheeks spacing</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>cheeks depth</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>cheeks elevation</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>jowls spacing</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>jowls depth</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>jowls elevation</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			</morph_list>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</morph_group>
+	<morph_group>
+		<Name>Ears</Name>
+		<morph_list>
+			<morph_item>
+				<morph_name>ears spacing</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>ears depth</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>ears elevation</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>ears width</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>ears length</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>ears height</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>ears pitch</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>ears yaw</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>ears roll</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>lobes elevation</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>lobes size</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>tips spacing</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>tips elevation</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>tips size</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			</morph_list>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</morph_group>
+	<morph_group>
+		<Name>Mouth</Name>
+		<morph_list>
+			<morph_item>
+				<morph_name>mouth depth</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>mouth elevation</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>mouth width</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>upper lip middle elevation</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>upper lip middle size</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>upper lip sides elevation</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>upper lip sides size</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>lower lip middle elevation</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>lower lip middle size</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>lower lip sides elevation</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>lower lip sides size</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>mouth sides depth</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>mouth sides elevation</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>mouth sides size</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>mouth bite</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>mouth size</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			</morph_list>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</morph_group>
+	<morph_group>
+		<Name>Chin</Name>
+		<morph_list>
+			<morph_item>
+				<morph_name>chin depth</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>chin elevation</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>chin width</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>chin height</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>double chin depth</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>double chin elevation</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>double chin width</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			</morph_list>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</morph_group>
+	<morph_group>
+		<Name>Jaw</Name>
+		<morph_list>
+			<morph_item>
+				<morph_name>jaw spacing</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>jaw depth</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>jaw elevation</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>FACE ASIAN</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>FACE BLACK</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>FACE HISPANIC</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>BUILD SKINNY</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>BUILD FAT</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>BUILD MUSCULAR</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>BUILD GENDER</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>				
+			<morph_item>
+				<morph_name>COMPLEXION SKINNY</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>COMPLEXION FAT</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			<morph_item>
+				<morph_name>COMPLEXION MUSCULAR</morph_name>
+				<display_type>standard</display_type>
+				</morph_item>
+			</morph_list>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</morph_group>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>morph_group</Name>
+	<Type>TableDescription</Type>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		<Description>This field is referenced in code.  DO NOT CHANGE THE NAME OF A GROUP WITHOUT PROGRAMMER APPROVAL!</Description>
+		</Element>
+	<Element>
+		<Name>morph_list</Name>
+		<Type>Grid</Type>
+		<Element>
+			<Name>morph_item</Name>
+			<Type>Element</Type>
+			<Element>
+				<Name>morph_name</Name>
+				<Type>Reference</Type>
+				<Reference>
+					<File>player_creation.xtbl</File>
+					<Type>Morph_Set.Morph_Infos.Morph_Info.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			<Element>
+				<Name>display_type</Name>
+				<Type>Selection</Type>
+				<Default>standard</Default>
+				<Choice>standard</Choice>
+				<Choice>gender</Choice>
+				</Element>
+			</Element>
+		<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

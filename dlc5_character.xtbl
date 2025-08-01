@@ -1,0 +1,654 @@
+<root>
+<Table>
+	<Character>
+		<Name>npc_AnthonyBurch</Name>
+		<_Editor>
+			<Category>Entries:Saints_and_Allies</Category>
+			</_Editor>
+		<Character>saints_male_anthonyburch</Character>
+		<Spawn_Info_Rank>Homie - Zimos</Spawn_Info_Rank>
+		<Team>Playas</Team>
+		<AI_Personality>gang defensive</AI_Personality>
+		<Flags>
+			<Flag>use_gang_color_scheme</Flag>
+			<Flag>no_ambient_spawning</Flag>
+			<Flag>use_leg_bone_constraints</Flag>
+			<Flag>use_knees_and_elbows</Flag>
+			<Flag>ungrabbable</Flag>
+			<Flag>no_instagib</Flag>
+			<Flag>has_super_powers</Flag>
+			</Flags>
+		<Filters>
+			<Gender>Male</Gender>
+			</Filters>
+		<StreamCategory>Non Ambiently Spawnable</StreamCategory>
+		<Headshot_Multiplier>1</Headshot_Multiplier>
+		<Firearm_Damage_Multiplier>3</Firearm_Damage_Multiplier>
+		<Cash>
+			<Dollar>
+				<Min>100</Min>
+				<Max>200</Max>
+				</Dollar>
+			</Cash>
+		<behavior_override>Super Saint</behavior_override>
+		<Framework>dlc5</Framework>
+		</Character>
+	<Character>
+			<Name>npc_AshlyBurch</Name>
+			<_Editor>
+				<Category>Entries:Saints_and_Allies</Category>
+			</_Editor>
+			<Character>saints_female_burchashly</Character>
+			<Spawn_Info_Rank>Homie - Suko</Spawn_Info_Rank>
+			<Team>Playas</Team>
+			<AI_Personality>gang defensive</AI_Personality>
+			<Flags>
+				<Flag>use_gang_color_scheme</Flag>
+				<Flag>no_ambient_spawning</Flag>
+				<Flag>use_leg_bone_constraints</Flag>
+				<Flag>use_knees_and_elbows</Flag>
+				<Flag>ungrabbable</Flag>
+				<Flag>no_instagib</Flag>
+				<Flag>has_super_powers</Flag>
+			</Flags>
+			<Filters>
+				<Gender>Female</Gender>
+			</Filters>
+			<StreamCategory>Non Ambiently Spawnable</StreamCategory>
+			<Headshot_Multiplier>1</Headshot_Multiplier>
+			<Firearm_Damage_Multiplier>3</Firearm_Damage_Multiplier>
+			<Cash>
+				<Dollar>
+					<Min>100</Min>
+					<Max>200</Max>
+				</Dollar>
+			</Cash>
+			<behavior_override>Super Saint</behavior_override>
+			<Framework>dlc5</Framework>
+		</Character>
+	<Character>
+		<Name>npc_PapaBurch</Name>
+		<_Editor>
+			<Category>Entries:Saints_and_Allies</Category>
+			</_Editor>
+		<Character>saints_male_dadburch</Character>
+		<Spawn_Info_Rank>Homie - Nyteblayde</Spawn_Info_Rank>
+		<Team>Playas</Team>
+		<AI_Personality>gang defensive</AI_Personality>
+		<Flags>
+			<Flag>use_gang_color_scheme</Flag>
+			<Flag>no_ambient_spawning</Flag>
+			<Flag>use_leg_bone_constraints</Flag>
+			<Flag>use_knees_and_elbows</Flag>
+			<Flag>ungrabbable</Flag>
+			<Flag>no_instagib</Flag>
+			<Flag>has_super_powers</Flag>
+			</Flags>
+		<Filters>
+			<Gender>Male</Gender>
+			</Filters>
+		<StreamCategory>Non Ambiently Spawnable</StreamCategory>
+		<Headshot_Multiplier>1</Headshot_Multiplier>
+		<Firearm_Damage_Multiplier>3</Firearm_Damage_Multiplier>
+		<Cash>
+			<Dollar>
+				<Min>100</Min>
+				<Max>200</Max>
+				</Dollar>
+			</Cash>
+		<behavior_override>Super Saint</behavior_override>
+		<Framework>dlc5</Framework>
+		</Character>
+	</Table>
+
+<TableTemplates>
+	<Character>
+		<Name>temp_saints_female_burchashly</Name>
+		<_Editor>
+			<Category>Entries:Saints_and_Allies</Category>
+			</_Editor>
+		<Character>saints_female_burchashly</Character>
+		<Spawn_Info_Rank>Gang Grunt</Spawn_Info_Rank>
+		<Team>Playas</Team>
+		<AI_Personality>gang defensive</AI_Personality>
+		<Cash>
+			<Dollar>
+				<Min>1</Min>
+				<Max>35</Max>
+				</Dollar>
+			<Min>10</Min>
+			<Max>20</Max>
+			</Cash>
+		<MetaGame>
+			<Name>METAGAME_GANG_MEMBER</Name>
+			<Value>100</Value>
+			</MetaGame>
+		<Flags>
+			<Flag>use_gang_color_scheme</Flag>
+			<Flag>use_knees_and_elbows</Flag>
+			<Flag>use_leg_bone_constraints</Flag>
+			</Flags>
+		<Filters>
+			<Gender>Female</Gender>
+			</Filters>
+		<StreamCategory>Non Ambiently Spawnable</StreamCategory>
+		<Headshot_Multiplier>1</Headshot_Multiplier>
+		<Firearm_Damage_Multiplier>1.0</Firearm_Damage_Multiplier>
+		<Framework>dlc5</Framework>
+		</Character>
+	<Character>
+		<Name>temp_saints_male_anthonyburch</Name>
+		<_Editor>
+			<Category>Entries:Saints_and_Allies</Category>
+			</_Editor>
+		<Character>saints_male_anthonyburch</Character>
+		<Spawn_Info_Rank>Gang Grunt</Spawn_Info_Rank>
+		<Team>Playas</Team>
+		<AI_Personality>gang defensive</AI_Personality>
+		<Flags>
+			<Flag>use_gang_color_scheme</Flag>
+			<Flag>use_knees_and_elbows</Flag>
+			<Flag>use_leg_bone_constraints</Flag>
+			</Flags>
+		<Filters>
+			<Gender>Male</Gender>
+			</Filters>
+		<Cash>
+			<Dollar>
+				<Min>1</Min>
+				<Max>35</Max>
+				</Dollar>
+			<Min>10</Min>
+			<Max>20</Max>
+			</Cash>
+		<StreamCategory>Non Ambiently Spawnable</StreamCategory>
+		<Headshot_Multiplier>1</Headshot_Multiplier>
+		<Firearm_Damage_Multiplier>1.0</Firearm_Damage_Multiplier>
+		<Framework>dlc5</Framework>
+		</Character>
+	<Character>
+		<Name>temp_saints_male_dadburch</Name>
+		<_Editor>
+			<Category>Entries:Saints_and_Allies</Category>
+			</_Editor>
+		<Character>saints_male_dadburch</Character>
+		<Spawn_Info_Rank>Gang Grunt</Spawn_Info_Rank>
+		<Team>Playas</Team>
+		<AI_Personality>gang defensive</AI_Personality>
+		<Flags>
+			<Flag>use_gang_color_scheme</Flag>
+			<Flag>use_knees_and_elbows</Flag>
+			<Flag>use_leg_bone_constraints</Flag>
+			</Flags>
+		<Filters>
+			<Gender>Male</Gender>
+			</Filters>
+		<Cash>
+			<Dollar>
+				<Min>1</Min>
+				<Max>35</Max>
+				</Dollar>
+			<Min>10</Min>
+			<Max>20</Max>
+			</Cash>
+		<StreamCategory>Non Ambiently Spawnable</StreamCategory>
+		<Headshot_Multiplier>1</Headshot_Multiplier>
+		<Firearm_Damage_Multiplier>1.0</Firearm_Damage_Multiplier>
+		<Framework>dlc5</Framework>
+		</Character>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>Character</Name>
+	<Type>TableDescription</Type>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		<Description>Unique identifying name, used internally by the game.</Description>
+		<Unique>true</Unique>
+		<Default>NoName</Default>
+		<MaxLength>32</MaxLength>
+		</Element>
+	<Element>
+		<Name>Character</Name>
+		<Type>Reference</Type>
+		<Reference>
+			<File>character_definitions.xtbl</File>
+			<Type>Character.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Color_Palette</Name>
+		<Type>Reference</Type>
+		<Display_Name>Color Palette</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>npc_color_palette.xtbl</File>
+			<Type>Palette.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>ForcedVariant</Name>
+		<Type>String</Type>
+		<Display_Name>Forced Variant Name</Display_Name>
+		<Required>false</Required>
+		</Element>
+	<Element>
+		<Name>behavior_override</Name>
+		<Type>Reference</Type>
+		<Display_Name>Behavior Override</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>AI\ai_behavior.xtbl</File>
+			<Type>Behavior.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Filters</Name>
+		<Type>Element</Type>
+		<Required>false</Required>
+		<Element>
+			<Name>CharacterType</Name>
+			<Type>Reference</Type>
+			<Display_Name>Character Type</Display_Name>
+			<Required>false</Required>
+			<Reference>
+				<File>character_types.xtbl</File>
+				<Type>Type.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+		<Element>
+			<Name>Gender</Name>
+			<Type>Selection</Type>
+			<Required>false</Required>
+			<Choice>Male</Choice>
+			<Choice>Female</Choice>
+			</Element>
+		<Element>
+			<Name>Race</Name>
+			<Type>Selection</Type>
+			<Required>false</Required>
+			<Choice>Asian</Choice>
+			<Choice>Black</Choice>
+			<Choice>Hispanic</Choice>
+			<Choice>White</Choice>
+			</Element>
+		</Element>
+	<Element>
+		<Name>Flags</Name>
+		<Type>Flags</Type>
+		<Description>Flags for the character</Description>
+		<Required>false</Required>
+		<Flag>commando</Flag>
+		<Flag>ho</Flag>
+		<Flag>ignore chainsaw damage</Flag>
+		<Flag>item_character</Flag>
+		<Flag>low res</Flag>
+		<Flag>never_drop_weapon</Flag>
+		<Flag>never_use_walk_variants</Flag>
+		<Flag>no_ambient_spawning</Flag>
+		<Flag>no_cell_phone</Flag>
+		<Flag>no_instagib</Flag>
+		<Flag>no_shadows</Flag>
+		<Flag>no_sitting</Flag>
+		<Flag>no_special_spawn</Flag>
+		<Flag>pest</Flag>
+		<Flag>pimp</Flag>
+		<Flag>player_character</Flag>
+		<Flag>roller_blader</Flag>
+		<Flag>saints_fan</Flag>
+		<Flag>special_movement</Flag>
+		<Flag>ungrabbable</Flag>
+		<Flag>use_gang_color_scheme</Flag>
+		<Flag>use_knees_and_elbows</Flag>
+		<Flag>use_leg_bone_constraints</Flag>
+		<Flag>zombie</Flag>
+		<Flag>zombie_voice_only</Flag>
+		<Flag>grenadier</Flag>
+		<Flag>resist grab</Flag>
+		<Flag>use_fat_bones</Flag>
+		<Flag>warden</Flag>
+		<Flag>has_super_powers</Flag>
+		<Flag>zinyak</Flag>
+		<Flag>has_ultra_shield</Flag>
+		<Flag>murder_bot</Flag>
+		<Flag>never_be_frozen</Flag>
+		<Flag>never_catch_fire</Flag>
+		<Flag>no_blood</Flag>
+		<Flag>cid</Flag>
+		<Flag>no_feet_blobs</Flag>
+		<Flag>revive_beam</Flag>
+		<Flag>can_be_revived</Flag>
+		<Flag>golden_cid</Flag>
+		<Flag>marauder</Flag>
+		<Flag>mech_suit_zinyak</Flag>
+		<Flag>tiger</Flag>
+		<Flag>electrical_splat</Flag>
+		<Flag>use_short_thaw_timer</Flag>
+		<Flag>thaw_on_hit</Flag>
+		<Flag>fight club finisher</Flag>
+		<Flag>suppress_synced_attacks</Flag>
+		<Flag>no_gib_effects</Flag>
+		<Flag>immune_to_melee</Flag>
+		<Flag>immune_to_shrink</Flag>
+		<Flag>alqaeda</Flag>
+		<Flag>ignore_fall_damage</Flag>
+		<Flag>Velociraptor</Flag>
+		<Flag>die_in_water</Flag>
+		<Flag>saintsflow_mascot</Flag>
+		<Flag>no_grenades</Flag>
+		</Element>
+	<Element>
+		<Name>cid_shield_priority</Name>
+		<Type>Int</Type>
+		<Display_Name>CID Shield Priority</Display_Name>
+		<Description>This defines how important it is for a CID to shield this type of NPC.</Description>
+		<Required>false</Required>
+		<Default>0</Default>
+		</Element>
+	<Element>
+		<Name>Customization_Category</Name>
+		<Type>Reference</Type>
+		<Display_Name>Customization Category</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>character_customization_categories.xtbl</File>
+			<Type>category.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Persona_Override</Name>
+		<Type>Reference</Type>
+		<Display_Name>Persona Override</Display_Name>
+		<Description>Used when you want to force this preset to use a specific persona.</Description>
+		<Required>false</Required>
+		<Reference>
+			<File>audio_personas.xtbl</File>
+			<Type>Audio_Persona.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Spawn_Info_Rank</Name>
+		<Type>Reference</Type>
+		<Display_Name>Spawn Info Rank</Display_Name>
+		<Description>Spawn info rank for the character.</Description>
+		<Reference>
+			<File>AI\spawn_info_ranks.xtbl</File>
+			<Type>Rank.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>StreamCategory</Name>
+		<Type>Selection</Type>
+		<Display_Name>Stream Category</Display_Name>
+		<Default>Spawnable Civilian</Default>
+		<Choice>Spawnable Civilian</Choice>
+		<Choice>Non Ambiently Spawnable</Choice>
+		<Choice>Spawnable Police</Choice>
+		<Choice>Spawnable Saint</Choice>
+		<Choice>Spawnable Deckers</Choice>
+		<Choice>Spawnable Morningstar</Choice>
+		<Choice>Spawnable Luchadores</Choice>
+		<Choice>Spawnable STAG</Choice>
+		</Element>
+	<Element>
+		<Name>Team</Name>
+		<Type>Reference</Type>
+		<Description>The NPC's default team.</Description>
+		<Default>Playas</Default>
+		<Reference>
+			<File>teams.xtbl</File>
+			<Type>Team.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>AI_Personality</Name>
+		<Type>Reference</Type>
+		<Display_Name>AI Personality</Display_Name>
+		<Description>Default AI personality</Description>
+		<Reference>
+			<File>AI\ai_personalities.xtbl</File>
+			<Type>Personality.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>AnimSets</Name>
+		<Type>Grid</Type>
+		<Display_Name>Anim Set Overrides</Display_Name>
+		<Required>false</Required>
+		<Element>
+			<Name>AnimSet</Name>
+			<Type>Element</Type>
+			<Display_Name>Anim Set</Display_Name>
+			<Element>
+				<Name>Filename</Name>
+				<Type>Reference</Type>
+				<Reference>
+					<File>anim_set_filenames.xtbl</File>
+					<Type>Anim_Set_Filename.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			<Element>
+				<Name>PercentChance</Name>
+				<Type>Int</Type>
+				<Display_Name>Percent Chance</Display_Name>
+				<Default>100</Default>
+				<MinValue>0</MinValue>
+				<MaxValue>100</MaxValue>
+				</Element>
+			</Element>
+		<Max_Children>3</Max_Children>
+		<Min_Children>0</Min_Children>
+		<Num_Display_Rows>4</Num_Display_Rows>
+		</Element>
+	<Element>
+		<Name>Cash</Name>
+		<Type>Element</Type>
+		<Required>false</Required>
+		<Element>
+			<Name>Coin</Name>
+			<Type>Int</Type>
+			<Display_Name>Coins Dropped</Display_Name>
+			<Required>false</Required>
+			<Default>8</Default>
+			<MinValue>1</MinValue>
+			<MaxValue>12</MaxValue>
+			<UseSlider>True</UseSlider>
+			</Element>
+		<Element>
+			<Name>Dollar</Name>
+			<Type>Element</Type>
+			<Display_Name>Random Dollars</Display_Name>
+			<Required>false</Required>
+			<Element>
+				<Name>Min</Name>
+				<Type>Int</Type>
+				<Default>10</Default>
+				<MinValue>0</MinValue>
+				</Element>
+			<Element>
+				<Name>Max</Name>
+				<Type>Int</Type>
+				<Default>20</Default>
+				<MinValue>1</MinValue>
+				</Element>
+			</Element>
+		</Element>
+	<Element>
+		<Name>MetaGame</Name>
+		<Type>Element</Type>
+		<Display_Name>Co-op Meta Game</Display_Name>
+		<Required>false</Required>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Display_Name>Name Localization ID</Display_Name>
+			<Required>false</Required>
+			</Element>
+		<Element>
+			<Name>Value</Name>
+			<Type>Int</Type>
+			<Default>0</Default>
+			<MinValue>0</MinValue>
+			<MaxValue>65535</MaxValue>
+			</Element>
+		</Element>
+	<Element>
+		<Name>Headshot_Multiplier</Name>
+		<Type>Float</Type>
+		<Display_Name>Headshot Multiplier</Display_Name>
+		<Required>false</Required>
+		<Default>0.0</Default>
+		</Element>
+	<Element>
+		<Name>Firearm_Damage_Multiplier</Name>
+		<Type>Float</Type>
+		<Display_Name>Firearm Damage Multiplier</Display_Name>
+		<Description>A scalar for how much damage this character does with firearms</Description>
+		<Default>1.0</Default>
+		</Element>
+	<Element>
+		<Name>Framework</Name>
+		<Type>Reference</Type>
+		<Description>Framework that owns this.</Description>
+		<Required>false</Required>
+		<Reference>
+			<File>dlc_frameworks.xtbl</File>
+			<Type>BundleInfo.Flag_String</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Default_Category</Name>
+		<Type>String</Type>
+		<Description>Where new entries that are automatically create should be placed.</Description>
+		<Required>false</Required>
+		<Default>Pedestrians</Default>
+		</Element>
+	<Single_Line_XML>True</Single_Line_XML>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Entries</Name>
+		<Category>
+			<Name>Aliens</Name>
+			</Category>
+		<Category>
+			<Name>Alqaeda</Name>
+			</Category>
+		<Category>
+			<Name>Customization_System_Only</Name>
+			</Category>
+		<Category>
+			<Name>Default</Name>
+			</Category>
+		<Category>
+			<Name>DLC</Name>
+			</Category>
+		<Category>
+			<Name>Hitman_Targets_and_Anti_A-Team</Name>
+			</Category>
+		<Category>
+			<Name>LawEnforcement</Name>
+			<Category>
+				<Name>National_Guard</Name>
+				</Category>
+			<Category>
+				<Name>Police</Name>
+				</Category>
+			<Category>
+				<Name>STAG</Name>
+				</Category>
+			</Category>
+		<Category>
+			<Name>Mission Activity NPCs</Name>
+			<Category>
+				<Name>M00</Name>
+				<Category>
+					<Name>Alqaeda</Name>
+					</Category>
+				</Category>
+			<Category>
+				<Name>M14_Ambient_Gangs</Name>
+				</Category>
+			<Category>
+				<Name>SuperFightClub</Name>
+				</Category>
+			</Category>
+		<Category>
+			<Name>Old_Not_In Char_List</Name>
+			<Category>
+				<Name>Gangs</Name>
+				<Category>
+					<Name>Luchadors</Name>
+					</Category>
+				<Category>
+					<Name>Saints</Name>
+					</Category>
+				</Category>
+			<Category>
+				<Name>LawEnforcement</Name>
+				<Category>
+					<Name>Stag</Name>
+					</Category>
+				</Category>
+			<Category>
+				<Name>Misc</Name>
+				</Category>
+			<Category>
+				<Name>Pedestrian</Name>
+				</Category>
+			<Category>
+				<Name>test temps</Name>
+				</Category>
+			</Category>
+		<Category>
+			<Name>Other_NPCs</Name>
+			<Category>
+				<Name>Whored_Mode</Name>
+				</Category>
+			</Category>
+		<Category>
+			<Name>Pedestrians</Name>
+			<Category>
+				<Name>Glitched Peds</Name>
+				</Category>
+			</Category>
+		<Category>
+			<Name>Player_Character</Name>
+			</Category>
+		<Category>
+			<Name>Saints_and_Allies</Name>
+			</Category>
+		<Category>
+			<Name>Syndicate</Name>
+			<Category>
+				<Name>Brutes</Name>
+				</Category>
+			<Category>
+				<Name>Deckers</Name>
+				</Category>
+			<Category>
+				<Name>Luchadores</Name>
+				</Category>
+			<Category>
+				<Name>Morningstar</Name>
+				</Category>
+			</Category>
+		<Category>
+			<Name>Zombies</Name>
+			</Category>
+		</Category>
+	</EntryCategories>
+</root>

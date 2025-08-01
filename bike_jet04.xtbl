@@ -1,0 +1,553 @@
+<root>
+  <Table>
+    <Vehicle>
+      <Name>bike_jet04</Name>
+      <Variants>
+        <Variant>
+          <File_Id>0</File_Id>
+          <Name>Average</Name>
+          <Weight>100</Weight>
+          <ParkingWeight>100</ParkingWeight>
+          <Siren>0</Siren>
+          <Fully_Customizable>0</Fully_Customizable>
+          <Has_Peg>1</Has_Peg>
+          <Is_Preset>0</Is_Preset>
+          <Price>0</Price>
+          <Components>
+            <Component_Group>
+              <Name>Chassis</Name>
+              <Component_Chances>
+                <Component_Chance>
+                  <Name>Option 1</Name>
+                  <Weight>100</Weight>
+                  <Components>
+                    <Component_Element>
+                      <Slot>Chassis</Slot>
+                      <Component>standard</Component>
+                    </Component_Element>
+                  </Components>
+                </Component_Chance>
+              </Component_Chances>
+            </Component_Group>
+            <Component_Group>
+              <Name>Grime</Name>
+              <Component_Chances>
+                <Component_Chance>
+                  <Name>Option 1</Name>
+                  <Weight>0</Weight>
+                  <Components>
+                    <Component_Element>
+                      <Slot>Grime 1</Slot>
+                      <Component>grime 25</Component>
+                    </Component_Element>
+                  </Components>
+                </Component_Chance>
+                <Component_Chance>
+                  <Name>Option 2</Name>
+                  <Weight>100</Weight>
+                  <Components>
+                    <Component_Element>
+                      <Slot>Grime 1</Slot>
+                      <Component>grime 50</Component>
+                    </Component_Element>
+                  </Components>
+                </Component_Chance>
+              </Component_Chances>
+            </Component_Group>
+            <Component_Group>
+              <Name>weapon</Name>
+              <Component_Chances>
+                <Component_Chance>
+                  <Name>Option 1</Name>
+                  <Weight>100</Weight>
+                  <Components>
+                    <Component_Element>
+                      <Slot>Weapon 1</Slot>
+                      <Component>front_gun</Component>
+                    </Component_Element>
+                  </Components>
+                </Component_Chance>
+              </Component_Chances>
+            </Component_Group>
+            <Component_Group>
+              <Name>Underglow</Name>
+              <Component_Chances>
+                <Component_Chance>
+                  <Name>Option 1</Name>
+                  <Weight>100</Weight>
+                  <Components>
+                    <Component_Element>
+                      <Slot>Underglow</Slot>
+                      <Component>Red</Component>
+                    </Component_Element>
+                  </Components>
+                </Component_Chance>
+              </Component_Chances>
+            </Component_Group>
+            <Component_Group>
+              <Name>Body Kit</Name>
+              <Component_Chances>
+                <Component_Chance>
+                  <Name>Option 1</Name>
+                  <Weight>100</Weight>
+                  <Components>
+                    <Component_Element>
+                      <Slot>Body Kit</Slot>
+                      <Component>alien</Component>
+                    </Component_Element>
+                  </Components>
+                </Component_Chance>
+              </Component_Chances>
+            </Component_Group>
+          </Components>
+          <Colors>
+            <Color_Group>
+              <Name>Standard</Name>
+              <Color_Chances>
+                <Color_Chance>
+                  <Name>Standard</Name>
+                  <Weight>0</Weight>
+                  <Color_Choices>
+                    <Color_Choice>
+                      <Slot>Body Color1</Slot>
+                      <Component>Paint</Component>
+                      <Color_Slot>Paint1</Color_Slot>
+                      <Color>
+                        <Color_Pool>Gang Alien Grey 1</Color_Pool>
+                      </Color>
+                    </Color_Choice>
+                    <Color_Choice>
+                      <Slot>Body Color2</Slot>
+                      <Component>Paint</Component>
+                      <Color_Slot>Paint2</Color_Slot>
+                      <Color>
+                        <Color_Pool>Hero Gloss Jet Black</Color_Pool>
+                      </Color>
+                    </Color_Choice>
+                  </Color_Choices>
+                </Color_Chance>
+              </Color_Chances>
+            </Color_Group>
+          </Colors>
+          <Wheels />
+        </Variant>
+        <Variant>
+          <File_Id>1</File_Id>
+          <Name>Saints</Name>
+          <Weight>0</Weight>
+          <ParkingWeight>0</ParkingWeight>
+          <Siren>0</Siren>
+          <Fully_Customizable>0</Fully_Customizable>
+          <Has_Peg>1</Has_Peg>
+          <Is_Preset>0</Is_Preset>
+          <Price>0</Price>
+          <Components>
+            <Component_Group>
+              <Name>Chassis</Name>
+              <Component_Chances>
+                <Component_Chance>
+                  <Name>Option 1</Name>
+                  <Weight>100</Weight>
+                  <Components>
+                    <Component_Element>
+                      <Slot>Chassis</Slot>
+                      <Component>standard</Component>
+                    </Component_Element>
+                  </Components>
+                </Component_Chance>
+              </Component_Chances>
+            </Component_Group>
+            <Component_Group>
+              <Name>Grime</Name>
+              <Component_Chances>
+                <Component_Chance>
+                  <Name>Option 1</Name>
+                  <Weight>100</Weight>
+                  <Components>
+                    <Component_Element>
+                      <Slot>Grime 1</Slot>
+                      <Component>grime 50</Component>
+                    </Component_Element>
+                  </Components>
+                </Component_Chance>
+                <Component_Chance>
+                  <Name>Option 2</Name>
+                  <Weight>0</Weight>
+                  <Components>
+                    <Component_Element>
+                      <Slot>Grime 1</Slot>
+                      <Component>grime 50</Component>
+                    </Component_Element>
+                  </Components>
+                </Component_Chance>
+              </Component_Chances>
+            </Component_Group>
+            <Component_Group>
+              <Name>weapon</Name>
+              <Component_Chances>
+                <Component_Chance>
+                  <Name>Option 1</Name>
+                  <Weight>100</Weight>
+                  <Components>
+                    <Component_Element>
+                      <Slot>Weapon 1</Slot>
+                      <Component>front_gun</Component>
+                    </Component_Element>
+                  </Components>
+                </Component_Chance>
+              </Component_Chances>
+            </Component_Group>
+            <Component_Group>
+              <Name>Underglow</Name>
+              <Component_Chances>
+                <Component_Chance>
+                  <Name>Option 1</Name>
+                  <Weight>100</Weight>
+                  <Components>
+                    <Component_Element>
+                      <Slot>Underglow</Slot>
+                      <Component>Blue</Component>
+                    </Component_Element>
+                  </Components>
+                </Component_Chance>
+              </Component_Chances>
+            </Component_Group>
+            <Component_Group>
+              <Name>Body Kit</Name>
+              <Component_Chances>
+                <Component_Chance>
+                  <Name>Option 1</Name>
+                  <Weight>100</Weight>
+                  <Components>
+                    <Component_Element>
+                      <Slot>Body Kit</Slot>
+                      <Component>saints</Component>
+                    </Component_Element>
+                  </Components>
+                </Component_Chance>
+              </Component_Chances>
+            </Component_Group>
+          </Components>
+          <Colors>
+            <Color_Group>
+              <Name>Standard</Name>
+              <Color_Chances>
+                <Color_Chance>
+                  <Name>Standard</Name>
+                  <Weight>100</Weight>
+                  <Color_Choices>
+                    <Color_Choice>
+                      <Slot>Body Color1</Slot>
+                      <Component>Paint</Component>
+                      <Color_Slot>Paint1</Color_Slot>
+                      <Color>
+                        <Color_Pool>Pearlescent Satin Bright White</Color_Pool>
+                      </Color>
+                    </Color_Choice>
+                    <Color_Choice>
+                      <Slot>Trim Color1</Slot>
+                      <Component>Paint</Component>
+                      <Color_Slot>Paint 1</Color_Slot>
+                      <Color>
+                        <Color_Pool>Metal Alloy</Color_Pool>
+                      </Color>
+                    </Color_Choice>
+                    <Color_Choice>
+                      <Slot>Body Color2</Slot>
+                      <Component>Paint</Component>
+                      <Color_Slot>Paint2</Color_Slot>
+                      <Color>
+                        <Color_Pool>Gang Decker Black</Color_Pool>
+                      </Color>
+                    </Color_Choice>
+                  </Color_Choices>
+                </Color_Chance>
+              </Color_Chances>
+            </Color_Group>
+          </Colors>
+          <Wheels />
+        </Variant>
+      </Variants>
+    </Vehicle>
+  </Table>
+  <TableTemplates>
+  </TableTemplates>
+  <TableDescription>
+    <Name>Vehicle</Name>
+    <Type>TableDescription</Type>
+    <Element>
+      <Name>Name</Name>
+      <Type>String</Type>
+      <Unique>true</Unique>
+    </Element>
+    <Element>
+      <Name>Variants</Name>
+      <Type>Grid</Type>
+      <Element>
+        <Name>Variant</Name>
+        <Type>Element</Type>
+        <Element>
+          <Name>Name</Name>
+          <Type>String</Type>
+        </Element>
+        <Element>
+          <Name>Weight</Name>
+          <Type>Float</Type>
+          <Display_Name>Frequency Weight</Display_Name>
+          <Description>Relative value that indicates how frequently this variant will be spawned. Recommended that you use values that sum to 100 to represent percentages.</Description>
+          <Required>false</Required>
+          <Default>1.0</Default>
+          <MinValue>0</MinValue>
+        </Element>
+        <Element>
+          <Name>ParkingWeight</Name>
+          <Type>Float</Type>
+          <Display_Name>Parking Weight</Display_Name>
+          <Description>Relative value that indicates how frequently this variant will be spawned in parking spots. Recommended that you use values that sum to 100 to represent percentages.</Description>
+          <Required>false</Required>
+          <Default>1.0</Default>
+          <MinValue>0</MinValue>
+        </Element>
+        <Element>
+          <Name>Type</Name>
+          <Type>Selection</Type>
+          <Description>Type of vehicle variant entry.</Description>
+          <Required>false</Required>
+          <Default>normal</Default>
+          <Choice>rich</Choice>
+          <Choice>poor</Choice>
+          <Choice>pimped</Choice>
+          <Choice>riced</Choice>
+          <Choice>normal</Choice>
+        </Element>
+        <Element>
+          <Name>Bitmap</Name>
+          <Type>String</Type>
+          <Required>false</Required>
+        </Element>
+        <Element>
+          <Name>Components</Name>
+          <Type>Grid</Type>
+          <Element>
+            <Name>Component_Group</Name>
+            <Type>Element</Type>
+            <Display_Name>Component Group</Display_Name>
+            <Element>
+              <Name>Name</Name>
+              <Type>String</Type>
+              <Description>Name of the component group.</Description>
+            </Element>
+            <Element>
+              <Name>Component_Chances</Name>
+              <Type>Grid</Type>
+              <Display_Name>Component Chances</Display_Name>
+              <Element>
+                <Name>Component_Chance</Name>
+                <Type>Element</Type>
+                <Element>
+                  <Name>Name</Name>
+                  <Type>String</Type>
+                </Element>
+                <Element>
+                  <Name>Weight</Name>
+                  <Type>Float</Type>
+                  <Default>0</Default>
+                </Element>
+                <Element>
+                  <Name>Components</Name>
+                  <Type>Grid</Type>
+                  <Element>
+                    <Name>Component_Element</Name>
+                    <Type>Element</Type>
+                    <Element>
+                      <Name>Slot</Name>
+                      <Type>Reference</Type>
+                      <Reference>
+                        <File>vehicles\bike_jet04_cust.xtbl</File>
+                        <Type>Custom_vehicle_properties.Component_Slots.Slot.Name</Type>
+                        <OpenSeparate>False</OpenSeparate>
+                      </Reference>
+                    </Element>
+                    <Element>
+                      <Name>Component</Name>
+                      <Type>Reference</Type>
+                      <Reference>
+                        <File>vehicles\bike_jet04_cust.xtbl</File>
+                        <Type>Custom_vehicle_properties.Component_Slots.Slot.Components.Component.Name</Type>
+                        <OpenSeparate>False</OpenSeparate>
+                      </Reference>
+                    </Element>
+                  </Element>
+                  <Num_Display_Rows>8</Num_Display_Rows>
+                </Element>
+                <Element>
+                  <Name>Externalized_Components</Name>
+                  <Type>Grid</Type>
+                  <Element>
+                    <Name>Externalized_Component</Name>
+                    <Type>Element</Type>
+                    <Element>
+                      <Name>Component</Name>
+                      <Type>Reference</Type>
+                      <Reference>
+                        <File>vehicles\externalized_vehicle_components.xtbl</File>
+                        <Type>Custom_vehicle_properties.Component_Slots.Slot.Name</Type>
+                        <OpenSeparate>False</OpenSeparate>
+                      </Reference>
+                    </Element>
+                  </Element>
+                  <Num_Display_Rows>8</Num_Display_Rows>
+                </Element>
+              </Element>
+              <Num_Display_Rows>8</Num_Display_Rows>
+            </Element>
+          </Element>
+          <Num_Display_Rows>8</Num_Display_Rows>
+        </Element>
+        <Element>
+          <Name>Colors</Name>
+          <Type>Grid</Type>
+          <Element>
+            <Name>Color_Group</Name>
+            <Type>Element</Type>
+            <Display_Name>Color Group</Display_Name>
+            <Element>
+              <Name>Name</Name>
+              <Type>String</Type>
+            </Element>
+            <Element>
+              <Name>Color_Chances</Name>
+              <Type>Grid</Type>
+              <Display_Name>Color Chances</Display_Name>
+              <Element>
+                <Name>Color_Chance</Name>
+                <Type>Element</Type>
+                <Display_Name>Color Chance</Display_Name>
+                <Element>
+                  <Name>Name</Name>
+                  <Type>String</Type>
+                </Element>
+                <Element>
+                  <Name>Weight</Name>
+                  <Type>Float</Type>
+                  <Default>0.0</Default>
+                </Element>
+                <Element>
+                  <Name>Color_Choices</Name>
+                  <Type>Grid</Type>
+                  <Display_Name>Color Choices</Display_Name>
+                  <Element>
+                    <Name>Color_Choice</Name>
+                    <Type>Element</Type>
+                    <Element>
+                      <Name>Slot</Name>
+                      <Type>Reference</Type>
+                      <Reference>
+                        <File>vehicles\bike_jet04_cust.xtbl</File>
+                        <Type>Custom_vehicle_properties.Color_Slots.Slot.Name</Type>
+                        <OpenSeparate>False</OpenSeparate>
+                      </Reference>
+                    </Element>
+                    <Element>
+                      <Name>Component</Name>
+                      <Type>Reference</Type>
+                      <Reference>
+                        <File>vehicles\bike_jet04_cust.xtbl</File>
+                        <Type>Custom_vehicle_properties.Color_Slots.Slot.Components.Component.Name</Type>
+                        <OpenSeparate>False</OpenSeparate>
+                      </Reference>
+                    </Element>
+                    <Element>
+                      <Name>Color_Slot</Name>
+                      <Type>Reference</Type>
+                      <Display_Name>Color Slot</Display_Name>
+                      <Reference>
+                        <File>vehicles\bike_jet04_cust.xtbl</File>
+                        <Type>Custom_vehicle_properties.Color_Slots.Slot.Components.Component.Color_slots.Color_slot.Name</Type>
+                        <OpenSeparate>False</OpenSeparate>
+                      </Reference>
+                    </Element>
+                    <Element>
+                      <Name>Color</Name>
+                      <Type>ComboElement</Type>
+                      <Element>
+                        <Name>Color_Pool</Name>
+                        <Type>Reference</Type>
+                        <Display_Name>Single Color</Display_Name>
+                        <Required>false</Required>
+                        <Reference>
+                          <File>vehicle_cust_color_pool.xtbl</File>
+                          <Type>Color.Name</Type>
+                          <OpenSeparate>False</OpenSeparate>
+                        </Reference>
+                      </Element>
+                      <Element>
+                        <Name>Color_Set</Name>
+                        <Type>Reference</Type>
+                        <Display_Name>Palette</Display_Name>
+                        <Required>false</Required>
+                        <Reference>
+                          <File>vehicle_cust_color_sets.xtbl</File>
+                          <Type>Color_Set.Name</Type>
+                          <OpenSeparate>False</OpenSeparate>
+                        </Reference>
+                      </Element>
+                    </Element>
+                  </Element>
+                  <Num_Display_Rows>8</Num_Display_Rows>
+                </Element>
+              </Element>
+              <Num_Display_Rows>8</Num_Display_Rows>
+            </Element>
+          </Element>
+          <Num_Display_Rows>8</Num_Display_Rows>
+        </Element>
+        <Element>
+          <Name>Wheels</Name>
+          <Type>Grid</Type>
+          <Required>false</Required>
+          <Element>
+            <Name>Wheel_Group</Name>
+            <Type>Element</Type>
+            <Element>
+              <Name>Wheel</Name>
+              <Type>String</Type>
+            </Element>
+            <Element>
+              <Name>Front_Width</Name>
+              <Type>Int</Type>
+              <Default>0</Default>
+            </Element>
+            <Element>
+              <Name>Front_Size</Name>
+              <Type>Int</Type>
+              <Default>0</Default>
+            </Element>
+            <Element>
+              <Name>Rear_Width</Name>
+              <Type>Int</Type>
+              <Default>0</Default>
+            </Element>
+            <Element>
+              <Name>Rear_Size</Name>
+              <Type>Int</Type>
+              <Default>0</Default>
+            </Element>
+            <Element>
+              <Name>Weight</Name>
+              <Type>Int</Type>
+              <Default>0</Default>
+            </Element>
+          </Element>
+          <Num_Display_Rows>8</Num_Display_Rows>
+        </Element>
+      </Element>
+      <Num_Display_Rows>8</Num_Display_Rows>
+    </Element>
+  </TableDescription>
+  <EntryCategories>
+    <Category>
+      <Name>Entries</Name>
+    </Category>
+  </EntryCategories>
+</root>
