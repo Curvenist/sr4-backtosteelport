@@ -607,9 +607,12 @@ function keycombo_thread()
 					CAMERA_RIGHT = false
 				end
 				ZOOM_IN_PUSHED = true
-			elseif player_action_is_pressed(B_END) and not ZOOM_IN_PUSHED then
-				camera_script_enable("SR2 Flashback Camera")
-				sandboxplus_message("Camera enabled: SR2 Flashback Camera")
+			elseif player_action_is_pressed(B_RIGHT) and not ZOOM_IN_PUSHED then
+				camera_script_disable()
+				if not CAMERA_MODE then -- if camera is not centered
+					CAMERA_RIGHT = false
+				end
+				sandboxplus_message("Camera set to default")
 				ZOOM_IN_PUSHED = true
 			elseif player_action_is_pressed(B_UP) and not ZOOM_IN_PUSHED then
 				if not CAMERA_MODE then
@@ -622,6 +625,10 @@ function keycombo_thread()
 					CAMERA_MODE = false
 				end
 				ZOOM_IN_PUSHED = true
+			elseif player_action_is_pressed(B_END) and not ZOOM_IN_PUSHED then
+				camera_script_enable("SR2 Flashback Camera")
+				sandboxplus_message("Camera enabled: SR2 Flashback Camera")
+				ZOOM_IN_PUSHED = true
 			elseif player_action_is_pressed(B_DOWN) and not ZOOM_IN_PUSHED then
 				camera_script_enable("SR1 Flashback Camera")
 				sandboxplus_message("Camera enabled: SR3 M00 Combat Cam")
@@ -631,13 +638,6 @@ function keycombo_thread()
 				camera_script_enable("SR3 M00 Combat Cam")
 				sandboxplus_message("Camera enabled: SR3 M00 Combat Cam")
 				CAMERA_RIGHT = true
-				ZOOM_IN_PUSHED = true
-			elseif player_action_is_pressed(B_RIGHT) and not ZOOM_IN_PUSHED then
-				camera_script_disable()
-				if not CAMERA_MODE then -- if camera is not centered
-					CAMERA_RIGHT = false
-				end
-				sandboxplus_message("Camera set to default")
 				ZOOM_IN_PUSHED = true
 			elseif player_action_is_pressed("CBA_GAC_RECRUIT_DISMISS") and not ZOOM_IN_PUSHED then
 				if not SUPERPOWER_MOVEMENT_ACTIVE then

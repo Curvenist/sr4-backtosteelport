@@ -696,7 +696,7 @@
 		<team>Police</team>
 		<wave_contents>
 
-			<!-- <wave_contents_elm>
+			<wave_contents_elm>
 				<wave_id>0</wave_id>
 				<num_vehicles>2</num_vehicles>
 				<next_spawn_delay>5</next_spawn_delay>
@@ -773,7 +773,7 @@
 					<driver>npc_ng_male_soldier</driver>
 					<passenger1>npc_ng_male_soldier02_mb</passenger1>
 				</Occupants>
-			</wave_contents_elm> -->
+			</wave_contents_elm>
 
 		</wave_contents>
 		<!--<wave_contents>
