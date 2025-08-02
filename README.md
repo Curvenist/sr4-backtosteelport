@@ -117,7 +117,7 @@ These keys act as **modifiers** to unlock enhanced control over gameplay, camera
 
 | Key Combo                   | Function Description                                         |
 |----------------------------|--------------------------------------------------------------|
-| `T` (during ragdoll)      | Recover by enabling superpower movement                      |
+| `T` (during ragdoll)      | Emergency Superpower Activation when ragdolled, press again to deactivate superpowers |
 | `T` + Delete             | Toggle holstered weapon (force hide/show)                    |
 | `T` + End                | Toggle cleanup routine (max corpses: 0 ↔ 3)                   |
 | `T` + ←                  | Revive nearest downed follower (up to 3 followers checked)    |
@@ -167,8 +167,8 @@ A broad range of weapon tweaks have been applied to enhance gameplay flow and ov
 - ✅ **Global damage increase** across many weapons (rebalanced for faster takedowns)  
 - ✅ **Life steal effects** introduced or enhanced on select weapons  
 - ✅ **Sniper rifles**:
-  - Scope mechanics removed (no more zoom interruption)  
-  - Base accuracy improved for mid-range utility  
+  - Scope mechanics removed
+  - Base accuracy improved
 - ✅ **Burst-fire rifles** (e.g., Rifle-NG):
   - Converted to full-auto mode for smoother combat  
 - ✅ **Ultimate abilities** for certain weapons have been modified to scale better in late-game scenarios 
