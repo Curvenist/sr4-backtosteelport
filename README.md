@@ -207,6 +207,8 @@ A broad range of weapon tweaks have been applied to enhance gameplay flow and ov
 - ✅ **Outfit changes** for key characters:
   - Kinzie, Pierce, and Asha now wear their **presidential outfits** for super homies. Matt wears his SR3 model for his super homie version. 
   - Saints **Tanya** model replaced with **Viola**
+- ✅ **Clone Army spawns only Morningstars**:  
+  - Now equipped with firearms (instead of unarmed/melee loadouts like in vanilla)
 
 ---
 
